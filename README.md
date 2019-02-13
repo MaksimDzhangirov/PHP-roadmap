@@ -8,4 +8,4 @@
 ## [Позднее статическое связывание](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/lastStaticBindings.md)
 ## Работа с магическими методами
 ## Шаблоны проектирования
-  ### [Сингтон](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/singleton.md)
+  ### [Синглтон](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/singleton.md)
