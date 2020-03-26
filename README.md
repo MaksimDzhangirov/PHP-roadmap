@@ -41,5 +41,5 @@
   ### [Посетитель (Visitor)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Visitor/README.html#visitor)
   ### [Локатор Служб (Service Locator)](https://designpatternsphp.readthedocs.io/ru/latest/More/ServiceLocator/README.html#service-locator)
   ### [Хранилище (Repository)](https://designpatternsphp.readthedocs.io/ru/latest/More/Repository/README.html#repository)
-  ### [Сущность-Атрибут-Значение](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
+  ### [Сущность-Атрибут-Значение (Entity–Attribute–Value)](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
 ## [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
