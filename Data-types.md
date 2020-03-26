@@ -12,5 +12,13 @@
 | is_object()   | Object       | Объект. Смешанный тип данных            |
 | is_callable()   | Callable       | Функции обратного вызова (callback-функции). Смешанный тип данных            |
 | is_iterable()   | Iterable       | Псевдотип, введенный в PHP 7.1. Он принимает любой массив или объект, реализующий интерфейс Traversable. Смешанный тип данных |
-| is_resource()  | Resource       | Дескриптор, используемый для идентификации и работы с внешними ресурсами, такими как базы данных, файлы, области изображения |
-| is_null()       | Null           | Неинициализированное значение |
+| is_resource()  | Resource       | Дескриптор, используемый для идентификации и работы с внешними ресурсами, такими как базы данных, файлы, области изображения. Специальных тип данных |
+| is_null()       | Null           | Неинициализированное значение. Специальных тип данных |
+
+Кроме того, существуют псевдотипы - слова, используемые в документации PHP, для обозначения типов или значений, какие могут принимать аргументы. К ним относятся [https://www.php.net/manual/ru/language.pseudo-types.php](https://www.php.net/manual/ru/language.pseudo-types.php)
+- [mixed](https://www.php.net/manual/ru/language.pseudo-types.php#language.types.mixed)
+- [number](https://www.php.net/manual/ru/language.pseudo-types.php#language.types.number)
+- [callback (callable)](https://www.php.net/manual/ru/language.pseudo-types.php#language.types.callback)
+- [array|object](https://www.php.net/manual/ru/language.pseudo-types.php#language.types.array-object)
+- [void](https://www.php.net/manual/ru/language.pseudo-types.php#language.types.void)
+и псевдопеременная [$...](https://www.php.net/manual/ru/language.pseudo-types.php#language.types.dotdotdot).
