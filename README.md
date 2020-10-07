@@ -46,3 +46,4 @@
   ## 5 [Хранилище (Repository)](https://designpatternsphp.readthedocs.io/ru/latest/More/Repository/README.html#repository)
   ## 6 [Сущность-Атрибут-Значение (Entity–Attribute–Value)](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
 ## [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
+## [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
