@@ -47,3 +47,11 @@
   ## 6 [Сущность-Атрибут-Значение (Entity–Attribute–Value)](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
 ## [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
 ## [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
+## Структуры данных
+### [Двусвязные списки](https://www.php.net/manual/ru/class.spldoublylinkedlist.php)
+### [Стек](https://www.php.net/manual/ru/class.splstack.php)
+### [Очередь](https://www.php.net/manual/ru/class.splqueue.php)
+### [Куча](https://www.php.net/manual/ru/class.splheap.php)
+### [Очередь с приоритетом](https://www.php.net/manual/ru/class.splpriorityqueue.php)
+### [Массив фиксированной длины](https://www.php.net/manual/ru/class.splfixedarray.php)
+### [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
