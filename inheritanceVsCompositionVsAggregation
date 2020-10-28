@@ -1,13 +1,35 @@
 ## Наследование vs Композиция vs Агрегация
 
+[Смотри также](http://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)
+
 Между двумя классами/объектами существует разные типы отношений. Самым базовым типом отношений является ассоциация (*association*), 
-это означает, что два класса как-то связаны между собой, и мы пока не знаем точно, в чем эта связь выражена и собираемся уточнить ее в будущем.
-Обычно это отношение используется на ранних этапах дизайна, чтобы показать существующую зависимость между классами.
+это означает, что два класса как-то связаны между собой. Обычно это отношение используется на ранних этапах дизайна, чтобы показать
+существующую зависимость между классами.
 
 Более точным типом отношений является отношение *открытого наследования* (отношение «является», IS A Relationship),
 которое говорит, что все, что справедливо для базового класса справедливо и для его наследника. 
 Именно с его помощью мы получаем полиморфное поведение, абстрагируемся от конкретной реализации классов, 
 имея дело лишь с абстракциями (интерфейсами или базовыми классами) и не обращаем внимание на детали реализации.
+
+```php
+<?php
+
+abstract class AbstractRepository
+{
+    abstract public function save(): void;
+}
+
+class SqlRepository extends AbstractRepository
+{
+    public function save(): void
+    {
+        echo "Save something in db\n";
+    }
+}
+
+$repo = new SqlRepository();
+$repo->save();
+```
 
 И хотя наследование является отличным инструментом, его явно недостаточно для решения всех типов задач.
 Во-первых, далеко не все отношения между классами определяются отношением «является», а во-вторых,
@@ -22,11 +44,66 @@
 (часть не существует без целого), а **в случае агрегации целое хоть и содержит свою составную часть, время их жизни не связано**
 (например, составная часть передается через параметры конструктора).
 
-CompositeCustomService для управления своими составными частями использует композицию, а AggregatedCustomService – агрегацию.
+```php
+<?php
+
+class CustomRepository
+{
+    public function save(): void
+    {
+        echo "Save something in db\n";
+    }
+}
+
+class CompositeCustomService
+{
+    private $customRepository;
+    // Композиция
+    public function __construct()
+    {
+        $this->customRepository = new CustomRepository();
+    }
+
+    public function doSomething(): void
+    {
+        // do some work
+        echo "Do some work\n";
+        // save data
+        $this->customRepository->save();
+    }
+}
+
+$service = new CompositeCustomService();
+$service->doSomething();
+
+class AggregatedCustomService
+{ 
+    // Агрегация
+    private $customRepository;
+    public function __construct(CustomRepository $customRepository)
+    {
+        $this->customRepository = $customRepository;
+    }
+
+    public function doSomething(): void
+    {
+        // do some work
+        echo "Do some work\n";
+        // save data
+        $this->customRepository->save();
+    }
+}
+
+$repo = new CustomRepository();
+$service = new AggregatedCustomService($repo);
+$service->doSomething();
+```
+
+**CompositeCustomService** для управления своими составными частями использует композицию, а **AggregatedCustomService** – агрегацию.
 При этом явный контроль времени жизни обычно приводит к более высокой связанности между целым и частью, поскольку используется конкретный тип,
 тесно связывающий участников между собой.
 
-задачу с сервисами и репозитариями можно решить как с помощью наследования, так и с помощью агрегации. Каждый вариант
+Задачу с сервисами и репозиториями можно решить как с помощью наследования, так и с помощью агрегации. Каждый вариант
 приводит к одному и тому же конечному результату, при этом связанность изменяется от очень высокой (при наследовании)
 к очень слабой (при агрегации).
 
