@@ -12,7 +12,7 @@
 имея дело лишь с абстракциями (интерфейсами или базовыми классами) и не обращаем внимание на детали реализации.
 
 ```php
-<?php
+<?php declare(strict_types=1);
 
 abstract class AbstractRepository
 {
@@ -45,7 +45,7 @@ $repo->save();
 (например, составная часть передается через параметры конструктора).
 
 ```php
-<?php
+<?php declare(strict_types=1);
 
 class CustomRepository
 {
@@ -102,6 +102,91 @@ $service->doSomething();
 **CompositeCustomService** для управления своими составными частями использует композицию, а **AggregatedCustomService** – агрегацию.
 При этом явный контроль времени жизни обычно приводит к более высокой связанности между целым и частью, поскольку используется конкретный тип,
 тесно связывающий участников между собой.
+
+Мы можем использовать композицию и контролировать время жизни объекта, не завязываясь на конкретные типы. Например, с помощью фабричного метода:
+
+```php
+<?php declare(strict_types=1);
+
+interface DbConnectionInterface
+{
+    public function connect(): void;
+    public function close(): void;
+}
+
+interface DbConnectionFactoryInterface
+{
+    public static function factory(string $type): DbConnectionInterface;
+}
+
+abstract class AbstractConnectionFactory implements DbConnectionFactoryInterface
+{    
+}
+
+class ConnectionFactory extends AbstractConnectionFactory
+{
+    public static function factory(string $type): DbConnectionInterface
+    {
+        if ($type == 'mysql') {
+            return new MySqlConnection();
+        } elseif ($type == 'postgresql') {
+            return new PostgreSqlConnection();
+        }
+
+        throw new InvalidArgumentException('Unknown format given');
+    }
+}
+
+class MySqlConnection implements DbConnectionInterface
+{
+    public function connect(): void
+    {
+        echo "Connect to MySQL server\n";
+    }
+
+    public function close(): void
+    {
+        echo "Disconnect from MySQL server\n";
+    }
+}
+
+class PostgreSqlConnection implements DbConnectionInterface
+{
+    public function connect(): void
+    {
+        echo "Connect to PostgreSql server\n";
+    }
+
+    public function close(): void
+    {
+        echo "Disconnect from PostgreSql server\n";
+    }
+}
+
+class CustomService
+{ 
+    const DB_TYPE = 'mysql';
+    private $connectionFactory;
+    public function __construct(DbConnectionFactoryInterface $connectionFactory)
+    {
+        $this->connectionFactory = $connectionFactory;
+    }
+
+    public function doSomething(): void
+    {
+        // Композиция
+        $dbConnection = $this->connectionFactory::factory(self::DB_TYPE);
+        $dbConnection->connect();
+        // do some work
+        echo "Do some work\n";
+        $dbConnection->close();
+    }
+}
+
+$factory = new ConnectionFactory();
+$service = new CustomService($factory);
+$service->doSomething();
+```
 
 Задачу с сервисами и репозиториями можно решить как с помощью наследования, так и с помощью агрегации. Каждый вариант
 приводит к одному и тому же конечному результату, при этом связанность изменяется от очень высокой (при наследовании)
