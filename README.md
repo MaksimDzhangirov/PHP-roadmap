@@ -55,3 +55,4 @@
 ### [Очередь с приоритетом](https://www.php.net/manual/ru/class.splpriorityqueue.php)
 ### [Массив фиксированной длины](https://www.php.net/manual/ru/class.splfixedarray.php)
 ### [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
+## [Наследование vs Композиция vs Агрегация](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/inheritanceVsCompositionVsAggregation.md)
