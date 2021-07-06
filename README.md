@@ -56,3 +56,5 @@
 ### [Массив фиксированной длины](https://www.php.net/manual/ru/class.splfixedarray.php)
 ### [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
 ## [Наследование vs Композиция vs Агрегация](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/inheritanceVsCompositionVsAggregation.md)
+## [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
+## [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
