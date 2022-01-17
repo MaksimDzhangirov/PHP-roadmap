@@ -35,17 +35,61 @@
 ### [Управление памятью](https://www.omscs-notes.com/operating-systems/memory-management/)
 ### [Межпроцессное взаимодействие](https://www.omscs-notes.com/operating-systems/inter-process-communication/)
 ### [Управление вводом/выводом](https://www.omscs-notes.com/operating-systems/io-management/)
-### [Основы POSIX(https://losst.ru/chto-takoe-posix) ([stdin, stdout, stderr]https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8, [pipes](https://sodocumentation.net/posix/topic/8082/pipes))]
+### [Основы POSIX](https://losst.ru/chto-takoe-posix) ([stdin, stdout, stderr](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8), [pipes](https://sodocumentation.net/posix/topic/8082/pipes))
 ### [Основные прицнипы работы компьютерной сети](http://www.steves-internet-guide.com/networking/)
 
-## [Классы и объекты](https://www.php.net/manual/ru/language.oop5.php)
-## [Типы данных](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/Data-types.md)
-## [Статические методы и свойства](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/static-methods-and-properties.md)
-## [Абстрактные классы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/abstract-class.md)
-## [Интерфейсы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/interfaces.md)
-## [Трейты](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/traits.md)
-## [Позднее статическое связывание](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/lastStaticBindings.md)
-## [Магические методы](https://www.php.net/manual/ru/language.oop5.magic.php)
+## Основы языка PHP
+### [Основы синтаксиса](https://www.php.net/manual/ru/language.basic-syntax.php)
+### [Типы данных](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/Data-types.md)
+### [Переменные](https://www.php.net/manual/ru/language.variables.php), [константы](https://www.php.net/manual/ru/language.constants.php)
+### [Выражения](https://www.php.net/manual/ru/language.expressions.php), [операторы](https://www.php.net/manual/ru/language.operators.php)
+### [Управляющие конструкции](https://www.php.net/manual/ru/language.control-structures.php)
+### [Функции](https://www.php.net/manual/ru/language.functions.php)
+
+## Более сложные темы
+### [Классы и объекты](https://www.php.net/manual/ru/language.oop5.php)
+#### [Статические методы и свойства](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/static-methods-and-properties.md)
+#### [Абстрактные классы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/abstract-class.md)
+#### [Интерфейсы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/interfaces.md)
+#### [Трейты](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/traits.md)
+#### [Позднее статическое связывание](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/lastStaticBindings.md)
+#### [Магические методы](https://www.php.net/manual/ru/language.oop5.magic.php)
+#### [Наследование vs Композиция vs Агрегация](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/inheritanceVsCompositionVsAggregation.md)
+### [Пространства имён](https://www.php.net/manual/ru/language.namespaces.php)
+### [Ошибки](https://www.php.net/manual/ru/language.errors.php) и [исключения](https://www.php.net/manual/ru/language.exceptions.php)
+### [Генераторы](https://www.php.net/manual/ru/language.generators.php)
+### [SPL - Стандартная библиотека PHP](https://www.php.net/manual/ru/book.spl.php)
+#### [Структуры данных](https://www.php.net/manual/ru/spl.datastructures.php)
+##### [Двусвязные списки](https://www.php.net/manual/ru/class.spldoublylinkedlist.php)
+##### [Стек](https://www.php.net/manual/ru/class.splstack.php)
+##### [Очередь](https://www.php.net/manual/ru/class.splqueue.php)
+##### [Куча](https://www.php.net/manual/ru/class.splheap.php)
+##### [Очередь с приоритетом](https://www.php.net/manual/ru/class.splpriorityqueue.php)
+##### [Массив фиксированной длины](https://www.php.net/manual/ru/class.splfixedarray.php)
+##### [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
+
+## Composer
+### require, install, update
+### Система управления пакетами
+### Packagist
+### Автозагрузка
+
+## Работа с базами данных
+### [PDO](https://www.php.net/manual/ru/book.pdo.php)
+### [ORM](https://ru.wikipedia.org/wiki/ORM)
+#### [Doctrine](https://www.doctrine-project.org/)
+
+## Отладка
+### [xDebug](https://xdebug.org/)
+### [Zend Debugger](https://www.zend.com/downloads/zend-studio-web-debugger)
+
+## Качество кода
+### [PSR-12](https://www.php-fig.org/psr/psr-12/)
+### [CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+### [Psalm](https://psalm.dev/)
+### [Phan](https://github.com/phan/phan)
+### [PHPStan](https://phpstan.org/)
+
 ## [Шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
 ## [Порождающие шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Creational/README.html)
   ### 1.1 [Абстрактная фабрика (Abstract Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/AbstractFactory/README.html#abstract-factory)
@@ -86,14 +130,5 @@
   ## 6 [Сущность-Атрибут-Значение (Entity–Attribute–Value)](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
 ## [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
 ## [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
-## [Структуры данных](https://www.php.net/manual/ru/spl.datastructures.php)
-### [Двусвязные списки](https://www.php.net/manual/ru/class.spldoublylinkedlist.php)
-### [Стек](https://www.php.net/manual/ru/class.splstack.php)
-### [Очередь](https://www.php.net/manual/ru/class.splqueue.php)
-### [Куча](https://www.php.net/manual/ru/class.splheap.php)
-### [Очередь с приоритетом](https://www.php.net/manual/ru/class.splpriorityqueue.php)
-### [Массив фиксированной длины](https://www.php.net/manual/ru/class.splfixedarray.php)
-### [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
-## [Наследование vs Композиция vs Агрегация](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/inheritanceVsCompositionVsAggregation.md)
 ## [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
 ## [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
