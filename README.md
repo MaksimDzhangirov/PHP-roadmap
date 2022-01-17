@@ -1,8 +1,8 @@
 # PHP. Дорожная карта
 
 ## [Дорожная карта бекенд-разработчика](https://roadmap.sh/backend)
-## [Интернет](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82)
-### [Как работает интернет?](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
+## Интернет
+### [Интернет](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82), [как работает интернет?](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
 ### [Что такое HTTP?](https://ru.wikipedia.org/wiki/HTTP)
 ### [Что такое браузер и как он работает](https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work)
 ### [DNS и как они работают](https://aws.amazon.com/ru/route53/what-is-dns/)
@@ -17,18 +17,18 @@
 ## ОС и общие знания
 ### [Использование терминала](https://www.cs.cmu.edu/~15131/f17/topics/terminal-usage/)
 #### [Базовые команды терминала](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line): 
-##### [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/),
-##### [awk](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/),
-##### [sed](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/),
-##### [lsof](https://www.geeksforgeeks.org/lsof-command-in-linux-with-examples/), 
-##### [curl](https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/),
-##### [wget](https://linuxize.com/post/wget-command-examples/), 
-##### [tail](https://www.geeksforgeeks.org/tail-command-linux-examples/), 
-##### [head](https://www.geeksforgeeks.org/head-command-linux-examples/), 
-##### [less](https://www.geeksforgeeks.org/less-command-linux-examples/), 
-##### [find](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/), 
-##### [ssh](https://www.ssh.com/academy/ssh/command), 
-##### [kill](https://www.geeksforgeeks.org/kill-command-in-linux-with-examples/)
+* [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/),
+* [awk](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/),
+* [sed](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/),
+* [lsof](https://www.geeksforgeeks.org/lsof-command-in-linux-with-examples/), 
+* [curl](https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/),
+* [wget](https://linuxize.com/post/wget-command-examples/), 
+* [tail](https://www.geeksforgeeks.org/tail-command-linux-examples/), 
+* [head](https://www.geeksforgeeks.org/head-command-linux-examples/), 
+* [less](https://www.geeksforgeeks.org/less-command-linux-examples/), 
+* [find](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/), 
+* [ssh](https://www.ssh.com/academy/ssh/command), 
+* [kill](https://www.geeksforgeeks.org/kill-command-in-linux-with-examples/)
 ### [Общий принцип работы ОС](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 ### [Управление процессами](https://www.omscs-notes.com/operating-systems/processes-and-process-management/)
 ### [Потоки и многопоточность](https://www.omscs-notes.com/operating-systems/threads-and-concurrency/)
@@ -48,25 +48,25 @@
 
 ## Более сложные темы
 ### [Классы и объекты](https://www.php.net/manual/ru/language.oop5.php)
-#### [Статические методы и свойства](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/static-methods-and-properties.md)
-#### [Абстрактные классы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/abstract-class.md)
-#### [Интерфейсы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/interfaces.md)
-#### [Трейты](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/traits.md)
-#### [Позднее статическое связывание](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/lastStaticBindings.md)
-#### [Магические методы](https://www.php.net/manual/ru/language.oop5.magic.php)
-#### [Наследование vs Композиция vs Агрегация](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/inheritanceVsCompositionVsAggregation.md)
+* [Статические методы и свойства](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/static-methods-and-properties.md)
+* [Абстрактные классы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/abstract-class.md)
+* [Интерфейсы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/interfaces.md)
+* [Трейты](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/traits.md)
+* [Позднее статическое связывание](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/lastStaticBindings.md)
+* [Магические методы](https://www.php.net/manual/ru/language.oop5.magic.php)
+* [Наследование vs Композиция vs Агрегация](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/inheritanceVsCompositionVsAggregation.md)
 ### [Пространства имён](https://www.php.net/manual/ru/language.namespaces.php)
 ### [Ошибки](https://www.php.net/manual/ru/language.errors.php) и [исключения](https://www.php.net/manual/ru/language.exceptions.php)
 ### [Генераторы](https://www.php.net/manual/ru/language.generators.php)
 ### [SPL - Стандартная библиотека PHP](https://www.php.net/manual/ru/book.spl.php)
-#### [Структуры данных](https://www.php.net/manual/ru/spl.datastructures.php)
-##### [Двусвязные списки](https://www.php.net/manual/ru/class.spldoublylinkedlist.php)
-##### [Стек](https://www.php.net/manual/ru/class.splstack.php)
-##### [Очередь](https://www.php.net/manual/ru/class.splqueue.php)
-##### [Куча](https://www.php.net/manual/ru/class.splheap.php)
-##### [Очередь с приоритетом](https://www.php.net/manual/ru/class.splpriorityqueue.php)
-##### [Массив фиксированной длины](https://www.php.net/manual/ru/class.splfixedarray.php)
-##### [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
+* [Структуры данных](https://www.php.net/manual/ru/spl.datastructures.php)
+  * [Двусвязные списки](https://www.php.net/manual/ru/class.spldoublylinkedlist.php)
+  * [Стек](https://www.php.net/manual/ru/class.splstack.php)
+  * [Очередь](https://www.php.net/manual/ru/class.splqueue.php)
+  * [Куча](https://www.php.net/manual/ru/class.splheap.php)
+  * [Очередь с приоритетом](https://www.php.net/manual/ru/class.splpriorityqueue.php)
+  * [Массив фиксированной длины](https://www.php.net/manual/ru/class.splfixedarray.php)
+  * [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
 
 ## Composer
 ### require, install, update
@@ -74,7 +74,7 @@
 ### Packagist
 ### Автозагрузка
 
-## Работа с базами данных
+## Работа с базами данных в PHP
 ### [PDO](https://www.php.net/manual/ru/book.pdo.php)
 ### [ORM](https://ru.wikipedia.org/wiki/ORM)
 #### [Doctrine](https://www.doctrine-project.org/)
@@ -89,6 +89,59 @@
 ### [Psalm](https://psalm.dev/)
 ### [Phan](https://github.com/phan/phan)
 ### [PHPStan](https://phpstan.org/)
+
+## Кеширование
+### [PSR-6](https://www.php-fig.org/psr/psr-6/) и [PSR-16](https://www.php-fig.org/psr/psr-16/)
+### [APCu](https://www.php.net/manual/ru/book.apcu.php)
+### [Файловая система](https://symfony.com/doc/current/components/cache/adapters/filesystem_adapter.html)
+
+## Тестирование
+### [PHPUnit](https://phpunit.de/)
+### [Codeception](https://codeception.com/)
+### [Behat](https://behat.org/)
+
+## Веб-фреймворки
+
+## Логирование
+
+## Профилирование
+### [XHProf](https://www.php.net/manual/ru/book.xhprof.php)
+### [Blackfire](https://www.blackfire.io/php)
+
+## Системы контроля версий
+### [Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+### Сервисы для хранения репозиториев ([Github](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/))
+
+## Базы данных
+### Реляционные базы данных
+### NoSQL базы данных
+### Теоретические основы
+* [ORM](https://ru.wikipedia.org/wiki/ORM)
+* [ACID](https://ru.wikipedia.org/wiki/ACID)
+* Транзакции
+* [N+1 проблема](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
+* Нормализация
+* Индексы и как они работают
+* [Репликация данных](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_(%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0))
+* [Стратегии шардинга](https://www.acodersjourney.com/database-sharding/)
+* [Теорема CAP](https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_CAP)
+
+## Изучаем API
+### [REST](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm), [wiki](https://ru.wikipedia.org/wiki/REST)
+* [HATEOAS](https://ru.wikipedia.org/wiki/HATEOAS)
+* [Open API и Swagger](https://starkovden.github.io/introduction-openapi-and-swagger.html)
+### [JSON API](https://jsonapi.org/)
+### [SOAP](https://ru.wikipedia.org/wiki/SOAP)
+### [gRPC](https://ru.wikipedia.org/wiki/GRPC)
+### [Аутентификация](https://ru.wikipedia.org/wiki/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
+* [Основанная на cookies](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
+* [OAuth](https://ru.wikipedia.org/wiki/OAuth)
+* [Базовая аутентификация](https://en.wikipedia.org/wiki/Basic_access_authentication)
+* [Аутентификация, используя токены](https://frontegg.com/blog/token-based-authentication)
+  * [JWT](https://ru.wikipedia.org/wiki/JSON_Web_Token)
+* [OpenID](https://ru.wikipedia.org/wiki/OpenID)
+* [SAML](https://habr.com/ru/company/gemaltorussia/blog/322316/)
+
 
 ## [Шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
 ## [Порождающие шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Creational/README.html)
