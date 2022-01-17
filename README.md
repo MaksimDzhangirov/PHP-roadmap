@@ -1,12 +1,51 @@
-# Шпаргалка по PHP
+# PHP. Дорожная карта
 
+## [Дорожная карта бекенд-разработчика](https://roadmap.sh/backend)
+## [Интернет](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82)
+### [Как работает интернет?](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
+### [Что такое HTTP?](https://ru.wikipedia.org/wiki/HTTP)
+### [Что такое браузер и как он работает](https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work)
+### [DNS и как они работают](https://aws.amazon.com/ru/route53/what-is-dns/)
+### [Что такое доменные имена](https://developer.mozilla.org/ru/docs/Learn/Common_questions/What_is_a_domain_name)
+### [Что такое хостинг?](https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3)
+
+## Базовые знания из фронтенд разработки
+### [HTML](https://www.w3schools.com/html/html_intro.asp)
+### [CSS](https://www.w3schools.com/css/css_intro.asp)
+### [Javascript](https://www.w3schools.com/js/js_intro.asp), [учебник](https://learn.javascript.ru/)
+
+## ОС и общие знания
+### [Использование терминала](https://www.cs.cmu.edu/~15131/f17/topics/terminal-usage/)
+#### [Базовые команды терминала](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line): 
+##### [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/),
+##### [awk](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/),
+##### [sed](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/),
+##### [lsof](https://www.geeksforgeeks.org/lsof-command-in-linux-with-examples/), 
+##### [curl](https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/),
+##### [wget](https://linuxize.com/post/wget-command-examples/), 
+##### [tail](https://www.geeksforgeeks.org/tail-command-linux-examples/), 
+##### [head](https://www.geeksforgeeks.org/head-command-linux-examples/), 
+##### [less](https://www.geeksforgeeks.org/less-command-linux-examples/), 
+##### [find](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/), 
+##### [ssh](https://www.ssh.com/academy/ssh/command), 
+##### [kill](https://www.geeksforgeeks.org/kill-command-in-linux-with-examples/)
+### [Общий принцип работы ОС](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+### [Управление процессами](https://www.omscs-notes.com/operating-systems/processes-and-process-management/)
+### [Потоки и многопоточность](https://www.omscs-notes.com/operating-systems/threads-and-concurrency/)
+### [Управление памятью](https://www.omscs-notes.com/operating-systems/memory-management/)
+### [Межпроцессное взаимодействие](https://www.omscs-notes.com/operating-systems/inter-process-communication/)
+### [Управление вводом/выводом](https://www.omscs-notes.com/operating-systems/io-management/)
+### [Основы POSIX(https://losst.ru/chto-takoe-posix) ([stdin, stdout, stderr]https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8, [pipes](https://sodocumentation.net/posix/topic/8082/pipes))]
+### [Основные прицнипы работы компьютерной сети](http://www.steves-internet-guide.com/networking/)
+
+## [Классы и объекты](https://www.php.net/manual/ru/language.oop5.php)
 ## [Типы данных](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/Data-types.md)
 ## [Статические методы и свойства](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/static-methods-and-properties.md)
 ## [Абстрактные классы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/abstract-class.md)
 ## [Интерфейсы](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/interfaces.md)
 ## [Трейты](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/traits.md)
 ## [Позднее статическое связывание](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/lastStaticBindings.md)
-## Работа с магическими методами
+## [Магические методы](https://www.php.net/manual/ru/language.oop5.magic.php)
 ## [Шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
 ## [Порождающие шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Creational/README.html)
   ### 1.1 [Абстрактная фабрика (Abstract Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/AbstractFactory/README.html#abstract-factory)
