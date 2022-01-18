@@ -244,9 +244,55 @@
 ## [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
 ## [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
 
+## Поисковые системы
+### [Определение](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0)
+### [Elasticsearch](https://ru.wikipedia.org/wiki/Elasticsearch)
+### [Solr](https://ru.wikipedia.org/wiki/Solr)
+
+## Брокеры сообщений
+### [Определение](https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%BA%D0%B5%D1%80_%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B9)
+### [RabbitMQ](https://ru.wikipedia.org/wiki/RabbitMQ)
+### [Kafka](https://ru.wikipedia.org/wiki/Apache_Kafka)
+
+## Контейнеризация или виртуализация
+### [Docker](https://ru.wikipedia.org/wiki/Docker)
+### [rkt](https://ru.bmstu.wiki/Rocket_(rkt))
+### [LXC](https://ru.wikipedia.org/wiki/LXC)
+
+## GraphQL
+### [Определение](https://en.wikipedia.org/wiki/GraphQL)
+### [Apollo](https://www.apollographql.com/)
+### [Relay](https://relay.dev/)
+
+## Графовые базы данных
+### [Определение](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D1%84%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+### [Neo4j](https://ru.wikipedia.org/wiki/Neo4j)
+
+## Вебсокеты
+### [Определение](https://ru.wikipedia.org/wiki/WebSocket)
+### [Пример использования](https://learn.javascript.ru/websocket)
+
+## Вебсерверы
+### [Определение](https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80)
+### [nginx](https://ru.wikipedia.org/wiki/Nginx)
+### [Apache](https://ru.wikipedia.org/wiki/Apache_HTTP_Server)
+### [Caddy](https://en.wikipedia.org/wiki/Caddy_(web_server))
+### [MS IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services)
+
+## Создание приложений с учётом масштабирования (общие темы, которые вы должны изучить и которые нужно иметь ввиду для обеспечения надежной работы приложения)
+## Стратегии перехода
+## Стратегии смягчения последствий в случае отказов
+### Graceful degradation
+### [Throttling](https://www.linkedin.com/pulse/web-api-security-dos-ddos-attacks-throttling-waf-houssam-chmouri/)
+### [Backpressure]
+### [Loadshifting]
+### [Circuit Breaker]
+## [Горизонтальное или вертикальное масштабирование](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C)
+## Создание приложения с учётом наблюдаемости (логирование метрик и других наблюдаемых параметров, которые могут помочь вам в отладке и решении проблем, когда что-то идет не так)
+
 ## Что ещё почитать
 ### [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
-### Алгоритмы и структуры данных
+### [Алгоритмы и структуры данных](https://github.com/MaksimDzhangirov/algorithms-and-data-structures)
 ### Дискретная математика
 * Теория множеств
 * Булева алгебра
