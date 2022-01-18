@@ -69,10 +69,10 @@
   * [Отображение объектов в данные](https://www.php.net/manual/ru/class.splobjectstorage.php)
 
 ## Composer
-### require, install, update
-### Система управления пакетами
-### Packagist
-### Автозагрузка
+### [require](https://getcomposer.org/doc/03-cli.md#require), [install](https://getcomposer.org/doc/03-cli.md#install-i), [update](https://getcomposer.org/doc/03-cli.md#update-u)
+### [Система управления пакетами](https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%D0%BC%D0%B8)
+### [Packagist](https://packagist.org/)
+### [Автозагрузка](https://www.php.net/manual/ru/language.oop5.autoload.php)
 
 ## Работа с базами данных в PHP
 ### [PDO](https://www.php.net/manual/ru/book.pdo.php)
@@ -101,8 +101,15 @@
 ### [Behat](https://behat.org/)
 
 ## Веб-фреймворки
+### [Symfony](https://symfony.com/)
+### [Laravel](https://laravel.com/)
+### [Yii](https://www.yiiframework.com/doc/guide/2.0/ru)
+### [CakePHP](https://cakephp.org/)
 
 ## Логирование
+### [PSR-3](https://www.php-fig.org/psr/psr-3/)
+### [Monolog](https://github.com/Seldaek/monolog)
+### [Sentry](https://docs.sentry.io/platforms/php/)
 
 ## Профилирование
 ### [XHProf](https://www.php.net/manual/ru/book.xhprof.php)
@@ -110,18 +117,27 @@
 
 ## Системы контроля версий
 ### [Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-### Сервисы для хранения репозиториев ([Github](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/))
+### [Сервисы для хранения репозиториев](https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F) ([Github](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/))
 
 ## Базы данных
-### Реляционные базы данных
-### NoSQL базы данных
+### [Реляционные базы данных](https://aws.amazon.com/ru/relational-database/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [MySQL](https://www.mysql.com/)
+* [MariaDB](https://mariadb.org/)
+* [MS SQL](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server)
+* [Oracle](https://www.oracle.com/database/)
+### [NoSQL базы данных](https://aws.amazon.com/ru/nosql/)
+* [Документоориентированная](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A1%D0%A3%D0%91%D0%94) [MongoDB](https://ru.wikipedia.org/wiki/MongoDB), [CouchDB](https://ru.wikipedia.org/wiki/CouchDB)
+* [Семейство столбцов](https://ru.wikipedia.org/wiki/NoSQL#%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE_%D1%81%D1%82%D0%BE%D0%BB%D0%B1%D1%86%D0%BE%D0%B2) [Cassandra](https://ru.wikipedia.org/wiki/Apache_Cassandra)
+* [База данных временных рядов](https://en.wikipedia.org/wiki/Time_series_database) [InfluxDB](https://www.influxdata.com/) [TimescaleDB](https://www.timescale.com/)
+* [Синхронизация данных в реальном времени](https://firebase.google.com/docs/database?hl=ru) [Firebase](https://webkyrs.info/page/chto-takoe-firebase-realtime-database), [RethinkDB](https://ru.wikipedia.org/wiki/RethinkDB)
 ### Теоретические основы
 * [ORM](https://ru.wikipedia.org/wiki/ORM)
 * [ACID](https://ru.wikipedia.org/wiki/ACID)
-* Транзакции
+* [Транзакции](https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D1%8F_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0))
 * [N+1 проблема](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
-* Нормализация
-* Индексы и как они работают
+* [Нормализация](https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0)
+* [Индексы](http://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_(%D0%B1%D0%B0%D0%B7%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)) и [как они работают](https://im-cloud.ru/blog/chto-takoe-indeksy-bazy-dannyh-dlja-nachinajushhih/)
 * [Репликация данных](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_(%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0))
 * [Стратегии шардинга](https://www.acodersjourney.com/database-sharding/)
 * [Теорема CAP](https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_CAP)
@@ -142,46 +158,96 @@
 * [OpenID](https://ru.wikipedia.org/wiki/OpenID)
 * [SAML](https://habr.com/ru/company/gemaltorussia/blog/322316/)
 
+## Кэширование
+### [CDN](https://ru.wikipedia.org/wiki/Content_Delivery_Network)
+### [Кэш на серверном уровне](https://tproger.ru/translations/cache-levels-on-the-web/)
+### [Кэш на клиентском уровне](https://tproger.ru/translations/cache-levels-on-the-web/)
+### [Кэш на уровне приложения](https://tproger.ru/translations/cache-levels-on-the-web/)
+* [Redis](https://redis.io/)
+* [Memcached](https://memcached.org/)
 
-## [Шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
-## [Порождающие шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Creational/README.html)
-  ### 1.1 [Абстрактная фабрика (Abstract Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/AbstractFactory/README.html#abstract-factory)
-  ### 1.2 [Строитель (Builder)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/Builder/README.html#builder)
-  ### 1.3 [Фабричный Метод (Factory Method)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/FactoryMethod/README.html#factory-method)
-  ### 1.4 [Объектный пул (Pool)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/Pool/README.html#pool)
-  ### 1.5 [Прототип (Prototype)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/Prototype/README.html#prototype)
-  ### 1.6 [Простая Фабрика (Simple Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/SimpleFactory/README.html#simple-factory)
-  ### 1.7 [Синглтон (Singleton)](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/singleton.md)
-  ### 1.8 [Статическая Фабрика (Static Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/StaticFactory/README.html#static-factory)
-## [Структурные шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Structural/README.html)
-  ### 2.1 [Адаптер (Adapter/Wrapper)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Adapter/README.html#adapter-wrapper)
-  ### 2.2 [Мост (Bridge)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Bridge/README.html#bridge)
-  ### 2.3 [Компоновщик (Composite)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Composite/README.html#composite)
-  ### 2.4 [Преобразователь Данных (Data Mapper)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/DataMapper/README.html#data-mapper)
-  ### 2.5 [Декоратор (Decorator)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Decorator/README.html#decorator)
-  ### 2.6 [Внедрение Зависимости (Dependency Injection)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/DependencyInjection/README.html#dependency-injection)
-  ### 2.7 [Фасад (Facade)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Facade/README.html#facade)
-  ### 2.8 [Текучий Интерфейс (Fluent Interface)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/FluentInterface/README.html#fluent-interface)
-  ### 2.9 [Приспособленец (Flyweight)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Flyweight/README.html#flyweight)
-  ### 2.10 [Прокси (Proxy)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Proxy/README.html#proxy)
-  ### 2.11 [Реестр (Registry)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Registry/README.html#registry)  
-  ## [Поведенческие шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/README.html)
-  ### 3.1 [Цепочка Обязанностей (Chain Of Responsibilities)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/ChainOfResponsibilities/README.html#chain-of-responsibilities)
-  ### 3.2 [Команда (Command)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Command/README.html#command)
-  ### 3.3 [Итератор (Iterator)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Iterator/README.html)
-  ### 3.4 [Посредник (Mediator)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Mediator/README.html#mediator)
-  ### 3.5 [Хранитель (Memento)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Memento/README.html#memento)
-  ### 3.6 [Объект Null (Null Object)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/NullObject/README.html#null-object)
-  ### 3.7 [Наблюдатель (Observer)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Observer/README.html#observer)
-  ### 3.8 [Спецификация (Specification)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Specification/README.html#specification)
-  ### 3.9 [Состояние (State)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/State/README.html#state)
-  ### 3.10 [Стратегия (Strategy)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Strategy/README.html#strategy)
-  ### 3.11 [Шаблонный Метод (Template Method)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/TemplateMethod/README.html#template-method)
-  ### 3.12 [Посетитель (Visitor)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Visitor/README.html#visitor)
-  ## 4 [Локатор Служб (Service Locator)](https://designpatternsphp.readthedocs.io/ru/latest/More/ServiceLocator/README.html#service-locator)
-  ## 5 [Хранилище (Repository)](https://designpatternsphp.readthedocs.io/ru/latest/More/Repository/README.html#repository)
-  ## 6 [Сущность-Атрибут-Значение (Entity–Attribute–Value)](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
-## [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
-## [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
+## Безопасность в сети
+### [Алгоритмы хеширования](https://blog.jscrambler.com/hashing-algorithms)
+* [MD5](https://ru.wikipedia.org/wiki/MD5) и [почему его не нужно использовать](https://tproger.ru/articles/md5-hacking/)
+* [Семейство криптографических алгоритмов SHA](https://ru.wikipedia.org/wiki/SHA)
+* [scrypt](https://ru.wikipedia.org/wiki/Scrypt)
+* [bcrypt](https://ru.wikipedia.org/wiki/Bcrypt)
+### [HTTPS](https://web.dev/why-https-matters/)
+### [Content Security Policy](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
+### [Cross-Origin Resource Sharing](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
+### [SSL/TLS](https://github.com/MaksimDzhangirov/complete-gRPC/blob/main/SSL_TLS_lecture_rus.md)
+### [10 главных угроз безопасности веб-приложений](https://owasp.org/www-project-top-ten/) от [OWASP](https://ru.wikipedia.org/wiki/OWASP)
+
+## Тестирование
+### [Unit-тестирование](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+### [Интеграционное тестирование](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+### [Функциональное тестирование](https://en.wikipedia.org/wiki/Functional_testing)
+
+## CI/CD
+### [Определение](https://ru.wikipedia.org/wiki/CI/CD)
+### [CI - Непрерывная интеграция](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F)
+### [CD - Непрерывная доставка](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0)
+
+## Основные принципы разработки и проектирования
+### [Шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/README.html), [ссылка 2](https://refactoring.guru/ru/design-patterns)
+* [Порождающие шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Creational/README.html)
+  * 1.1 [Абстрактная фабрика (Abstract Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/AbstractFactory/README.html#abstract-factory)
+  * 1.2 [Строитель (Builder)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/Builder/README.html#builder)
+  * 1.3 [Фабричный Метод (Factory Method)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/FactoryMethod/README.html#factory-method)
+  * 1.4 [Объектный пул (Pool)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/Pool/README.html#pool)
+  * 1.5 [Прототип (Prototype)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/Prototype/README.html#prototype)
+  * 1.6 [Простая Фабрика (Simple Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/SimpleFactory/README.html#simple-factory)
+  * 1.7 [Синглтон (Singleton)](https://github.com/MaksimDzhangirov/PHP-cheatsheet/blob/master/singleton.md)
+  * 1.8 [Статическая Фабрика (Static Factory)](https://designpatternsphp.readthedocs.io/ru/latest/Creational/StaticFactory/README.html#static-factory)
+* [Структурные шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Structural/README.html)
+  * 2.1 [Адаптер (Adapter/Wrapper)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Adapter/README.html#adapter-wrapper)
+  * 2.2 [Мост (Bridge)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Bridge/README.html#bridge)
+  * 2.3 [Компоновщик (Composite)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Composite/README.html#composite)
+  * 2.4 [Преобразователь Данных (Data Mapper)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/DataMapper/README.html#data-mapper)
+  * 2.5 [Декоратор (Decorator)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Decorator/README.html#decorator)
+  * 2.6 [Внедрение Зависимости (Dependency Injection)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/DependencyInjection/README.html#dependency-injection)
+  * 2.7 [Фасад (Facade)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Facade/README.html#facade)
+  * 2.8 [Текучий Интерфейс (Fluent Interface)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/FluentInterface/README.html#fluent-interface)
+  * 2.9 [Приспособленец (Flyweight)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Flyweight/README.html#flyweight)
+  * 2.10 [Прокси (Proxy)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Proxy/README.html#proxy)
+  * 2.11 [Реестр (Registry)](https://designpatternsphp.readthedocs.io/ru/latest/Structural/Registry/README.html#registry)  
+* [Поведенческие шаблоны проектирования](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/README.html)
+  * 3.1 [Цепочка Обязанностей (Chain Of Responsibilities)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/ChainOfResponsibilities/README.html#chain-of-responsibilities)
+  * 3.2 [Команда (Command)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Command/README.html#command)
+  * 3.3 [Итератор (Iterator)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Iterator/README.html)
+  * 3.4 [Посредник (Mediator)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Mediator/README.html#mediator)
+  * 3.5 [Хранитель (Memento)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Memento/README.html#memento)
+  * 3.6 [Объект Null (Null Object)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/NullObject/README.html#null-object)
+  * 3.7 [Наблюдатель (Observer)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Observer/README.html#observer)
+  * 3.8 [Спецификация (Specification)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Specification/README.html#specification)
+  * 3.9 [Состояние (State)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/State/README.html#state)
+  * 3.10 [Стратегия (Strategy)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Strategy/README.html#strategy)
+  * 3.11 [Шаблонный Метод (Template Method)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/TemplateMethod/README.html#template-method)
+  * 3.12 [Посетитель (Visitor)](https://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Visitor/README.html#visitor)
+ * 4 [Локатор Служб (Service Locator)](https://designpatternsphp.readthedocs.io/ru/latest/More/ServiceLocator/README.html#service-locator)
+ * 5 [Хранилище (Repository)](https://designpatternsphp.readthedocs.io/ru/latest/More/Repository/README.html#repository)
+ * 6 [Сущность-Атрибут-Значение (Entity–Attribute–Value)](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
+## [Предметно-ориентированное проектирование](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+## [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+## [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
+* [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
+## [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
+## [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
+## [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
+
+## Виды архитектур приложений
+## [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
+## [Микросервисная архитектура](https://martinfowler.com/microservices/)
+## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
+## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
+## [Serverless-архитектура](https://martinfowler.com/articles/serverless.html)
 ## [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
 ## [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
+
+## Что ещё почитать
+### [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
+### Алгоритмы и структуры данных
+### Дискретная математика
+* Теория множеств
+* Булева алгебра
+* Теория графов
