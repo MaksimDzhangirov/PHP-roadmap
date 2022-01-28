@@ -285,13 +285,13 @@
 ### [MS IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services)
 
 ## Создание приложений с учётом масштабирования (общие темы, которые вы должны изучить и которые нужно иметь ввиду для обеспечения надежной работы приложения)
-## Стратегии перехода
-## Стратегии смягчения последствий в случае отказов
-### Graceful degradation
+## [Стратегии перехода](https://medium.com/@alb.botashev/how-to-design-a-highload-app-2248b9022d3e)
+## Стратегии смягчения последствий в случае отказов (failure)
+### [Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
 ### [Throttling](https://www.linkedin.com/pulse/web-api-security-dos-ddos-attacks-throttling-waf-houssam-chmouri/)
-### [Backpressure]
-### [Loadshifting]
-### [Circuit Breaker]
+### [Backpressure](https://www.zghurskyi.com/backpressure/)
+### [Load Shedding](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4)
+### [Circuit Breaker](https://medium.com/@kirill.sereda/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA-circuit-breaker-pattern-650232944e37)
 ## [Горизонтальное или вертикальное масштабирование](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C)
 ## Создание приложения с учётом наблюдаемости (логирование метрик и других наблюдаемых параметров, которые могут помочь вам в отладке и решении проблем, когда что-то идет не так)
 
