@@ -285,8 +285,11 @@
 ### [Caddy](https://en.wikipedia.org/wiki/Caddy_(web_server))
 ### [MS IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services)
 
-## Создание приложений с учётом масштабирования (общие темы, которые вы должны изучить и которые нужно иметь ввиду для обеспечения надежной работы приложения)
-## [Стратегии перехода](https://medium.com/@alb.botashev/how-to-design-a-highload-app-2248b9022d3e)
+## [Создание приложений с учётом масштабирования (общие темы, которые вы должны изучить и которые нужно иметь ввиду для обеспечения надежной работы приложения)](https://medium.com/@alb.botashev/how-to-design-a-highload-app-2248b9022d3e)
+## [Стратегии миграции](https://theecmconsultant.com/data-migration-strategy)
+
+Стратегия миграции — это план перемещения данных из одного места в другое и важный этап любой миграции базы данных. Стратегия миграции данных должна включать план перемещения данных и действий с ними после их переноса в новое место.
+
 ## Стратегии смягчения последствий в случае отказов (failure)
 ### [Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
 ### [Throttling](https://www.linkedin.com/pulse/web-api-security-dos-ddos-attacks-throttling-waf-houssam-chmouri/)
@@ -294,7 +297,11 @@
 ### [Load Shedding](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4)
 ### [Circuit Breaker](https://medium.com/@kirill.sereda/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA-circuit-breaker-pattern-650232944e37)
 ## [Горизонтальное или вертикальное масштабирование](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C)
-## Создание приложения с учётом наблюдаемости (логирование метрик и других наблюдаемых параметров, которые могут помочь вам в отладке и решении проблем, когда что-то идет не так)
+## [Создание приложения с учётом наблюдаемости (логирование метрик и других наблюдаемых параметров, которые могут помочь вам в отладке и решении проблем, когда что-то идет не так)](https://newrelic.com/blog/best-practices/observability-instrumentation)
+
+В области разработки программного обеспечения наблюдаемость — это мера понимания того насколько хорошо работает система и как сделать её лучше.
+
+Что же делает систему «наблюдаемой»? Её способность создавать и собирать метрики, логи и трассировки, чтобы мы могли понять, что происходит под капотом, и быстрее выявлять проблемы и узкие места. Вы можете реализовать все эти функции самостоятельно, но существуют программы, которые могут помочь вам в этом, например [Datadog](https://docs.datadoghq.com/), [Sentry](https://docs.sentry.io/) и [CloudWatch](https://aws.amazon.com/cloudwatch/getting-started/).
 
 ## Что ещё почитать
 ### [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
