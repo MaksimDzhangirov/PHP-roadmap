@@ -234,6 +234,12 @@
  * 5 [Хранилище (Repository)](https://designpatternsphp.readthedocs.io/ru/latest/More/Repository/README.html#repository)
  * 6 [Сущность-Атрибут-Значение (Entity–Attribute–Value)](https://designpatternsphp.readthedocs.io/ru/latest/More/EAV/README.html#entity-attribute-value-eav)
 ## [Предметно-ориентированное проектирование](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+
+1. Эванс, Эрик. Предметно-ориентированное проектирование (DDD): структуризация сложных программных систем. : Пер. с англ. М.: 000 "И .Д. Вильямс", 2011. - 448 с. : ил. - Парал. тит. англ. 
+2. Вервов. Вон. Предметно-ориентированное проектирование: самое основное. с англ. - СпВ.: 000 "Альфа-книга". 2017. - :Пер. 160 с.: ил. - Парал. тит. англ.
+3. Вернов, Вон. Реализация методов предметно-ориентированного проектирования.: Пер. с англ. - М.:ООО "И.Д. Вильямс: 2016. - 688 с.: ил. - Парал. тит. англ.
+4. LARAVEL BEYOND CRUD, Brent Roose, 2020.
+
 ## [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 ## [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
 * [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
@@ -244,6 +250,13 @@
 ## Виды архитектур приложений
 ## [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
 ## [Микросервисная архитектура](https://martinfowler.com/microservices/)
+
+1. Ричардсон Крис Микросервисы. Паттерны разработки и рефакторинга. — СПб.: Питер, 2019. — 544 с.: ил. — (Серия «Библиотека программиста»).
+2. [microservices.io](https://microservices.io/)
+3. Microservices in Action: Bruce, Morgan, Pereira, Paulo A.
+4. Building Microservices, Designing Fine-Grained Systems by Sam Newman, 2021. Second Edition.
+5. Monolith to Microservices, Evolutionary Patterns to Transform Your Monolith by Sam Newman, 2020.
+
 ## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
 ## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
 ## [Serverless-архитектура](https://martinfowler.com/articles/serverless.html)
@@ -291,11 +304,16 @@
 Стратегия миграции — это план перемещения данных из одного места в другое и важный этап любой миграции базы данных. Стратегия миграции данных должна включать план перемещения данных и действий с ними после их переноса в новое место.
 
 ## Стратегии смягчения последствий в случае отказов (failure)
-### [Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
+### [Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/), [ссылка 2](https://github.com/mercari/production-readiness-checklist/blob/master/docs/concepts/graceful-degradation.md)
 ### [Throttling](https://www.linkedin.com/pulse/web-api-security-dos-ddos-attacks-throttling-waf-houssam-chmouri/)
-### [Backpressure](https://www.zghurskyi.com/backpressure/)
+### [Backpressure](https://www.zghurskyi.com/backpressure/), [ссылка 2](https://awesome-architecture.com/back-pressure/)
 ### [Load Shedding](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4)
 ### [Circuit Breaker](https://medium.com/@kirill.sereda/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA-circuit-breaker-pattern-650232944e37)
+
+1. М. Нейгард Release it! Проектирование и дизайн ПО для тех, кому не всё равно. — СПб.: Питер, 2016. — 320 с.: ил. — (Серия «Библиотека программиста»).
+2. [Reliability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns)
+3. [Designing a Microservices Architecture for Failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure/)
+
 ## [Горизонтальное или вертикальное масштабирование](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C)
 ## [Создание приложения с учётом наблюдаемости (логирование метрик и других наблюдаемых параметров, которые могут помочь вам в отладке и решении проблем, когда что-то идет не так)](https://newrelic.com/blog/best-practices/observability-instrumentation)
 
