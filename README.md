@@ -243,6 +243,7 @@
 2. Вервов. Вон. Предметно-ориентированное проектирование: самое основное. с англ. - СпВ.: 000 "Альфа-книга". 2017. - :Пер. 160 с.: ил. - Парал. тит. англ.
 3. Вернов, Вон. Реализация методов предметно-ориентированного проектирования.: Пер. с англ. - М.:ООО "И.Д. Вильямс: 2016. - 688 с.: ил. - Парал. тит. англ.
 4. LARAVEL BEYOND CRUD, Brent Roose, 2020.
+5. Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy 1st Edition by Vlad Khononov, 2021.
 
 ## [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 ## [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
@@ -260,12 +261,17 @@
 3. Microservices in Action: Bruce, Morgan, Pereira, Paulo A.
 4. Building Microservices, Designing Fine-Grained Systems by Sam Newman, 2021. Second Edition.
 5. Monolith to Microservices, Evolutionary Patterns to Transform Your Monolith by Sam Newman, 2020.
+6. Microservice Patterns and Best Practices: Explore patterns like CQRS and event sourcing to create scalable, maintainable, and testable microservices
+by Vinicius Feitosa Pacheco, 2018.
 
 ## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
 ## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
 ## [Serverless-архитектура](https://martinfowler.com/articles/serverless.html)
 ## [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
 ## [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
+
+1. Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures 1st Edition by Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani, 2021.
+2. Fundamentals of Software Architecture: An Engineering Approach 1st Edition by Mark Richards, Neal Ford, 2020.
 
 ## Поисковые системы
 ### [Определение](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0)
@@ -317,6 +323,7 @@
 1. М. Нейгард Release it! Проектирование и дизайн ПО для тех, кому не всё равно. — СПб.: Питер, 2016. — 320 с.: ил. — (Серия «Библиотека программиста»).
 2. [Reliability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns)
 3. [Designing a Microservices Architecture for Failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure/)
+4. Клеппман М. Высоконагруженные приложения. Программирование, масштабирование, поддержка. — СПб.: Питер, 2018. — 640 с.: ил. — (Серия «Бестселлеры O’Reilly»).
 
 ## [Горизонтальное или вертикальное масштабирование](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C)
 ## [Создание приложения с учётом наблюдаемости (логирование метрик и других наблюдаемых параметров, которые могут помочь вам в отладке и решении проблем, когда что-то идет не так)](https://newrelic.com/blog/best-practices/observability-instrumentation)
