@@ -156,6 +156,8 @@
 * [Аутентификация, используя токены](https://frontegg.com/blog/token-based-authentication)
   * [JWT](https://ru.wikipedia.org/wiki/JSON_Web_Token)
   * [Про токены, JSON Web Tokens (JWT), аутентификацию и авторизацию](https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc)
+  * [LocalStorage vs Cookies: All You Need To Know About Storing JWT Tokens Securely in The Front-End](https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id)
+  * The JWT Handbook by Sebastián E. Peyrott, Auth0 Inc.
 * [OpenID](https://ru.wikipedia.org/wiki/OpenID)
 * [SAML](https://habr.com/ru/company/gemaltorussia/blog/322316/)
 
