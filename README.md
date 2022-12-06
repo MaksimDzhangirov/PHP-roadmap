@@ -274,6 +274,11 @@ by Vinicius Feitosa Pacheco, 2018.
 
 1. Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures 1st Edition by Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani, 2021.
 2. Fundamentals of Software Architecture: An Engineering Approach 1st Edition by Mark Richards, Neal Ford, 2020.
+3. Фаулер М. Рефакторинг: улучшение существующего кода. - Пер. с англ. - СПб: Символ-Плюс, 2003. - 432 с, ил.
+4. Роберт Мартин, Чистый код: создание, анализ и рефакторинг. Библиотека программиста, 2019.
+5. Роберт Мартин, Чистая архитектура. Искусство разработки программного обеспечения, 2018.
+6. [martinfowler.com](https://martinfowler.com/)
+
 
 ## Поисковые системы
 ### [Определение](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0)
