@@ -1,6 +1,7 @@
 # PHP. Дорожная карта
 
 ## [Дорожная карта бекенд-разработчика](https://roadmap.sh/backend)
+## [Самоучитель по компьютерным наукам](https://github.com/ossu/computer-science)
 ## Интернет
 ### [Интернет](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82), [как работает интернет?](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
 ### [Что такое HTTP?](https://ru.wikipedia.org/wiki/HTTP)
@@ -37,6 +38,8 @@
 ### [Управление вводом/выводом](https://www.omscs-notes.com/operating-systems/io-management/)
 ### [Основы POSIX](https://losst.ru/chto-takoe-posix) ([stdin, stdout, stderr](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8), [pipes](https://sodocumentation.net/posix/topic/8082/pipes))
 ### [Основные прицнипы работы компьютерной сети](http://www.steves-internet-guide.com/networking/)
+
+1. Эндрю С. Таненбаум Современные операционные системы: [пер. с англ.]: Питер, 2011.
 
 ## Основы языка PHP
 ### [Основы синтаксиса](https://www.php.net/manual/ru/language.basic-syntax.php)
@@ -246,6 +249,7 @@
 3. Вернов, Вон. Реализация методов предметно-ориентированного проектирования.: Пер. с англ. - М.:ООО "И.Д. Вильямс: 2016. - 688 с.: ил. - Парал. тит. англ.
 4. LARAVEL BEYOND CRUD, Brent Roose, 2020.
 5. Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy 1st Edition by Vlad Khononov, 2021.
+6. [Пример приложения с использованием DDD, Event Sourcing и CQRS на Symfony](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate)
 
 ## [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 ## [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
@@ -265,6 +269,7 @@
 5. Monolith to Microservices, Evolutionary Patterns to Transform Your Monolith by Sam Newman, 2020.
 6. Microservice Patterns and Best Practices: Explore patterns like CQRS and event sourcing to create scalable, maintainable, and testable microservices
 by Vinicius Feitosa Pacheco, 2018.
+7. [Пример микросервисной апрхитектуры](https://github.com/GoogleCloudPlatform/microservices-demo)
 
 ## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
 ## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
