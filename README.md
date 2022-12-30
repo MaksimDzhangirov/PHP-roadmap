@@ -244,12 +244,13 @@
 
 ## [Предметно-ориентированное проектирование](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 
-1. Эванс, Эрик. Предметно-ориентированное проектирование (DDD): структуризация сложных программных систем. : Пер. с англ. М.: 000 "И. Д. Вильямс", 2011. - 448 с. : ил. - Парал. тит. англ. 
-2. Вервов. Вон. Предметно-ориентированное проектирование: самое основное. с англ. - СпВ.: 000 "Альфа-книга". 2017. - :Пер. 160 с.: ил. - Парал. тит. англ.
-3. Вернов, Вон. Реализация методов предметно-ориентированного проектирования.: Пер. с англ. - М.:ООО "И.Д. Вильямс: 2016. - 688 с.: ил. - Парал. тит. англ.
-4. LARAVEL BEYOND CRUD, Brent Roose, 2020.
-5. Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy 1st Edition by Vlad Khononov, 2021.
-6. [Пример приложения с использованием DDD, Event Sourcing и CQRS на Symfony](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate)
+1. Эванс Эрик. Предметно-ориентированное проектирование (DDD): структуризация сложных программных систем. : Пер. с англ. М.: 000 "И. Д. Вильямс", 2011. - 448 с. : ил. - Парал. тит. англ. 
+2. Вервов Вон. Предметно-ориентированное проектирование: самое основное. с англ. - СпВ.: 000 "Альфа-книга". 2017. - :Пер. 160 с.: ил. - Парал. тит. англ.
+3. Вернов Вон. Реализация методов предметно-ориентированного проектирования.: Пер. с англ. - М.:ООО "И.Д. Вильямс: 2016. - 688 с.: ил. - Парал. тит. англ.
+4. Миллетт Скотт, Тьюн Ник. Предметно-ориентированное проектирование: Паттерны, принципы и методы, СПб.: Питер, 2017. — 832 с.: ил.
+5. LARAVEL BEYOND CRUD, Brent Roose, 2020.
+6. Khononov Vlad Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy, O’Reilly Media, Inc., 2021. — 340 p. 
+7. [Пример приложения с использованием DDD, Event Sourcing и CQRS на Symfony](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate)
 
 ## [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 ## [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
@@ -281,7 +282,7 @@
 16. Newman Sam, Building Microservices, Designing Fine-Grained Systems, 2nd Edition. — O’Reilly Media, 2021. — 615 p.
 16.1 Ньюмен С. Создание микросервисов. — СПб.: Питер, 2016. — 304 с.: ил.
 17. Newman Sam, Monolith to Microservices, Evolutionary Patterns to Transform Your Monolith, O’Reilly Media, 2020. — 300 p.
-17.1 Ньюмен С. От монолита к микросервисам: Пер. с англ. — СПб.: БЧВ-Петербург, 2021 — 272 с.: ил.
+17.1 Ньюмен С. От монолита к микросервисам: Эволюционные шаблоны для трансформации монолитной системы, Пер. с англ. — СПб.: БЧВ-Петербург, 2021 — 272 с.: ил.
 18. Osman Paul, Microservices Development Cookbook: Design and build independently deployable, modular services, Packt Publishing, 2018. — 260 p.
 19. Parminder Singh Kocher. Microservices and Containers, Addison-Wesley Professional, 2018. — 304 p.
 20. Peralta J.H. Microservice APIs: Using Python, Flask, FastAPI, OpenAPI and more, Manning, 2023. — 411 p.
@@ -297,12 +298,17 @@
 29. Sharma Sourabh, RV Rajesh, Gonzalez David. Microservices: Building Scalable Software, Packt Publishing, 2017. — 919 p.
 30. Sharma U.R. Practical Microservices: Take advantage of microservices capabilities to build a flexible and efficient system with Java, Packt Publishing, 2017. - 307 p.
 31. Siriwardena Prabath, Dias Nuwan. Microservices Security in Action, Manning, 2020. — 512 p.
-
-
-6. Vinicius Feitosa Pacheco, Microservice Patterns and Best Practices: Explore patterns like CQRS and event sourcing to create scalable, maintainable, and testable microservices, 2018.
-
-
-[Пример микросервисной архитектуры](https://github.com/GoogleCloudPlatform/microservices-demo)
+32. Stetson Chris. Microservices Reference Architecture, NGINX Inc., 2017. — 58 p.
+33. Surianarayanan Chellammal. Essentials of Microservices Architecture: Paradigms, Applications, and Techniques, Taylor & Francis Group, LLC., 2020. — 314 p.
+34. Thomas Betts (ed.) Microservices - Patterns and Practices, NY: InfoQ, 2020. — 42 p.
+35. Umesh Ram Sharma. Srivastava Anubhava. Practical Microservices, Packt Publishing, 2017. — 254 p.
+36. Vinicius Feitosa Pacheco, Microservice Patterns and Best Practices: Explore patterns like CQRS and event sourcing to create scalable, maintainable, and testable microservices, 2018.
+37. Wolff Eberhard. Microservices: A Practical Guide: Principles, Concepts, and Recipes, 2nd Edition. — CreateSpace Independent Publishing Platform, 2020. — 319 p.
+38. Wolff Eberhard. Microservices: Flexible Software Architecture, Addison-Wesley, 2016. — 432 p.
+39. Wrba Guillermo. Designing and Building Solid Microservice Ecosystems, 2021. — 631 p.
+40. Yanaga E. Migrating to Microservice Databases, O’Reilly Media, 2017.
+41. Zeev Avidan, Hans Otharsson. Accelerating the Digital Journey from Legacy Systems to Modern Microservices, OpenLegacy, 2018. — 98 p. 
+42. [Пример микросервисной архитектуры](https://github.com/GoogleCloudPlatform/microservices-demo)
 
 ## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
 ## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
