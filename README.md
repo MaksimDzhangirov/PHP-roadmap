@@ -244,13 +244,23 @@
 
 ## [Предметно-ориентированное проектирование](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 
-1. Эванс Эрик. Предметно-ориентированное проектирование (DDD): структуризация сложных программных систем. : Пер. с англ. М.: 000 "И. Д. Вильямс", 2011. - 448 с. : ил. - Парал. тит. англ. 
-2. Вервов Вон. Предметно-ориентированное проектирование: самое основное. с англ. - СпВ.: 000 "Альфа-книга". 2017. - :Пер. 160 с.: ил. - Парал. тит. англ.
-3. Вернов Вон. Реализация методов предметно-ориентированного проектирования.: Пер. с англ. - М.:ООО "И.Д. Вильямс: 2016. - 688 с.: ил. - Парал. тит. англ.
-4. Миллетт Скотт, Тьюн Ник. Предметно-ориентированное проектирование: Паттерны, принципы и методы, СПб.: Питер, 2017. — 832 с.: ил.
-5. LARAVEL BEYOND CRUD, Brent Roose, 2020.
-6. Khononov Vlad Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy, O’Reilly Media, Inc., 2021. — 340 p. 
-7. [Пример приложения с использованием DDD, Event Sourcing и CQRS на Symfony](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate)
+1. Betts Thomas (ed.), Domain-Driven Design in Practice, NY: InfoQ, 2018. — 36 p.
+2. Boyle M. Domain-Driven Design with Golang: Use Golang to create simple, maintainable systems to solve complex business problems, Birmingham: Packt Publishing, 2022. — 203 p.
+3. Brent Roose, LARAVEL BEYOND CRUD, 2020.
+4. Buenosvinos Carlos, Soronellas Christian, Akbary Keyvan. Domain-Driven Design in PHP, Packt Publishing, 2017. — 394 p.
+5. Chandrasekaran P., Krishnan K. Domain-Driven Design with Java - A Practitioner's Guide, Packt, 2022. — 302 p.
+6. DDD Europe, Domain-Driven Design: The First 15 Years, Leanpub.com, 2020. — 294 p.
+7. Griffin Jesse, Domain-Driven Laravel: Learn to Implement Domain-Driven Design Using Laravel, Apress Media LLC., 2020. — 621 p.
+8. Joo Martin. Domain-Driven Design with Laravel, Gumroad, 2022. — 259 р.
+9. Khononov Vlad Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy, O’Reilly Media, Inc., 2021. — 340 p.
+10. Kumar A. Domain Driven Design with Spring Boot: Enterprise Application from scratch, 2018. — 268 p.
+11. Nair Vijay. Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, Eclipse MicroProfile, Spring Boot, and the Axon Framework, Apress, 2019. — 387 p.
+12. Percival H.J.W. et al. Architecture Patterns with Python Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices, O'Reilly, 2020. — 292 p.
+13. Эванс Эрик. Предметно-ориентированное проектирование (DDD): структуризация сложных программных систем.: Пер. с англ. М.: ООО "И. Д. Вильямс", 2011. - 448 с.: ил. - Парал. тит. англ. 
+14. Вервов Вон. Предметно-ориентированное проектирование: самое основное. с англ. - СпВ.: ООО "Альфа-книга". 2017. - :Пер. 160 с.: ил. - Парал. тит. англ.
+15. Вернов Вон. Реализация методов предметно-ориентированного проектирования.: Пер. с англ. - М.:ООО "И.Д. Вильямс: 2016. - 688 с.: ил. - Парал. тит. англ.
+16. Миллетт Скотт, Тьюн Ник. Предметно-ориентированное проектирование: Паттерны, принципы и методы, СПб.: Питер, 2017. — 832 с.: ил.
+17. [Пример приложения с использованием DDD, Event Sourcing и CQRS на Symfony](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate)
 
 ## [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 ## [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
