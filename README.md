@@ -285,7 +285,6 @@
 10. Hunter II Thomas. Advanced Microservices: A Hands-on Approach to Microservice Infrastructure and Tooling, Apress, 2017. — 181 p.
 11. Indrasiri Kasun, Siriwardena Prabath. Microservices for the Enterprise: Designing, Developing, and Deploying, Apress, 2019. — 422 p.
 12. Meghan K.M. Microservices: Quick Book: A practical guide with examples using Spring Boot, Cloud Config, Cloud Bus, Cloud Security, Eureka, Hystrix, Axon with CQRS and Event Sourcing, Independently published, 2021. — 137 p.
-[microservices.io](https://microservices.io/)
 13. Mitra Ronnie, Nadareishvili Irakli. Microservices: Up and Running: A Step-by-Step Guide to Building a Microservice Architecture, O’Reilly Media, 2021. — 255 p.
 14. Murugesan Vikram, Microservices Deployment Cookbook, Packt Publishing, 2017. — 305 p.
 15. Nadareishvili Irakli, Mitra Ronnie, McLarty Matt, Amundsen Mike. Microservice Architecture: Aligning Principles, Practices, and Culture, O'Reilly, 2016. — 146 p.
@@ -319,6 +318,7 @@
 40. Yanaga E. Migrating to Microservice Databases, O’Reilly Media, 2017.
 41. Zeev Avidan, Hans Otharsson. Accelerating the Digital Journey from Legacy Systems to Modern Microservices, OpenLegacy, 2018. — 98 p. 
 42. [Пример микросервисной архитектуры](https://github.com/GoogleCloudPlatform/microservices-demo)
+43. [microservices.io](https://microservices.io/)
 
 ## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
 ## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
