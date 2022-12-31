@@ -289,36 +289,36 @@
 14. Murugesan Vikram, Microservices Deployment Cookbook, Packt Publishing, 2017. — 305 p.
 15. Nadareishvili Irakli, Mitra Ronnie, McLarty Matt, Amundsen Mike. Microservice Architecture: Aligning Principles, Practices, and Culture, O'Reilly, 2016. — 146 p.
 16. Newman Sam, Building Microservices, Designing Fine-Grained Systems, 2nd Edition. — O’Reilly Media, 2021. — 615 p.
-16.1 Ньюмен С. Создание микросервисов. — СПб.: Питер, 2016. — 304 с.: ил.
-17. Newman Sam, Monolith to Microservices, Evolutionary Patterns to Transform Your Monolith, O’Reilly Media, 2020. — 300 p.
-17.1 Ньюмен С. От монолита к микросервисам: Эволюционные шаблоны для трансформации монолитной системы, Пер. с англ. — СПб.: БЧВ-Петербург, 2021 — 272 с.: ил.
-18. Osman Paul, Microservices Development Cookbook: Design and build independently deployable, modular services, Packt Publishing, 2018. — 260 p.
-19. Parminder Singh Kocher. Microservices and Containers, Addison-Wesley Professional, 2018. — 304 p.
-20. Peralta J.H. Microservice APIs: Using Python, Flask, FastAPI, OpenAPI and more, Manning, 2023. — 411 p.
-21. Peralta Jose Haro. Microservice APIs: With examples in Python, Manning Publications Co., 2022. — 425 p.
-22. Richards M. Microservices vs. Service-Oriented Architecture, O’Reilly Media, 2016. — 55 p.
-23. Richards Mark. Microservices AntiPatterns and Pitfalls, O'Reilly, 2016. — 66 p.
-24. Richardson Chris. Microservices Patterns: With examples in Java, Manning Publications, 2019. — 520 p.
-24.1 Ричардсон Крис Микросервисы. Паттерны разработки и рефакторинга. — СПб.: Питер, 2019. — 544 с.: ил.
-25. Richardson Chris. Microservices. From Design to Deployment, San Francisco: NGINX, Inc., 2016 — 80 p.
-26. Rocha Hugo Filipe Oliveira. Practical Event-Driven Microservices Architecture, Apress Media LLC, 2022. — 457 p.
-27. Rodger Richard. The Tao of Microservices, Manning Publications, 2018. — 328 p.
-28. Sharma Rahul, Mathur Akshay. Traefik API Gateway for Microservices: With Java and Python Microservices Deployed in Kubernetes, Apress Media LLC., 2020. — 269 p.
-29. Sharma Sourabh, RV Rajesh, Gonzalez David. Microservices: Building Scalable Software, Packt Publishing, 2017. — 919 p.
-30. Sharma U.R. Practical Microservices: Take advantage of microservices capabilities to build a flexible and efficient system with Java, Packt Publishing, 2017. - 307 p.
-31. Siriwardena Prabath, Dias Nuwan. Microservices Security in Action, Manning, 2020. — 512 p.
-32. Stetson Chris. Microservices Reference Architecture, NGINX Inc., 2017. — 58 p.
-33. Surianarayanan Chellammal. Essentials of Microservices Architecture: Paradigms, Applications, and Techniques, Taylor & Francis Group, LLC., 2020. — 314 p.
-34. Thomas Betts (ed.) Microservices - Patterns and Practices, NY: InfoQ, 2020. — 42 p.
-35. Umesh Ram Sharma. Srivastava Anubhava. Practical Microservices, Packt Publishing, 2017. — 254 p.
-36. Vinicius Feitosa Pacheco, Microservice Patterns and Best Practices: Explore patterns like CQRS and event sourcing to create scalable, maintainable, and testable microservices, 2018.
-37. Wolff Eberhard. Microservices: A Practical Guide: Principles, Concepts, and Recipes, 2nd Edition. — CreateSpace Independent Publishing Platform, 2020. — 319 p.
-38. Wolff Eberhard. Microservices: Flexible Software Architecture, Addison-Wesley, 2016. — 432 p.
-39. Wrba Guillermo. Designing and Building Solid Microservice Ecosystems, 2021. — 631 p.
-40. Yanaga E. Migrating to Microservice Databases, O’Reilly Media, 2017.
-41. Zeev Avidan, Hans Otharsson. Accelerating the Digital Journey from Legacy Systems to Modern Microservices, OpenLegacy, 2018. — 98 p. 
-42. [Пример микросервисной архитектуры](https://github.com/GoogleCloudPlatform/microservices-demo)
-43. [microservices.io](https://microservices.io/)
+17. Ньюмен С. Создание микросервисов. — СПб.: Питер, 2016. — 304 с.: ил.
+18. Newman Sam, Monolith to Microservices, Evolutionary Patterns to Transform Your Monolith, O’Reilly Media, 2020. — 300 p.
+19. Ньюмен С. От монолита к микросервисам: Эволюционные шаблоны для трансформации монолитной системы, Пер. с англ. — СПб.: БЧВ-Петербург, 2021 — 272 с.: ил.
+20. Osman Paul, Microservices Development Cookbook: Design and build independently deployable, modular services, Packt Publishing, 2018. — 260 p.
+21. Parminder Singh Kocher. Microservices and Containers, Addison-Wesley Professional, 2018. — 304 p.
+22. Peralta J.H. Microservice APIs: Using Python, Flask, FastAPI, OpenAPI and more, Manning, 2023. — 411 p.
+23. Peralta Jose Haro. Microservice APIs: With examples in Python, Manning Publications Co., 2022. — 425 p.
+24. Richards M. Microservices vs. Service-Oriented Architecture, O’Reilly Media, 2016. — 55 p.
+25. Richards Mark. Microservices AntiPatterns and Pitfalls, O'Reilly, 2016. — 66 p.
+26. Richardson Chris. Microservices Patterns: With examples in Java, Manning Publications, 2019. — 520 p.
+27. Ричардсон Крис Микросервисы. Паттерны разработки и рефакторинга. — СПб.: Питер, 2019. — 544 с.: ил.
+28. Richardson Chris. Microservices. From Design to Deployment, San Francisco: NGINX, Inc., 2016 — 80 p.
+29. Rocha Hugo Filipe Oliveira. Practical Event-Driven Microservices Architecture, Apress Media LLC, 2022. — 457 p.
+30. Rodger Richard. The Tao of Microservices, Manning Publications, 2018. — 328 p.
+31. Sharma Rahul, Mathur Akshay. Traefik API Gateway for Microservices: With Java and Python Microservices Deployed in Kubernetes, Apress Media LLC., 2020. — 269 p.
+32. Sharma Sourabh, RV Rajesh, Gonzalez David. Microservices: Building Scalable Software, Packt Publishing, 2017. — 919 p.
+33. Sharma U.R. Practical Microservices: Take advantage of microservices capabilities to build a flexible and efficient system with Java, Packt Publishing, 2017. - 307 p.
+34. Siriwardena Prabath, Dias Nuwan. Microservices Security in Action, Manning, 2020. — 512 p.
+35. Stetson Chris. Microservices Reference Architecture, NGINX Inc., 2017. — 58 p.
+36. Surianarayanan Chellammal. Essentials of Microservices Architecture: Paradigms, Applications, and Techniques, Taylor & Francis Group, LLC., 2020. — 314 p.
+37. Thomas Betts (ed.) Microservices - Patterns and Practices, NY: InfoQ, 2020. — 42 p.
+38. Umesh Ram Sharma. Srivastava Anubhava. Practical Microservices, Packt Publishing, 2017. — 254 p.
+39. Vinicius Feitosa Pacheco, Microservice Patterns and Best Practices: Explore patterns like CQRS and event sourcing to create scalable, maintainable, and testable microservices, 2018.
+40. Wolff Eberhard. Microservices: A Practical Guide: Principles, Concepts, and Recipes, 2nd Edition. — CreateSpace Independent Publishing Platform, 2020. — 319 p.
+41. Wolff Eberhard. Microservices: Flexible Software Architecture, Addison-Wesley, 2016. — 432 p.
+42. Wrba Guillermo. Designing and Building Solid Microservice Ecosystems, 2021. — 631 p.
+43. Yanaga E. Migrating to Microservice Databases, O’Reilly Media, 2017.
+44. Zeev Avidan, Hans Otharsson. Accelerating the Digital Journey from Legacy Systems to Modern Microservices, OpenLegacy, 2018. — 98 p. 
+45. [Пример микросервисной архитектуры](https://github.com/GoogleCloudPlatform/microservices-demo)
+46. [microservices.io](https://microservices.io/)
 
 ## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
 ## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
