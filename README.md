@@ -2,6 +2,7 @@
 
 ## [Дорожная карта бекенд-разработчика](https://roadmap.sh/backend)
 ## [Самоучитель по компьютерным наукам](https://github.com/ossu/computer-science)
+## [Список PHP библиотек, ресурсов и т.д. для решения различных задач, сгруппированный по темам](https://github.com/ziadoz/awesome-php)
 ## Интернет
 ### [Интернет](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82), [как работает интернет?](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
 ### [Что такое HTTP?](https://ru.wikipedia.org/wiki/HTTP)
