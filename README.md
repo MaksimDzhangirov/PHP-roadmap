@@ -15,6 +15,7 @@
 ### [HTML](https://www.w3schools.com/html/html_intro.asp)
 ### [CSS](https://www.w3schools.com/css/css_intro.asp)
 ### [Javascript](https://www.w3schools.com/js/js_intro.asp), [учебник](https://learn.javascript.ru/)
+### Смотри также [дорожную карту фронтенд разработчика](https://roadmap.sh/frontend)
 
 ## ОС и общие знания
 ### [Использование терминала](https://www.cs.cmu.edu/~15131/f17/topics/terminal-usage/)
@@ -334,7 +335,6 @@
 5. Роберт Мартин, Чистая архитектура. Искусство разработки программного обеспечения, 2018.
 6. [martinfowler.com](https://martinfowler.com/)
 
-
 ## Поисковые системы
 ### [Определение](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0)
 ### [Elasticsearch](https://ru.wikipedia.org/wiki/Elasticsearch)
@@ -353,7 +353,7 @@
 ## GraphQL
 ### [Определение](https://en.wikipedia.org/wiki/GraphQL)
 ### [Apollo](https://www.apollographql.com/)
-### [Relay](https://relay.dev/)
+### [Relay Modern](https://relay.dev/)
 
 ## Графовые базы данных
 ### [Определение](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D1%84%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
@@ -371,12 +371,49 @@
 ### [MS IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services)
 
 ## [Создание приложений с учётом масштабирования (общие темы, которые вы должны изучить и которые нужно иметь ввиду для обеспечения надежной работы приложения)](https://medium.com/@alb.botashev/how-to-design-a-highload-app-2248b9022d3e)
+
+В общих чертах, масштабируемость — это способность системы справляться с растущей нагрузкой за счет добавления к ней ресурсов.
+
+Программное обеспечение, разработаваемое с учетом масштабируемости, представляет собой систему, которая способна работать с более высокими рабочими нагрузками без каких-либо фундаментальных изменений в ней, но не дайте себя обмануть, в этом нет никакой магии. Достичь желаемой цели, не привлекая
+дополнительных ресурсов, можно только за счёт грамотного проектирования.
+
+Чтобы система была масштабируемой, необходимо обратить внимание на следующие моменты, а именно:
+
+* связность
+* наблюдаемость
+* эволюционируемость
+* инфраструктура
+
+Существует два основных способа создания инфраструктурой масштабируемой системы: использовать локальные ресурсы или использовать все инструменты, 
+которые может предоставить вам провайдер облачных услуг.
+
+Основным отличием локальных и облачных ресурсов будет ГИБКОСТЬ последних. Используя облачные провайдеры вам не нужно планировать заранее сколько и
+каких именно аппаратных ресурсов потребуется для реализации, вы можете модернизировать свою инфраструктуру в пару кликов, а с локальными ресурсами вам потребуется определенный уровень планирования.
+
+Смотри также:
+
+[Scalable Architecture: A Definition and How-To Guide](https://www.sentinelone.com/blog/scalable-architecture/)
+[Scaling Distributed Systems - Software Architecture Introduction](https://www.youtube.com/watch?v=gxfERVP18-g)
+
 ## [Стратегии миграции](https://theecmconsultant.com/data-migration-strategy)
 
 Стратегия миграции — это план перемещения данных из одного места в другое и важный этап любой миграции базы данных. Стратегия миграции данных должна включать план перемещения данных и действий с ними после их переноса в новое место.
 
 ## Стратегии смягчения последствий в случае отказов (failure)
-### [Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/), [ссылка 2](https://github.com/mercari/production-readiness-checklist/blob/master/docs/concepts/graceful-degradation.md)
+### Graceful degradation
+
+Graceful degradation — это принцип проектирования, согласно которому система должна быть спроектирована так, чтобы продолжать функционировать, даже если некоторые из её компонентов или функций недоступны. В контексте веб-разработки под graceful degradation понимается способность веб-страницы или приложения продолжать работу, даже если браузер или устройство пользователя не поддерживает определенные функции или технологии.
+
+Graceful degradation часто используется в качестве альтернативы progressive enhancement — принципу проектирования, который гласит, что система должна быть спроектирована так, чтобы использовать преимущества передовых функций и технологий, если они доступны.
+
+Посетите следующие ресурсы, если хотите получить больше информации:
+
+[Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
+[Graceful degradation](https://github.com/mercari/production-readiness-checklist/blob/master/docs/concepts/graceful-degradation.md)
+[What is Graceful Degradation & Why Does it Matter?](https://blog.hubspot.com/website/graceful-degradation)
+[Four Considerations When Designing Systems For Graceful Degradation](https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation)
+[The Art of Graceful Degradation](https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
+
 ### [Throttling](https://www.linkedin.com/pulse/web-api-security-dos-ddos-attacks-throttling-waf-houssam-chmouri/)
 ### [Backpressure](https://www.zghurskyi.com/backpressure/), [ссылка 2](https://awesome-architecture.com/back-pressure/)
 ### [Load Shedding](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4)
@@ -393,6 +430,16 @@
 В области разработки программного обеспечения наблюдаемость — это мера понимания того насколько хорошо работает система и как сделать её лучше.
 
 Что же делает систему «наблюдаемой»? Её способность создавать и собирать метрики, логи и трассировки, чтобы мы могли понять, что происходит под капотом, и быстрее выявлять проблемы и узкие места. Вы можете реализовать все эти функции самостоятельно, но существуют программы, которые могут помочь вам в этом, например [Datadog](https://docs.datadoghq.com/), [Sentry](https://docs.sentry.io/) и [CloudWatch](https://aws.amazon.com/cloudwatch/getting-started/).
+
+## Инструментирование, мониторинг, телеметрия
+
+Ссылки на ресурсы:
+
+* [What is Instrumentation?](https://en.wikipedia.org/wiki/Instrumentation_(computer_programming))
+* [What is Monitoring?](https://www.yottaa.com/performance-monitoring-backend-vs-front-end-solutions/)
+* [What is Telemetry?](https://www.sumologic.com/insight/what-is-telemetry/)
+
+## Обратите внимание также на [дорожную карту DevOps-а](https://roadmap.sh/devops)
 
 ## Что ещё почитать
 ### [Чистый код на PHP](https://github.com/peter-gribanov/clean-code-php/blob/ru/README.md)
