@@ -1,12 +1,54 @@
 # PHP. Дорожная карта
 
+---------------------------------------------------------------------------
+
 ## [Дорожная карта бекенд-разработчика](https://roadmap.sh/backend)
 ## [Самоучитель по компьютерным наукам](https://github.com/ossu/computer-science)
 ## [Список PHP библиотек, ресурсов и т.д. для решения различных задач, сгруппированный по темам](https://github.com/ziadoz/awesome-php)
+
+---------------------------------------------------------------------------
+
 ## Интернет
-### [Интернет](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82), [как работает интернет?](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
-### [Что такое HTTP?](https://ru.wikipedia.org/wiki/HTTP)
-### [Что такое браузер и как он работает](https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work)
+### Как работает интернет?
+
+Интернет представляет собой глобальную сеть компьютеров, соединенных друг с другом и обменивающихся данными посредством стандартизированного набора протоколов.
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82)
+* [Как работает Интернет](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
+* [How does the Internet Work?](https://cs.fyi/guide/how-does-internet-work)
+* [The Internet Explained](https://www.vox.com/2014/6/16/18076282/the-internet)
+* [How Does the Internet Work?](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+* [Introduction to Internet](https://roadmap.sh/guides/what-is-internet)
+* [How does the Internet work?](https://www.youtube.com/watch?v=x3c1ih2NJEg)
+* [How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)
+
+### Что такое HTTP?
+
+HTTP — это протокол прикладного уровня на основе `TCP/IP`, который стандартизирует взаимодействие клиента и сервера друг с другом. Он определяет, как контент запрашивается и передается через Интернет.
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/HTTP)
+* [Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
+* [What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+* [Full HTTP Networking Course](https://www.youtube.com/watch?v=2JYT5f2isg4)
+* [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+* [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+* [HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
+* [HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
+
+### [Что такое браузер и как он работает]
+
+Веб-браузер — это программное приложение, которое позволяет пользователю получать доступ и отображать веб-страницы или другой онлайн-контент через свой графический пользовательский интерфейс.
+
+Полезные ссылки:
+
+* [Как работают браузеры](https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work)
+* [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+* [Role of Rendering Engine in Browsers](https://www.browserstack.com/guide/browser-rendering-engine)
+
 ### [DNS и как они работают](https://aws.amazon.com/ru/route53/what-is-dns/)
 ### [Что такое доменные имена](https://developer.mozilla.org/ru/docs/Learn/Common_questions/What_is_a_domain_name)
 ### [Что такое хостинг?](https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3)
