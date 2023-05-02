@@ -112,7 +112,16 @@ HTTP — это протокол прикладного уровня на осн
 * [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
 * [Basic Terminal Usage - Cheat Sheet to make the command line EASY](https://www.youtube.com/watch?v=jDINUSK7rXE)
 
-#### [Базовые команды терминала](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line): 
+#### [Базовые команды терминала](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line):
+
+Работать в терминале любому Backend-разработчику приходится практически ежедневно. Существует множество команд и утилит, которые могут помочь вам более эффективно выполнять свои задачи.
+
+Лучший способ выучить эти команды — попрактиковаться с их использованием на своем компьютере/в локальной среде разработки. ОБратите внимание на те, которые связаны с командами/утилитами Linux, являющейся наиболее распространенной ОС в отрасли.
+
+Чтобы понять как работают эти команды, прочитайте соответствующие страницы документации и руководств по эксплуации, используя команду man, например, `man grep`, `man awk` и т. д.
+
+Потратив определенное время на теорию и практику, вам станет намного проще использовать эти команды.
+
 * [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/),
 * [awk](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/),
 * [sed](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/),
@@ -125,7 +134,26 @@ HTTP — это протокол прикладного уровня на осн
 * [find](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/), 
 * [ssh](https://www.ssh.com/academy/ssh/command), 
 * [kill](https://www.geeksforgeeks.org/kill-command-in-linux-with-examples/)
+* [dig](https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/)
+
+Полезные ссылки:
+
+* [40 Basic Linux Commands](https://www.hostinger.com/tutorials/linux-commands)
+* [A collection of modern/faster/saner alternatives to common unix commands](https://github.com/ibraheemdev/modern-unix)
+* [Command Line Tutorial](https://www.learnenough.com/command-line-tutorial)
+* [Commandline Challenge](https://cmdchallenge.com/)
+* [The 50 Most Popular Linux & Terminal Commands (with timestamps)](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
+
 ### [Общий принцип работы ОС](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+
+Операционная система — это основная программа на компьютере, которая управляет всеми другими приложениями. Она позволяет использовать браузеры, играть в игры, распечатывать документы, запускать любимую программу.
+
+Полезные ссылки:
+
+* [Operating System - Overview](https://www.tutorialspoint.com/operating_system/os_overview.htm)
+* [Operating System Concepts](https://codex.cs.yale.edu/avi/os-book/OS10/index.html)
+* [Operating System Basics](https://www.youtube.com/watch?v=9GDX-IyZ_C8)
+
 ### [Управление процессами](https://www.omscs-notes.com/operating-systems/processes-and-process-management/)
 ### [Потоки и многопоточность](https://www.omscs-notes.com/operating-systems/threads-and-concurrency/)
 ### [Управление памятью](https://www.omscs-notes.com/operating-systems/memory-management/)
@@ -486,8 +514,8 @@ HTTP — это протокол прикладного уровня на осн
 
 Смотри также:
 
-[Scalable Architecture: A Definition and How-To Guide](https://www.sentinelone.com/blog/scalable-architecture/)
-[Scaling Distributed Systems - Software Architecture Introduction](https://www.youtube.com/watch?v=gxfERVP18-g)
+* [Scalable Architecture: A Definition and How-To Guide](https://www.sentinelone.com/blog/scalable-architecture/)
+* [Scaling Distributed Systems - Software Architecture Introduction](https://www.youtube.com/watch?v=gxfERVP18-g)
 
 ## [Стратегии миграции](https://theecmconsultant.com/data-migration-strategy)
 
@@ -502,11 +530,11 @@ Graceful degradation часто используется в качестве а�
 
 Посетите следующие ресурсы, если хотите получить больше информации:
 
-[Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
-[Graceful degradation](https://github.com/mercari/production-readiness-checklist/blob/master/docs/concepts/graceful-degradation.md)
-[What is Graceful Degradation & Why Does it Matter?](https://blog.hubspot.com/website/graceful-degradation)
-[Four Considerations When Designing Systems For Graceful Degradation](https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation)
-[The Art of Graceful Degradation](https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
+* [Graceful degradation](https://www.farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
+* [Graceful degradation](https://github.com/mercari/production-readiness-checklist/blob/master/docs/concepts/graceful-degradation.md)
+* [What is Graceful Degradation & Why Does it Matter?](https://blog.hubspot.com/website/graceful-degradation)
+* [Four Considerations When Designing Systems For Graceful Degradation](https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation)
+* [The Art of Graceful Degradation](https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/)
 
 ### [Throttling](https://www.linkedin.com/pulse/web-api-security-dos-ddos-attacks-throttling-waf-houssam-chmouri/)
 ### [Backpressure](https://www.zghurskyi.com/backpressure/), [ссылка 2](https://awesome-architecture.com/back-pressure/)
