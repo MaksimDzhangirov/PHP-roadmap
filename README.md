@@ -155,6 +155,16 @@ HTTP — это протокол прикладного уровня на осн
 * [Operating System Basics](https://www.youtube.com/watch?v=9GDX-IyZ_C8)
 
 ### [Управление процессами](https://www.omscs-notes.com/operating-systems/processes-and-process-management/)
+
+Управление процессами включает в себя различные задачи, такие как создание, диспетчеризация, завершение процессов и решение проблем, связанных с 
+взаимной блокировкой. Процесс — это программа, исполняемая в настоящий момент. Он является важной частью современных операционных систем. ОС должна выделять ресурсы, которые позволяют процессам совместно использовать информацию и обмениваться ею. Она также защищает ресурсы каждого процесса 
+друг от друга и обеспечивает их синхронизацию.
+
+Полезные ссылки:
+
+* [Operating System: Process and Process Management](https://medium.com/@akhandmishra/operating-system-process-and-process-management-108d83e8ce60)
+* [Process Management in OS: PCB in Operating System](https://www.guru99.com/process-management-pcb.html)
+
 ### [Потоки и многопоточность](https://www.omscs-notes.com/operating-systems/threads-and-concurrency/)
 ### [Управление памятью](https://www.omscs-notes.com/operating-systems/memory-management/)
 ### [Межпроцессное взаимодействие](https://www.omscs-notes.com/operating-systems/inter-process-communication/)
