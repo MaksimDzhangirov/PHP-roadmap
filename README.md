@@ -166,7 +166,31 @@ HTTP — это протокол прикладного уровня на осн
 * [Process Management in OS: PCB in Operating System](https://www.guru99.com/process-management-pcb.html)
 
 ### [Потоки и многопоточность](https://www.omscs-notes.com/operating-systems/threads-and-concurrency/)
+
+Поток выполнения — это наименьшая единица обработки, которая может быть выполнена в ОС. В большинстве современных операционных систем поток существует внутри процесса, то есть один процесс может содержать несколько потоков.
+
+Многопоточность характеризуется одновременным выполнением нескольких потоков. Такое происходит в операционной системе, когда несколько потоков процессов выполняются одновременно. Эти потоки могут взаимодействовать друг с другом через общую память или передачу сообщений. Многопоточность приводит к совместному использованию ресурсов, что вызывает такие проблемы, как взаимоблокировки и нехватка ресурсов. Они решаются такими методами, как координация процессов, выделение памяти и планирование выполнения процессов, чтобы максимизировать пропускную способность.
+
+Полезные ссылки:
+
+* [What’s the Diff: Programs, Processes and Threads](https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-threads/)
+* [Concurrency in Operating System](https://www.javatpoint.com/concurrency-in-operating-system)
+* [Intro to Processes & Threads](https://www.youtube.com/watch?v=exbKr6fnoUw)
+* [Introduction to Concurrency](https://www.youtube.com/watch?v=iKtvNJQoCNw)
+* [Concurrency, Threading and Parallelism Explained](https://www.youtube.com/watch?v=olYdb0DdGtM)
+
 ### [Управление памятью](https://www.omscs-notes.com/operating-systems/memory-management/)
+
+Термин "Память" можно определить как набор данных в определенном формате. Она используется для хранения команд и обработки данных. Память состоит из большого массива или группы байтов, каждый из которых имеет свой собственный адрес. Основной задачей компьютерной системы является выполнение программ.
+Эти программы вместе с информацией, к которой они обращаются, во время выполнения должны находиться в оперативной памяти. ЦП извлекает команды из памяти в соответствии со значением счетчика команд.
+
+Для достижения определенной степени многозадачности и правильного использования памяти важно управление памятью. Существует несколько методов управления памятью, отражающих различные подходы, и эффективность каждого алгоритма зависит от ситуации.
+
+Полезные ссылки:
+
+* [Demystifying memory management in modern programming languages](https://dev.to/deepu105/demystifying-memory-management-in-modern-programming-languages-ddd)
+* [Memory Management in Operating System](https://www.geeksforgeeks.org/memory-management-in-operating-system/)
+
 ### [Межпроцессное взаимодействие](https://www.omscs-notes.com/operating-systems/inter-process-communication/)
 ### [Управление вводом/выводом](https://www.omscs-notes.com/operating-systems/io-management/)
 ### [Основы POSIX](https://losst.ru/chto-takoe-posix) ([stdin, stdout, stderr](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8), [pipes](https://sodocumentation.net/posix/topic/8082/pipes))
