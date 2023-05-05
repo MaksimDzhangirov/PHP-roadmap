@@ -192,9 +192,46 @@ HTTP — это протокол прикладного уровня на осн
 * [Memory Management in Operating System](https://www.geeksforgeeks.org/memory-management-in-operating-system/)
 
 ### [Межпроцессное взаимодействие](https://www.omscs-notes.com/operating-systems/inter-process-communication/)
+
+Межпроцессное взаимодействие (IPC) относится конкретно к механизмам, которые предоставляет операционная система, позволяющим процессам управлять общими данными.
+
+Полезные ссылки:
+
+* [Interprocess Communication](https://www.geeksforgeeks.org/inter-process-communication-ipc/)
+* [Interprocess Communication - Neso Academy](https://www.youtube.com/watch?v=dJuYKfR8vec)
+
 ### [Управление вводом/выводом](https://www.omscs-notes.com/operating-systems/io-management/)
+
+Одной из важных задач операционной системы является управление различными устройствами ввода-вывода, включая мышь, клавиатуру, сенсорную панель, дисковые и твердотельные накопители, адаптеры дисплея, USB-устройства, экраны с растровым отображением, светодиоды, аналого-цифровые преобразователи, коммутаторы, сетевые подключения, аудиовходы/выходы, принтеры и т. д.
+
+Полезные ссылки:
+
+* [Operating System - I/O Hardware](https://www.tutorialspoint.com/operating_system/os_io_hardware.htm)
+* [Basics of OS (I/O Structure)](https://www.youtube.com/watch?v=F18RiREDkwE)
+
 ### [Основы POSIX](https://losst.ru/chto-takoe-posix) ([stdin, stdout, stderr](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8), [pipes](https://sodocumentation.net/posix/topic/8082/pipes))
+
+POSIX (Portable Operating System Interface — переносимый интерфейс операционных систем) — это набор стандартов для обеспечения совместимости между операционными системами. В нём описываются утилиты, API и службы, которые совместимая ОС должна предоставлять программному обеспечению, что упрощает перенос программ из одной системы в другую.
+
+Практический пример: в Unix-подобной операционной системе существует три **стандартных потока**, `stdin`, `stdout` и `stderr` — это подключения ввода/вывода, с которыми вы, вероятно, столкнетесь при использовании терминала, поскольку они управляют потоком из *стандартного ввода* (stdin), *стандартного вывода* (stdout) и *стандартной ошибки* (stderr).
+
+Таким образом, когда мы хотим взаимодействовать с любым из этих потоков (например, через процесс), API POSIX операционной системы позволяет упростить этот процесс — например, в библиотеке на языке C `<unistd.h>` stdin, stderr и stdout определены как `STDIN_FILENO`, `STDERR_FILENO` и `STDOUT_FILENO`.
+
+POSIX также внедряет стандарт для кодов завершения программы, семантики файловой системы и нескольких других общепринятых API соглашений для утилит командной строки.
+
+Полезные ссылки:
+
+* [POSIX standard by IEEE](https://pubs.opengroup.org/onlinepubs/9699919799/)
+* [Summary of some POSIX implementations](https://unix.stackexchange.com/a/220877)
+* [A guide to POSIX](https://www.baeldung.com/linux/posix)
+
 ### [Основные прицнипы работы компьютерной сети](http://www.steves-internet-guide.com/networking/)
+
+Компьютерная сеть представляет собой связанные друг с другом вычислительные устройства, которые могут обмениваться данными и совместно использовать ресурсы. Устройства, входящие в сеть, используют систему правил (коммуникационные протоколы), для передачи информации с помощью физических или беспроводных технологий.
+
+Полезные ссылки:
+
+* [What is Computer Networking?](https://aws.amazon.com/what-is/computer-networking/)
 
 1. Эндрю С. Таненбаум Современные операционные системы: [пер. с англ.]: Питер, 2011.
 
