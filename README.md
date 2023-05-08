@@ -233,6 +233,8 @@ POSIX также внедряет стандарт для кодов завер�
 
 * [What is Computer Networking?](https://aws.amazon.com/what-is/computer-networking/)
 
+---------------------------------------------------------------------------
+
 1. Эндрю С. Таненбаум Современные операционные системы: [пер. с англ.]: Питер, 2011.
 
 ## Основы языка PHP
@@ -313,8 +315,70 @@ POSIX также внедряет стандарт для кодов завер�
 ### [Blackfire](https://www.blackfire.io/php)
 
 ## Системы контроля версий
+
+Системы контроля версий/исходного кода позволяют разработчикам отслеживать и контролировать изменения в коде с течением времени. Эти системы часто включают в себя возможность вносить атомарные изменения в код, осуществлять ветвление в определенных точек и сравнивать версий кода. Они позволяют определять кто, что, когда и почему были внесены изменения в код.
+
+Полезные ссылки:
+
+* [Git](https://git-scm.com/)
+* [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
+
 ### [Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-### [Сервисы для хранения репозиториев](https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F) ([Github](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/))
+
+[Git](https://git-scm.com/) — это бесплатная распределенная система контроля версиями с открытым исходным кодом, предназначенная для быстрой и эффективной работы с любыми проектами, от небольших до очень крупных.
+
+Полезные ссылки:
+
+* [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+* [Learn Git with Tutorials, News and Tips - Atlassian](https://www.atlassian.com/git)
+* [Git Cheat Sheet](https://cs.fyi/guide/git-cheatsheet)
+
+### [Сервисы для хранения репозиториев](https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)
+
+Работая в команде, вам часто бывает необходим отдельный удаленный сервер для размещения вашего кода, чтобы другие члены могли получить к нему доступ, добавлять свои собственные ветки и создавать или просматривать пул-реквесты. Эти сервисы часто включают в себя механизмы для отслеживания ошибок, ревью кода и функционал для непрерывной интеграции. Наиболее популярными вариантами являются: GitHub, GitLab, BitBucket и AWS CodeCommit.
+
+Полезные ссылки:
+
+* [GitHub](https://github.com/features/)
+* [GitLab](https://about.gitlab.com/)
+* [BitBucket](https://bitbucket.org/product/guides/getting-started/overview)
+* [How to choose the best source code repository](https://bitbucket.org/product/code-repository)
+
+#### [Github](https://github.com/)
+
+GitHub — это провайдер интернет-хостинга для разработки программного обеспечения и контроля версий с использованием Git. Он предоставляет весь Git функционал в плане распределенной системы контроля и управления исходным кодом, а также обладает рядом индивидуальных, своих собственных возможностей.
+
+Полезные ссылки:
+
+* [GitHub Website](https://github.com/)
+* [GitHub Documentation](https://docs.github.com/en/get-started/quickstart)
+* [How to Use Git in a Professional Dev Team](https://ooloo.io/project/github-flow)
+* [What is GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+* [Git vs. GitHub: Whats the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU)
+* [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk)
+* [Git and GitHub - CS50 Beyond 2019](https://www.youtube.com/watch?v=eulnSXkhE7I)
+
+#### [GitLab](https://about.gitlab.com/)
+
+GitLab — провайдер интернет-хостинга для разработки программного обеспечения и контроля версий с использованием Git. Он предоставляет весь Git функционал в плане распределенной системы контроля и управления исходным кодом плюс ряд только ему присущих возможностей.
+
+* [GitLab Website](https://gitlab.com/)
+* [GitLab Documentation](https://docs.gitlab.com/)
+
+#### [Bitbucket](https://bitbucket.org/)
+
+Bitbucket — это сервис для размещения и хранения исходного кода на основе Git, который является альтернативой, разработанной Atlassian, другим продуктам, таким как GitHub, GitLab и т. д.
+
+Bitbucket предлагает следующие варианты хостинга: Bitbucket Cloud (серверы Atlassian), Bitbucket Server (локально у клиента) или Bitbucket Data Center (группа серверов в локальной или облачной среде клиента).
+
+Полезные ссылки:
+
+* [Bitbucket Website](https://bitbucket.org/product)
+* [Getting started with Bitbucket](https://bitbucket.org/product/guides/basics/bitbucket-interface)
+* [Using Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+* [A brief overview of Bitbucket](https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket)
+* [Bitbucket tutorial | How to use Bitbucket Cloud](https://www.youtube.com/watch?v=M44nEyd_5To)
+* [Bitbucket Tutorial | Bitbucket for Beginners](https://www.youtube.com/watch?v=i5T-DB8tb4A)
 
 ## Базы данных
 ### [Реляционные базы данных](https://aws.amazon.com/ru/relational-database/)
