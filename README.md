@@ -382,16 +382,40 @@ Bitbucket предлагает следующие варианты хостин�
 
 ## Базы данных
 ### [Реляционные базы данных](https://aws.amazon.com/ru/relational-database/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [MySQL](https://www.mysql.com/)
-* [MariaDB](https://mariadb.org/)
-* [MS SQL](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server)
-* [Oracle](https://www.oracle.com/database/)
+
+Реляционная база данных — это тип базы данных, которая хранит и предоставляет доступ к данным, связанным друг с другом. Реляционные базы данных хранят данные в виде набора таблиц. Связи между таблицами определяются в виде внешних ключей. Внешний ключ — это уникальная ссылка из одной строки на другую строку в этой же или чаще всего другой таблице.
+
+Полезные ссылки:
+
+* [Relational Databases](https://www.ibm.com/cloud/learn/relational-databases)
+* [51 Years of Relational Databases](https://learnsql.com/blog/codd-article-databases/)
+* [Databases and SQL](https://www.edx.org/course/databases-5-sql)
+* [Intro To Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197)
+* [What is Relational Database](https://youtu.be/OqjJjpjDRLc)
+
+#### [PostgreSQL](https://www.postgresql.org/)
+#### [MySQL](https://www.mysql.com/)
+#### [MariaDB](https://mariadb.org/)
+#### [MS SQL](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server)
+#### [Oracle](https://www.oracle.com/database/)
+
 ### [NoSQL базы данных](https://aws.amazon.com/ru/nosql/)
-* [Документоориентированная](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A1%D0%A3%D0%91%D0%94) [MongoDB](https://ru.wikipedia.org/wiki/MongoDB), [CouchDB](https://ru.wikipedia.org/wiki/CouchDB)
-* [Семейство столбцов](https://ru.wikipedia.org/wiki/NoSQL#%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE_%D1%81%D1%82%D0%BE%D0%BB%D0%B1%D1%86%D0%BE%D0%B2) [Cassandra](https://ru.wikipedia.org/wiki/Apache_Cassandra)
-* [База данных временных рядов](https://en.wikipedia.org/wiki/Time_series_database) [InfluxDB](https://www.influxdata.com/) [TimescaleDB](https://www.timescale.com/)
-* [Синхронизация данных в реальном времени](https://firebase.google.com/docs/database?hl=ru) [Firebase](https://webkyrs.info/page/chto-takoe-firebase-realtime-database), [RethinkDB](https://ru.wikipedia.org/wiki/RethinkDB)
+
+NoSQL базы данных предлагают хранить и извлекать данные иначе, чем «традиционные» реляционные базы данных. Базы данных NoSQL обычно больше ориентированы на горизонтальное масштабирование, согласованность в конечном счёте, скорость и гибкость и обычно используются для приложений с большим объёмом данных и потоковых приложений в реальном времени. NoSQL часто называют BASE (**B**asically **A**vailable (Базовая доступность), **S**oft-state (Неустойчивое состояние), **E**ventually consistent (Согласованность в конечном счёте)) системами и они являются противоположностью SQL/реляционным системам, где основопологающим является принцип ACID (**A**tomicity (Атомарность), **C**onsistency (Согласованность), **I**solation (Изоляция), **D**urability (Устойчивость)). Чаще всего в NoSQL используются следующие структуры для хранения данных: пара «ключ‑значение», «семейство столбцов», граф и документ.
+
+Полезные ссылки:
+
+* [NoSQL Explained](https://www.mongodb.com/nosql-explained)
+* [How do NoSQL Databases work](https://www.youtube.com/watch?v=0buKQHokLK8)
+* [SQL vs NoSQL Explained](https://www.youtube.com/watch?v=ruz-vK8IesE)
+
+#### [Документоориентированная](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A1%D0%A3%D0%91%D0%94) [MongoDB](https://ru.wikipedia.org/wiki/MongoDB), [CouchDB](https://ru.wikipedia.org/wiki/CouchDB)
+#### [Семейство столбцов](https://ru.wikipedia.org/wiki/NoSQL#%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE_%D1%81%D1%82%D0%BE%D0%BB%D0%B1%D1%86%D0%BE%D0%B2) [Cassandra](https://ru.wikipedia.org/wiki/Apache_Cassandra)
+#### [База данных временных рядов](https://wiki.merionet.ru/servernye-resheniya/110/chto-takoe-bazy-dannyh-vremennyh-ryadov/) [InfluxDB](https://www.influxdata.com/) [TimescaleDB](https://www.timescale.com/)
+#### [База данных с синхронизацией в реальном времени](https://firebase.google.com/docs/database?hl=ru) [Firebase](https://webkyrs.info/page/chto-takoe-firebase-realtime-database), [RethinkDB](https://ru.wikipedia.org/wiki/RethinkDB)
+#### [Графовая](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D1%84%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) [Neo4j](https://ru.wikipedia.org/wiki/Neo4j)
+#### [«Ключ — значение»](https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%C2%AB%D0%BA%D0%BB%D1%8E%D1%87_%E2%80%94_%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%C2%BB) [Redis](https://ru.wikipedia.org/wiki/Redis), [DynamoDB](https://ru.wikipedia.org/wiki/DynamoDB)
+
 ### Теоретические основы
 * [ORM](https://ru.wikipedia.org/wiki/ORM)
 * [ACID](https://ru.wikipedia.org/wiki/ACID)
