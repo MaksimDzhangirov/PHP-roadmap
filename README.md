@@ -103,16 +103,17 @@ HTTP — это протокол прикладного уровня на осн
 * [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8&ab_channel=CrashCourse)
 * [Introduction to Operating System](https://www.youtube.com/watch?v=vBURTt97EkA&list=PL9hkZBQk8d1zEGbY7ShWCZ2n1gtxqkRrS&index=1)
 
-### [Использование терминала](https://www.cs.cmu.edu/~15131/f17/topics/terminal-usage/)
+### Использование терминала
 
 Терминал (командная строка или консоль) позволяет нам выполнять и автоматизировать задачи на компьютере без использования графического пользовательского интерфейса.
 
 Полезные ссылки:
 
+* [Terminal Usage](https://www.cs.cmu.edu/~15131/f17/topics/terminal-usage/)
 * [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
 * [Basic Terminal Usage - Cheat Sheet to make the command line EASY](https://www.youtube.com/watch?v=jDINUSK7rXE)
 
-#### [Базовые команды терминала](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line):
+#### Базовые команды терминала
 
 Работать в терминале любому Backend-разработчику приходится практически ежедневно. Существует множество команд и утилит, которые могут помочь вам более эффективно выполнять свои задачи.
 
@@ -138,23 +139,25 @@ HTTP — это протокол прикладного уровня на осн
 
 Полезные ссылки:
 
+* [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
 * [40 Basic Linux Commands](https://www.hostinger.com/tutorials/linux-commands)
 * [A collection of modern/faster/saner alternatives to common unix commands](https://github.com/ibraheemdev/modern-unix)
 * [Command Line Tutorial](https://www.learnenough.com/command-line-tutorial)
 * [Commandline Challenge](https://cmdchallenge.com/)
 * [The 50 Most Popular Linux & Terminal Commands (with timestamps)](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
 
-### [Общий принцип работы ОС](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+### Общий принцип работы ОС
 
 Операционная система — это основная программа на компьютере, которая управляет всеми другими приложениями. Она позволяет использовать браузеры, играть в игры, распечатывать документы, запускать любимую программу.
 
 Полезные ссылки:
 
+* [What is an operating system?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 * [Operating System - Overview](https://www.tutorialspoint.com/operating_system/os_overview.htm)
 * [Operating System Concepts](https://codex.cs.yale.edu/avi/os-book/OS10/index.html)
 * [Operating System Basics](https://www.youtube.com/watch?v=9GDX-IyZ_C8)
 
-### [Управление процессами](https://www.omscs-notes.com/operating-systems/processes-and-process-management/)
+### Управление процессами
 
 Управление процессами включает в себя различные задачи, такие как создание, диспетчеризация, завершение процессов и решение проблем, связанных с 
 взаимной блокировкой. Процесс — это программа, исполняемая в настоящий момент. Он является важной частью современных операционных систем. ОС должна выделять ресурсы, которые позволяют процессам совместно использовать информацию и обмениваться ею. Она также защищает ресурсы каждого процесса 
@@ -162,10 +165,11 @@ HTTP — это протокол прикладного уровня на осн
 
 Полезные ссылки:
 
+* [Processes and Process Management](https://www.omscs-notes.com/operating-systems/processes-and-process-management/)
 * [Operating System: Process and Process Management](https://medium.com/@akhandmishra/operating-system-process-and-process-management-108d83e8ce60)
 * [Process Management in OS: PCB in Operating System](https://www.guru99.com/process-management-pcb.html)
 
-### [Потоки и многопоточность](https://www.omscs-notes.com/operating-systems/threads-and-concurrency/)
+### Потоки и многопоточность
 
 Поток выполнения — это наименьшая единица обработки, которая может быть выполнена в ОС. В большинстве современных операционных систем поток существует внутри процесса, то есть один процесс может содержать несколько потоков.
 
@@ -173,13 +177,14 @@ HTTP — это протокол прикладного уровня на осн
 
 Полезные ссылки:
 
+* [Threads And Concurrency](https://www.omscs-notes.com/operating-systems/threads-and-concurrency/)
 * [What’s the Diff: Programs, Processes and Threads](https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-threads/)
 * [Concurrency in Operating System](https://www.javatpoint.com/concurrency-in-operating-system)
 * [Intro to Processes & Threads](https://www.youtube.com/watch?v=exbKr6fnoUw)
 * [Introduction to Concurrency](https://www.youtube.com/watch?v=iKtvNJQoCNw)
 * [Concurrency, Threading and Parallelism Explained](https://www.youtube.com/watch?v=olYdb0DdGtM)
 
-### [Управление памятью](https://www.omscs-notes.com/operating-systems/memory-management/)
+### Управление памятью
 
 Термин "Память" можно определить как набор данных в определенном формате. Она используется для хранения команд и обработки данных. Память состоит из большого массива или группы байтов, каждый из которых имеет свой собственный адрес. Основной задачей компьютерной системы является выполнение программ.
 Эти программы вместе с информацией, к которой они обращаются, во время выполнения должны находиться в оперативной памяти. ЦП извлекает команды из памяти в соответствии со значением счетчика команд.
@@ -188,28 +193,31 @@ HTTP — это протокол прикладного уровня на осн
 
 Полезные ссылки:
 
+* [Memory Management](https://www.omscs-notes.com/operating-systems/memory-management/)
 * [Demystifying memory management in modern programming languages](https://dev.to/deepu105/demystifying-memory-management-in-modern-programming-languages-ddd)
 * [Memory Management in Operating System](https://www.geeksforgeeks.org/memory-management-in-operating-system/)
 
-### [Межпроцессное взаимодействие](https://www.omscs-notes.com/operating-systems/inter-process-communication/)
+### Межпроцессное взаимодействие
 
 Межпроцессное взаимодействие (IPC) относится конкретно к механизмам, которые предоставляет операционная система, позволяющим процессам управлять общими данными.
 
 Полезные ссылки:
 
+* [Inter-Process Communication](https://www.omscs-notes.com/operating-systems/inter-process-communication/)
 * [Interprocess Communication](https://www.geeksforgeeks.org/inter-process-communication-ipc/)
 * [Interprocess Communication - Neso Academy](https://www.youtube.com/watch?v=dJuYKfR8vec)
 
-### [Управление вводом/выводом](https://www.omscs-notes.com/operating-systems/io-management/)
+### Управление вводом/выводом
 
 Одной из важных задач операционной системы является управление различными устройствами ввода-вывода, включая мышь, клавиатуру, сенсорную панель, дисковые и твердотельные накопители, адаптеры дисплея, USB-устройства, экраны с растровым отображением, светодиоды, аналого-цифровые преобразователи, коммутаторы, сетевые подключения, аудиовходы/выходы, принтеры и т. д.
 
 Полезные ссылки:
 
+* [IO Management](https://www.omscs-notes.com/operating-systems/io-management/)
 * [Operating System - I/O Hardware](https://www.tutorialspoint.com/operating_system/os_io_hardware.htm)
 * [Basics of OS (I/O Structure)](https://www.youtube.com/watch?v=F18RiREDkwE)
 
-### [Основы POSIX](https://losst.ru/chto-takoe-posix) ([stdin, stdout, stderr](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8), [pipes](https://sodocumentation.net/posix/topic/8082/pipes))
+### Основы POSIX (stdin, stdout, stderr, pipes)
 
 POSIX (Portable Operating System Interface — переносимый интерфейс операционных систем) — это набор стандартов для обеспечения совместимости между операционными системами. В нём описываются утилиты, API и службы, которые совместимая ОС должна предоставлять программному обеспечению, что упрощает перенос программ из одной системы в другую.
 
@@ -221,16 +229,20 @@ POSIX также внедряет стандарт для кодов завер�
 
 Полезные ссылки:
 
+* [Что такое POSIX?](https://losst.ru/chto-takoe-posix)
+* [Стандартные потоки](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8)
+* [Pipes](https://sodocumentation.net/posix/topic/8082/pipes)
 * [POSIX standard by IEEE](https://pubs.opengroup.org/onlinepubs/9699919799/)
 * [Summary of some POSIX implementations](https://unix.stackexchange.com/a/220877)
 * [A guide to POSIX](https://www.baeldung.com/linux/posix)
 
-### [Основные прицнипы работы компьютерной сети](http://www.steves-internet-guide.com/networking/)
+### Основные прицнипы работы компьютерной сети
 
 Компьютерная сеть представляет собой связанные друг с другом вычислительные устройства, которые могут обмениваться данными и совместно использовать ресурсы. Устройства, входящие в сеть, используют систему правил (коммуникационные протоколы), для передачи информации с помощью физических или беспроводных технологий.
 
 Полезные ссылки:
 
+* [Basic Networking Concepts-Beginners Guide](http://www.steves-internet-guide.com/networking/)
 * [What is Computer Networking?](https://aws.amazon.com/what-is/computer-networking/)
 
 ---------------------------------------------------------------------------
@@ -323,28 +335,30 @@ POSIX также внедряет стандарт для кодов завер�
 * [Git](https://git-scm.com/)
 * [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
-### [Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+### Git
 
 [Git](https://git-scm.com/) — это бесплатная распределенная система контроля версиями с открытым исходным кодом, предназначенная для быстрой и эффективной работы с любыми проектами, от небольших до очень крупных.
 
 Полезные ссылки:
 
+* [Getting Started - About Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 * [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 * [Learn Git with Tutorials, News and Tips - Atlassian](https://www.atlassian.com/git)
 * [Git Cheat Sheet](https://cs.fyi/guide/git-cheatsheet)
 
-### [Сервисы для хранения репозиториев](https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)
+### Сервисы для хранения репозиториев
 
 Работая в команде, вам часто бывает необходим отдельный удаленный сервер для размещения вашего кода, чтобы другие члены могли получить к нему доступ, добавлять свои собственные ветки и создавать или просматривать пул-реквесты. Эти сервисы часто включают в себя механизмы для отслеживания ошибок, ревью кода и функционал для непрерывной интеграции. Наиболее популярными вариантами являются: GitHub, GitLab, BitBucket и AWS CodeCommit.
 
 Полезные ссылки:
 
+* [Сравнение хостингов для проектов свободного программного обеспечения](https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)
 * [GitHub](https://github.com/features/)
 * [GitLab](https://about.gitlab.com/)
 * [BitBucket](https://bitbucket.org/product/guides/getting-started/overview)
 * [How to choose the best source code repository](https://bitbucket.org/product/code-repository)
 
-#### [Github](https://github.com/)
+#### Github
 
 GitHub — это провайдер интернет-хостинга для разработки программного обеспечения и контроля версий с использованием Git. Он предоставляет весь Git функционал в плане распределенной системы контроля и управления исходным кодом, а также обладает рядом индивидуальных, своих собственных возможностей.
 
@@ -358,14 +372,14 @@ GitHub — это провайдер интернет-хостинга для р
 * [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk)
 * [Git and GitHub - CS50 Beyond 2019](https://www.youtube.com/watch?v=eulnSXkhE7I)
 
-#### [GitLab](https://about.gitlab.com/)
+#### GitLab
 
 GitLab — провайдер интернет-хостинга для разработки программного обеспечения и контроля версий с использованием Git. Он предоставляет весь Git функционал в плане распределенной системы контроля и управления исходным кодом плюс ряд только ему присущих возможностей.
 
 * [GitLab Website](https://gitlab.com/)
 * [GitLab Documentation](https://docs.gitlab.com/)
 
-#### [Bitbucket](https://bitbucket.org/)
+#### Bitbucket
 
 Bitbucket — это сервис для размещения и хранения исходного кода на основе Git, который является альтернативой, разработанной Atlassian, другим продуктам, таким как GitHub, GitLab и т. д.
 
@@ -381,80 +395,120 @@ Bitbucket предлагает следующие варианты хостин�
 * [Bitbucket Tutorial | Bitbucket for Beginners](https://www.youtube.com/watch?v=i5T-DB8tb4A)
 
 ## Базы данных
-### [Реляционные базы данных](https://aws.amazon.com/ru/relational-database/)
+### Реляционные базы данных
 
 Реляционная база данных — это тип базы данных, которая хранит и предоставляет доступ к данным, связанным друг с другом. Реляционные базы данных хранят данные в виде набора таблиц. Связи между таблицами определяются с помощью внешних ключей. Внешний ключ — это уникальная ссылка из одной строки на другую строку в этой же или чаще всего другой таблице.
 
 Полезные ссылки:
 
+* [Что такое реляционная база данных?](https://aws.amazon.com/ru/relational-database/)
 * [Relational Databases](https://www.ibm.com/cloud/learn/relational-databases)
 * [51 Years of Relational Databases](https://learnsql.com/blog/codd-article-databases/)
 * [Databases and SQL](https://www.edx.org/course/databases-5-sql)
 * [Intro To Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 * [What is Relational Database](https://youtu.be/OqjJjpjDRLc)
 
-#### [PostgreSQL](https://www.postgresql.org/)
+#### PostgreSQL
 
 PostgreSQL или Postgres, представляет собой бесплатную систему управления реляционными базами данных с открытым исходным кодом, в которой особое внимание уделяется расширяемости и совместимости с SQL.
 
 Полезные ссылки:
 
+* [PostgreSQL site](https://www.postgresql.org/)
 * [Visit Dedicated PostgreSQL DBA Roadmap](https://roadmap.sh/postgresql-dba)
 * [What is PostgreSQL](https://www.geeksforgeeks.org/what-is-postgresql-introduction/)
 * [Learn PostgreSQL - Full Tutorial for Beginners](https://www.postgresqltutorial.com/)
 * [Learn PostgreSQL Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=qw--VYLpxG4)
 * [Postgres tutorial for Beginners](https://www.youtube.com/watch?v=eMIxuk0nOkU)
 
-#### [MySQL](https://www.mysql.com/)
+#### MySQL
 
 MySQL — очень популярная система управления реляционными базами данных (RDBMS) с открытым исходным кодом. MySQL можно использовать как отдельный клиент или в сочетании с другими сервисами для подключения к базе данных. M в стеке LAMP означает MySQL; уже одно это должно дать представление о её распространенности.
 
 Полезные ссылки:
 
+* [MySQL site](https://www.mysql.com/)
 * [W3Schools - MySQL tutorial](https://www.w3schools.com/mySQl/default.asp)
 * [MySQL tutorial for beginners](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 
-#### [MariaDB](https://mariadb.org/)
+#### MariaDB
 
 MariaDB сервер — это ответвление MySQL сервера, разработанное сообществом. Основанная ключевыми членами оригинальной команды MySQL, MariaDB активно работает со сторонними разработчиками, чтобы создать стабильный, с наибольшими функциональными возможностями, с разумным подходом к лицензированию SQL-сервер с открытым исходным кодом в отрасли. MariaDB была создана с намерением стать более универсальной версией MySQL с возможностью замены налету с минимальными исправлениями.
 
 Полезные ссылки:
 
+* [MariaDB site](https://mariadb.org/)
 * [MariaDB vs MySQL](https://www.guru99.com/mariadb-vs-mysql.html)
 * [W3Schools - MariaDB tutorial](https://www.w3schools.blog/mariadb-tutorial)
 * [MariaDB Tutorial For Beginners in One Hour](https://www.youtube.com/watch?v=_AMj02sANpI)
 
-#### [MS SQL](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server)
+#### MS SQL
 
 MS SQL (или Microsoft SQL Server) — это разработанная Microsoft система управления реляционными базами данных (RDBMS). MS SQL использует язык запросов T-SQL (Transact-SQL) для взаимодействия с реляционными базами данных. Существует множество различных версий и редакций MS SQL.
 
 Полезные ссылки:
 
 * [MS SQL website](https://www.microsoft.com/en-ca/sql-server/)
+* [MS SQL Википедия](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server)
 * [Tutorials for SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-server-2016?view=sql-server-ver15)
 * [SQL Server tutorial for beginners](https://www.youtube.com/watch?v=-EPMOaV7h_Q)
 
-#### [Oracle](https://www.oracle.com/database/)
+#### Oracle
 
 Сервер базы данных Oracle, Oracle RDBMS или просто Oracle, является ведущей в мире системой управления реляционными базами данных, созданной корпорацией Oracle.
 
 Полезные ссылки:
 
+* [Oracle site](https://www.oracle.com/database/)
 * [Official Docs](https://docs.oracle.com/en/database/index.html)
 * [Oracle SQL Tutorial for Beginners](https://www.youtube.com/watch?v=ObbNGhcxXJA)
 
-### [NoSQL базы данных](https://aws.amazon.com/ru/nosql/)
+### NoSQL базы данных
 
-NoSQL базы данных предлагают хранить и извлекать данные иначе, чем «традиционные» реляционные базы данных. Базы данных NoSQL обычно больше ориентированы на горизонтальное масштабирование, согласованность в конечном счёте, скорость и гибкость и чаще всего используются для приложений с большим объёмом данных и потоковых приложений в реальном времени. NoSQL часто называют BASE (**B**asically **A**vailable (Базовая доступность), **S**oft-state (Неустойчивое состояние), **E**ventually consistent (Согласованность в конечном счёте)) системами и они являются противоположностью SQL/реляционным системам, где основопологающим является принцип ACID (**A**tomicity (Атомарность), **C**onsistency (Согласованность), **I**solation (Изоляция), **D**urability (Устойчивость)). Чаще всего в NoSQL используются следующие структуры для хранения данных: пара «ключ‑значение», «семейство столбцов», граф и документ.
+NoSQL базы данных предлагают хранить и извлекать данные иначе, чем «традиционные» реляционные базы данных. Базы данных NoSQL обычно больше ориентированы на горизонтальное масштабирование, согласованность в конечном счёте, скорость и гибкость и чаще всего используются для приложений с большим объёмом данных и потоковых приложений в реальном времени. NoSQL часто называют BASE (**B**asically **A**vailable (Базовая доступность), **S**oft-state (Неустойчивое состояние), **E**ventually consistent (Согласованность в конечном счёте)) системами и они являются противоположностью SQL/реляционным системам, где основопологающим является принцип ACID (**A**tomicity (Атомарность), **C**onsistency (Согласованность), **I**solation (Изоляция), **D**urability (Устойчивость)). Чаще всего в NoSQL используются следующие структуры для хранения данных: пара «ключ‑значение», «широкий столбец», граф и документ.
 
 Полезные ссылки:
 
+* [Что такое базы данных NoSQL?](https://aws.amazon.com/ru/nosql/)
 * [NoSQL Explained](https://www.mongodb.com/nosql-explained)
 * [How do NoSQL Databases work](https://www.youtube.com/watch?v=0buKQHokLK8)
 * [SQL vs NoSQL Explained](https://www.youtube.com/watch?v=ruz-vK8IesE)
 
-#### [Документоориентированная](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A1%D0%A3%D0%91%D0%94) [MongoDB](https://ru.wikipedia.org/wiki/MongoDB), [CouchDB](https://ru.wikipedia.org/wiki/CouchDB)
-#### [Семейство столбцов](https://ru.wikipedia.org/wiki/NoSQL#%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE_%D1%81%D1%82%D0%BE%D0%BB%D0%B1%D1%86%D0%BE%D0%B2) [Cassandra](https://ru.wikipedia.org/wiki/Apache_Cassandra)
+#### Документоориентированная MongoDB, CouchDB
+
+MongoDB — это кросс-платформенная, документоориентированная система управления базами данных с открытым исходным кодом. MongoDB относится к
+NoSQL системам управления базами данных и использует JSON-подобные документы с произвольной структурой. MongoDB разработана MongoDB Inc. и распространяется под лицензией Server Side Public License (SSPL).
+
+Полезные ссылки:
+
+* [Документоориентированная СУБД](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A1%D0%A3%D0%91%D0%94)
+* [MongoDB Википедия](https://ru.wikipedia.org/wiki/MongoDB)
+* [CouchDB Википедия](https://ru.wikipedia.org/wiki/CouchDB)
+* [MongoDB Website](https://www.mongodb.com/)
+* [MongoDB Documentation](https://docs.mongodb.com/)
+* [MongoDB Online Sandbox](https://mongoplayground.net/)
+* [Learning Path for MongoDB Developers](https://learn.mongodb.com/catalog)
+* [Dynamo DB Docs](https://docs.aws.amazon.com/dynamodb/index.html)
+* [Official Developers Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+
+#### База данных с «широкими столбцами» Cassandra, HBase
+
+База данных с «широкими столбцами» (иногда называемая колоночной, столбчатой) похожа на реляционные БД. Как и реляционные, она хранит данные,
+в таблицах, строках и столбцах. Однако в отличие от реляционных баз данных здесь каждая строка может иметь разные названия и формат столбцов.
+Столбчатую БД можно считать двумерной базой данных типа «ключ-значение». Одной из таких СУБД является **Apache Cassandra**.
+
+БД с «широкими столбцами» поддерживающими «семейства столбцов», также называют базами данных «семейства столбцов».
+
+**Замечание**. Не путайте столбчатые БД с [столбцовыми БД](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE%D0%BB%D0%B1%D1%86%D0%BE%D0%B2%D0%BE%D0%B5_%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5). Это два разные понятия!
+
+Полезные ссылки:
+
+* [База данных с «широкими столбцами»](https://aws.amazon.com/ru/nosql/columnar/)
+* [Cassandra Википедия](https://ru.wikipedia.org/wiki/Apache_Cassandra)
+* [Apache Cassandra](https://cassandra.apache.org/_/index.html)
+* [Apache Cassandra Database - Full Course for Beginners](https://www.youtube.com/watch?v=J-cSy5MeMOA)
+* [HBase Википедия](https://ru.wikipedia.org/wiki/HBase)
+
 #### [База данных временных рядов](https://wiki.merionet.ru/servernye-resheniya/110/chto-takoe-bazy-dannyh-vremennyh-ryadov/) [InfluxDB](https://www.influxdata.com/) [TimescaleDB](https://www.timescale.com/)
 #### [База данных с синхронизацией в реальном времени](https://firebase.google.com/docs/database?hl=ru) [Firebase](https://webkyrs.info/page/chto-takoe-firebase-realtime-database), [RethinkDB](https://ru.wikipedia.org/wiki/RethinkDB)
 #### [Графовая](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D1%84%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) [Neo4j](https://ru.wikipedia.org/wiki/Neo4j)
@@ -496,12 +550,10 @@ NoSQL базы данных предлагают хранить и извлек�
 ## Кэширование
 ### [CDN](https://ru.wikipedia.org/wiki/Content_Delivery_Network)
 ### [Кэш на серверном уровне](https://tproger.ru/translations/cache-levels-on-the-web/)
-#### используя Redis
-#### используя Memcached
 ### [Кэш на клиентском уровне](https://tproger.ru/translations/cache-levels-on-the-web/)
 ### [Кэш на уровне приложения](https://tproger.ru/translations/cache-levels-on-the-web/)
-* [Redis](https://redis.io/)
-* [Memcached](https://memcached.org/)
+* [используя Redis](https://redis.io/)
+* [используя Memcached](https://memcached.org/)
 
 ## Безопасность в сети
 ### [Алгоритмы хеширования](https://blog.jscrambler.com/hashing-algorithms)
@@ -600,6 +652,8 @@ NoSQL базы данных предлагают хранить и извлек�
 ## [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
 ## [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
 ## [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
+## [CQRS](https://martinfowler.com/bliki/CQRS.html)
+## [Генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
 
 ## Виды архитектур приложений
 ## [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
@@ -653,7 +707,6 @@ NoSQL базы данных предлагают хранить и извлек�
 46. [microservices.io](https://microservices.io/)
 
 ## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
-## [CQRS](https://martinfowler.com/bliki/CQRS.html) и [генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
 ## [Serverless-архитектура](https://martinfowler.com/articles/serverless.html)
 ## [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
 ## [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
@@ -676,6 +729,7 @@ NoSQL базы данных предлагают хранить и извлек�
 ### [Kafka](https://ru.wikipedia.org/wiki/Apache_Kafka)
 
 ## Контейнеризация или виртуализация
+### Kubernetes
 ### [Docker](https://ru.wikipedia.org/wiki/Docker)
 ### [rkt](https://ru.bmstu.wiki/Rocket_(rkt))
 ### [LXC](https://ru.wikipedia.org/wiki/LXC)
@@ -685,13 +739,12 @@ NoSQL базы данных предлагают хранить и извлек�
 ### [Apollo](https://www.apollographql.com/)
 ### [Relay Modern](https://relay.dev/)
 
-## Графовые базы данных
-### [Определение](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D1%84%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
-### [Neo4j](https://ru.wikipedia.org/wiki/Neo4j)
-
 ## Вебсокеты
 ### [Определение](https://ru.wikipedia.org/wiki/WebSocket)
 ### [Пример использования](https://learn.javascript.ru/websocket)
+
+## Server Sent Events
+### [Определение](https://ru.wikipedia.org/wiki/Server-sent_events)
 
 ## Вебсерверы
 ### [Определение](https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80)
