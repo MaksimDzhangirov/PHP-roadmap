@@ -572,17 +572,53 @@ InfluxDB создавалась с нуля как специализирова�
 * [DynamoDB Википедия](https://ru.wikipedia.org/wiki/DynamoDB)
 
 ### Теоретические основы
-* [ORM](https://ru.wikipedia.org/wiki/ORM)
-* [ACID](https://ru.wikipedia.org/wiki/ACID)
-* [Транзакции](https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D1%8F_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0))
-* [N+1 проблема](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
-* [Нормализация](https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0)
-* Сбои, возникающие при работе БД
-* Анализ производительности
-* [Индексы](http://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_(%D0%B1%D0%B0%D0%B7%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)) и [как они работают](https://im-cloud.ru/blog/chto-takoe-indeksy-bazy-dannyh-dlja-nachinajushhih/)
-* [Репликация данных](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_(%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0))
-* [Стратегии шардинга](https://www.acodersjourney.com/database-sharding/)
-* [Теорема CAP](https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_CAP)
+#### ORMs
+
+Объектно-реляционное отображение (Object-Relational Mapping, ORM) — это технология, который позволяет вам запрашивать и манипулировать данными из базы данных, используя объектно-ориентированную концепцию. Говоря об ORM, большинство людей имеют в виду библиотеку, которая реализует технологию объектно-реляционного отображения, отсюда и фраза «ORM».
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/ORM)
+* [What is an ORM and how should I use it?](https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one)
+
+#### ACID
+
+ACID — это четыре свойства систем управления реляционными базами данных, которые гарантируют надёжное выполнение транзакций. Это аббревиатура, обозначающая, что БД обладает следующими четырьмя свойствами: атомарность, согласованность, изоляция и устойчивость.
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/ACID)
+* [What is ACID Compliant Database?](https://retool.com/blog/whats-an-acid-compliant-database/)
+* [What is ACID Compliance?: Atomicity, Consistency, Isolation](https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation)
+* [ACID Explained: Atomic, Consistent, Isolated & Durable](https://www.youtube.com/watch?v=yaQ5YMWkxq4)
+
+#### Транзакции
+
+Простыми словами, транзакция базы данных — это последовательность из нескольких операций, выполняемых в базе данных. При этом они являются
+единой логической единицей работы — выполняются полностью или не выполняются вовсе. Иначе говоря, никогда не бывает так, чтобы выполнялась только часть операций и были зафиксированы результаты.
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D1%8F_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0))
+* [What are Transactions?](https://fauna.com/blog/database-transaction)
+
+#### N+1 проблема
+
+Проблема с N+1 запросом возникает, когда ваш код выполняет N дополнительных операций для получения тех же данных, которые могли быть получены путём выполнения основного запроса
+
+Полезные ссылки:
+
+* [What is the "N+1 selects problem" in ORM (Object-Relational Mapping)?](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
+* [Решение проблемы N+1 запроса без увеличения потребления памяти в Laravel](https://habr.com/ru/articles/508544/)
+* [In Detail Explanation of N+1 Problem](https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89)
+
+#### [Нормализация](https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0)
+#### Сбои, возникающие при работе БД
+#### Анализ производительности
+#### [Индексы](http://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_(%D0%B1%D0%B0%D0%B7%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)) и [как они работают](https://im-cloud.ru/blog/chto-takoe-indeksy-bazy-dannyh-dlja-nachinajushhih/)
+#### [Репликация данных](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_(%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0))
+#### [Стратегии шардинга](https://www.acodersjourney.com/database-sharding/)
+#### [Теорема CAP](https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_CAP)
 
 ## Изучаем API
 ### [REST](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm), [wiki](https://ru.wikipedia.org/wiki/REST)
@@ -593,31 +629,31 @@ InfluxDB создавалась с нуля как специализирова�
 ### [gRPC](https://ru.wikipedia.org/wiki/GRPC)
 ### [GraphQL](https://graphql.org/)
 ### [Аутентификация](https://ru.wikipedia.org/wiki/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
-* [Основанная на cookies](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
-* [OAuth](https://ru.wikipedia.org/wiki/OAuth)
-* [Базовая аутентификация](https://en.wikipedia.org/wiki/Basic_access_authentication)
-* [Аутентификация, используя токены](https://frontegg.com/blog/token-based-authentication)
-  * [JWT](https://ru.wikipedia.org/wiki/JSON_Web_Token)
+#### [Основанная на cookies](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
+#### [OAuth](https://ru.wikipedia.org/wiki/OAuth)
+#### [Базовая аутентификация](https://en.wikipedia.org/wiki/Basic_access_authentication)
+#### [Аутентификация, используя токены](https://frontegg.com/blog/token-based-authentication)
+  ##### [JWT](https://ru.wikipedia.org/wiki/JSON_Web_Token)
   * [Про токены, JSON Web Tokens (JWT), аутентификацию и авторизацию](https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc)
   * [LocalStorage vs Cookies: All You Need To Know About Storing JWT Tokens Securely in The Front-End](https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id)
   * The JWT Handbook by Sebastián E. Peyrott, Auth0 Inc.
-* [OpenID](https://ru.wikipedia.org/wiki/OpenID)
-* [SAML](https://habr.com/ru/company/gemaltorussia/blog/322316/)
+#### [OpenID](https://ru.wikipedia.org/wiki/OpenID)
+#### [SAML](https://habr.com/ru/company/gemaltorussia/blog/322316/)
 
 ## Кэширование
 ### [CDN](https://ru.wikipedia.org/wiki/Content_Delivery_Network)
 ### [Кэш на серверном уровне](https://tproger.ru/translations/cache-levels-on-the-web/)
 ### [Кэш на клиентском уровне](https://tproger.ru/translations/cache-levels-on-the-web/)
 ### [Кэш на уровне приложения](https://tproger.ru/translations/cache-levels-on-the-web/)
-* [используя Redis](https://redis.io/)
-* [используя Memcached](https://memcached.org/)
+#### [используя Redis](https://redis.io/)
+#### [используя Memcached](https://memcached.org/)
 
 ## Безопасность в сети
 ### [Алгоритмы хеширования](https://blog.jscrambler.com/hashing-algorithms)
-* [MD5](https://ru.wikipedia.org/wiki/MD5) и [почему его не нужно использовать](https://tproger.ru/articles/md5-hacking/)
-* [Семейство криптографических алгоритмов SHA](https://ru.wikipedia.org/wiki/SHA)
-* [scrypt](https://ru.wikipedia.org/wiki/Scrypt)
-* [bcrypt](https://ru.wikipedia.org/wiki/Bcrypt)
+#### [MD5](https://ru.wikipedia.org/wiki/MD5) и [почему его не нужно использовать](https://tproger.ru/articles/md5-hacking/)
+#### [Семейство криптографических алгоритмов SHA](https://ru.wikipedia.org/wiki/SHA)
+#### [scrypt](https://ru.wikipedia.org/wiki/Scrypt)
+#### [bcrypt](https://ru.wikipedia.org/wiki/Bcrypt)
 ### [Рекомендации по защите API](https://roadmap.sh/best-practices/api-security)
 #### [HTTPS](https://web.dev/why-https-matters/)
 #### [Content Security Policy](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
@@ -683,7 +719,7 @@ InfluxDB создавалась с нуля как специализирова�
 1. Фаулер, Мартин. Шаблоны корпоративных приложений.: Пер. с англ. - М.: ООО "И. Д. Вильямс", 2016. - 544 с.: ил. - Парал. тит. англ.
 2. Мэтт Зандстра. PHP 8: объекты, шаблоны и методики программирования, 6-е издание, 2021.
 
-## [Предметно-ориентированное проектирование](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+### [Предметно-ориентированное проектирование](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 
 1. Betts Thomas (ed.), Domain-Driven Design in Practice, NY: InfoQ, 2018. — 36 p.
 2. Boyle M. Domain-Driven Design with Golang: Use Golang to create simple, maintainable systems to solve complex business problems, Birmingham: Packt Publishing, 2022. — 203 p.
@@ -703,18 +739,18 @@ InfluxDB создавалась с нуля как специализирова�
 16. Миллетт Скотт, Тьюн Ник. Предметно-ориентированное проектирование: Паттерны, принципы и методы, СПб.: Питер, 2017. — 832 с.: ил.
 17. [Пример приложения с использованием DDD, Event Sourcing и CQRS на Symfony](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate)
 
-## [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-## [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
+### [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+#### [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
 * [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
-## [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
-## [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
-## [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
-## [CQRS](https://martinfowler.com/bliki/CQRS.html)
-## [Генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
+#### [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
+#### [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
+#### [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
+#### [CQRS](https://martinfowler.com/bliki/CQRS.html)
+#### [Генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
 
 ## Виды архитектур приложений
-## [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
-## [Микросервисная архитектура](https://martinfowler.com/microservices/)
+### [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
+### [Микросервисная архитектура](https://martinfowler.com/microservices/)
 
 1. Bellemare A. Building Event-Driven Microservices: Leveraging Organizational Data at Scale, O’Reilly Media, 2020. — 324 p.
 2. Betts N. Microservices vs. Monoliths - The Reality Beyond the Hype, NY: InfoQ, 2017. — 65 p.
@@ -763,10 +799,18 @@ InfluxDB создавалась с нуля как специализирова�
 45. [Пример микросервисной архитектуры](https://github.com/GoogleCloudPlatform/microservices-demo)
 46. [microservices.io](https://microservices.io/)
 
-## [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
-## [Serverless-архитектура](https://martinfowler.com/articles/serverless.html)
-## [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
-## [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
+### [Сервис-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
+### [Serverless-архитектура](https://martinfowler.com/articles/serverless.html)
+### Service Mesh
+### Twelve-Factor Apps («12-факторное приложение»)
+
+Полезные ссылки:
+
+* [The Twelve-Factor App. Принципы архитектуры современных веб-приложений](https://www.asyncink.com/twelve-factors)
+* [The Twelve-Factor App](https://12factor.net/)
+
+### [Гексагональная архитектура](http://oumarkonate.com/hexagonal-architecture-an-example-of-implementation/)
+### [Чистая архитектура](https://www.packtpub.com/product/get-your-hands-dirty-on-clean-architecture/9781839211966)
 
 1. Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures 1st Edition by Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani, 2021.
 2. Fundamentals of Software Architecture: An Engineering Approach 1st Edition by Mark Richards, Neal Ford, 2020.
@@ -827,8 +871,7 @@ InfluxDB создавалась с нуля как специализирова�
 Существует два основных способа создания инфраструктурой масштабируемой системы: использовать локальные ресурсы или использовать все инструменты, 
 которые может предоставить вам провайдер облачных услуг.
 
-Основным отличием локальных и облачных ресурсов будет ГИБКОСТЬ последних. Используя облачные провайдеры вам не нужно планировать заранее сколько и
-каких именно аппаратных ресурсов потребуется для реализации, вы можете модернизировать свою инфраструктуру в пару кликов, а с локальными ресурсами вам потребуется определенный уровень планирования.
+Основным отличием локальных и облачных ресурсов будет ГИБКОСТЬ последних. Используя облачные провайдеры вам не нужно планировать заранее сколько и каких именно аппаратных ресурсов потребуется для реализации, вы можете модернизировать свою инфраструктуру в пару кликов, а с локальными ресурсами вам потребуется определенный уровень планирования.
 
 Смотри также:
 
@@ -856,7 +899,7 @@ Graceful degradation часто используется в качестве а�
 
 ### [Throttling](https://www.linkedin.com/pulse/web-api-security-dos-ddos-attacks-throttling-waf-houssam-chmouri/)
 ### [Backpressure](https://www.zghurskyi.com/backpressure/), [ссылка 2](https://awesome-architecture.com/back-pressure/)
-### [Load Shedding](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4)
+### [Load Shedding, Load Shifting](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4)
 ### [Circuit Breaker](https://medium.com/@kirill.sereda/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA-circuit-breaker-pattern-650232944e37)
 
 1. М. Нейгард Release it! Проектирование и дизайн ПО для тех, кому не всё равно. — СПб.: Питер, 2016. — 320 с.: ил. — (Серия «Библиотека программиста»).
