@@ -640,18 +640,36 @@ ACID — это четыре свойства систем управления 
 * Атака типа «отказ в обслуживании» (DoS): происходит, когда злоумышленник пытается перегрузить базу данных запросами, что приводит к истощению ресурсов и снижению производительности.
 
 #### Анализ производительности
+
+Существует несколько способов собрать и проанализировать производительность базы данных:
+
+* Мониторинг производительности системы. Вы можете использовать такие инструменты, как диспетчер задач Windows или команду top в Unix/Linux, для мониторинга производительности сервера базы данных. Эти инструменты позволяют увидеть общее использование ЦП, памяти и диска в системе, что может помочь выявить все проблемные места в потребляемых ресурсах.
+* Используйте специальные инструменты для баз данных. Большинство систем управления базами данных (СУБД) имеют собственные инструменты для мониторинга производительности. Например, в Microsoft SQL Server существует SQL Server Management Studio (SSMS) и динамическое административное представление sys.dm_os_wait_stats, а в Oracle — Oracle Enterprise Manager и представление v$waitstat. Эти инструменты позволяют просматривать определенные показатели производительности, такие как количество времени, затраченное на ожидание при блокировках, или количество физических операций чтения и записи.
+* Используйте сторонние инструменты: существует также несколько сторонних инструментов, которые могут помочь вам проанализировать производительность базы данных. Например, SolarWinds Database Performance Analyzer, Quest Software Foglight и Redgate SQL Monitor. Эти инструменты часто обеспечивают более глубокий анализ производительности и могут помочь вам выявить конкретные проблемы или узкие места.
+* Анализ медленных запросов. Если у вас есть определенные запросы, которые выполняются медленно, вы можете использовать такие инструменты, как EXPLAIN PLAN или SHOW PLAN в MySQL или SQL Server, чтобы просмотреть план выполнения запроса и выявить возможные проблемы. Вы также можете использовать такие инструменты, как лог медленных запросов MySQL или SQL Server Profiler, для регистрации медленных запросов и их дальнейшего анализа.
+* Мониторинг производительности приложения. Если у вас возникли проблемы с производительностью определенного приложения, использующего базу данных, вы можете использовать такие инструменты, как Application Insights или New Relic, для мониторинга производительности приложения и выявления любых проблем, которые могут быть связаны с базой данных.
+
+Кроме того, ознакомьтесь с документацией базы данных, которую вы используете.
+
 #### Индексы и как они работают
+
+Индекс — это структура данных, создаваемая и задаваемая для существующей таблицы, которая по сути просматривает вашу таблицу и пытается проанализировать и обобщить данные, чтобы ускорить работу с ней.
 
 Полезные ссылки:
 
 * [Википедия](http://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_(%D0%B1%D0%B0%D0%B7%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85))
 * [Что такое индексы базы данных (для начинающих)?](https://im-cloud.ru/blog/chto-takoe-indeksy-bazy-dannyh-dlja-nachinajushhih/)
+* [An in-depth look at Database Indexing](https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/)
+* [Database Indexing Explained](https://www.youtube.com/watch?v=-qNSXK7s7_w)
 
 #### Репликация данных
+
+Репликация данных — это процесс, с помощью которого данные, находящиеся на физическом или виртуальном сервере (серверах) или облачном инстансе (основной инстанс), непрерывно реплицируются или копируются на вторичный сервер (серверы) или облачный инстанс (резервный инстанс). Компании реплицируют данные для поддержки высокой доступности, резервного копирования и/или аварийного восстановления.
 
 Полезные ссылки:
 
 * [Википедия](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_(%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0))
+* [What is Data Replication?](https://youtu.be/fUrKt-AQYtE)
 
 #### Стратегии шардинга
 
@@ -666,13 +684,49 @@ ACID — это четыре свойства систем управления 
 * [Википедия](https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_CAP)
 
 ## Изучаем API
-### [REST](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm), [wiki](https://ru.wikipedia.org/wiki/REST)
-### [HATEOAS](https://ru.wikipedia.org/wiki/HATEOAS)
-### [Open API Specs и Swagger](https://starkovden.github.io/introduction-openapi-and-swagger.html)
-### [JSON APIs](https://jsonapi.org/)
-### [SOAP](https://ru.wikipedia.org/wiki/SOAP)
-### [gRPC](https://ru.wikipedia.org/wiki/GRPC)
-### [GraphQL](https://graphql.org/)
+### REST
+
+Полезные ссылки:
+
+* [Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+* [Википедия](https://ru.wikipedia.org/wiki/REST)
+
+### JSON APIs
+
+Полезные ссылки:
+
+* [A specification for building APIs in JSON](https://jsonapi.org/)
+
+### SOAP
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/SOAP)
+
+### gRPC
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/GRPC)
+
+### GraphQL
+
+Полезные ссылки:
+
+* [GraphQL site](https://graphql.org/)
+
+### HATEOAS
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/HATEOAS)
+
+### Open API Specs и Swagger
+
+Полезные ссылки:
+
+* [Знакомство со спецификациями OpenAPI и Swagger](https://starkovden.github.io/introduction-openapi-and-swagger.html)
+
 ### [Аутентификация](https://ru.wikipedia.org/wiki/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
 #### [Основанная на cookies](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
 #### [OAuth](https://ru.wikipedia.org/wiki/OAuth)
@@ -790,8 +844,8 @@ ACID — это четыре свойства систем управления 
 #### [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
 #### [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
 #### [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
-#### [CQRS](https://martinfowler.com/bliki/CQRS.html)
-#### [Генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
+### [CQRS](https://martinfowler.com/bliki/CQRS.html)
+### [Генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
 
 ## Виды архитектур приложений
 ### [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
