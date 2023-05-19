@@ -781,28 +781,50 @@ CAP — это акроним, расшифровывающийся как Consi
 ## Изучаем API
 ### REST
 
+REST, **Re**presentational **S**tate **T**ransfer или «передача репрезентативного состояния» — это архитектурный стиль, определяющий стандарты между компьютерными системами в Интернете, что упрощает взаимодействие таких систем друг с другом.
+
 Полезные ссылки:
 
 * [Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 * [Википедия](https://ru.wikipedia.org/wiki/REST)
+* [What is REST?](https://www.codecademy.com/article/what-is-rest)
+* [What is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
+* [Roy Fieldings dissertation chapter, Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+* [Learn REST: A RESTful Tutorial](https://restapitutorial.com/)
 
 ### JSON APIs
 
+JSON или **J**ava**S**cript **O**bject **N**otation — это формат кодирования, разработанный для устранения необходимости в специальном коде для каждого приложения, чтобы связываться с серверами, которые взаимодействуют определенным образом. JSON API модуль предоставляет реализацию для хранилищ и структур данных.
+
 Полезные ссылки:
 
+* [Википедия](https://ru.wikipedia.org/wiki/JSON)
 * [A specification for building APIs in JSON](https://jsonapi.org/)
+* [JSON API Implementations](https://jsonapi.org/implementations/)
+* [JSON API: Explained in 4 minutes](https://www.youtube.com/watch?v=N-4prIh7t38)
 
 ### SOAP
+
+Простой протокол доступа к объектам (SOAP, **S**imple **O**bject **A**ccess **P**rotocol) — это протокол обмена сообщениями для обмена информацией между системами и приложениями. Что касается интерфейсов прикладного программирования (API), SOAP API разрабатывается более структурированным и формализованным образом. Сообщения SOAP могут передаваться по различным протоколам более низкого уровня, включая, связанный с веб, протокол передачи гипертекста (HTTP).
 
 Полезные ссылки:
 
 * [Википедия](https://ru.wikipedia.org/wiki/SOAP)
+* [w3school SOAP explanation](https://www.w3schools.com/xml/xml_soap.asp)
 
 ### gRPC
+
+gRPC — это высокопроизводительный универсальный RPC фреймворк с открытым исходным кодом.
+
+RPC (**R**emote **P**rocedure **C**all) означает удаленный вызов процедур, и продолжаются споры о том, что означает буква g. RPC — это протокол, который позволяет программе выполнять процедуру другой программы, расположенной на другом компьютере. Большим преимуществом является то, что разработчику не нужно писать код, отвечающий за детали удаленного взаимодействия. Удаленная процедура вызывается так же, как и любая другая функция. В то же время клиент и сервер могут быть написаны на разных языках.
 
 Полезные ссылки:
 
 * [Википедия](https://ru.wikipedia.org/wiki/GRPC)
+* [gRPC Website](https://grpc.io/)
+* [gRPC Docs](https://grpc.io/docs/)
+* [What Is GRPC?](https://www.wallarm.com/what/the-concept-of-grpc)
+* [What Is GRPC?](https://www.youtube.com/watch?v=hVrwuMnCtok)
 
 ### GraphQL
 
@@ -822,17 +844,56 @@ CAP — это акроним, расшифровывающийся как Consi
 
 * [Знакомство со спецификациями OpenAPI и Swagger](https://starkovden.github.io/introduction-openapi-and-swagger.html)
 
-### [Аутентификация](https://ru.wikipedia.org/wiki/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
-#### [Основанная на cookies](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
-#### [OAuth](https://ru.wikipedia.org/wiki/OAuth)
-#### [Базовая аутентификация](https://en.wikipedia.org/wiki/Basic_access_authentication)
-#### [Аутентификация, используя токены](https://frontegg.com/blog/token-based-authentication)
-  ##### [JWT](https://ru.wikipedia.org/wiki/JSON_Web_Token)
-  * [Про токены, JSON Web Tokens (JWT), аутентификацию и авторизацию](https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc)
-  * [LocalStorage vs Cookies: All You Need To Know About Storing JWT Tokens Securely in The Front-End](https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id)
-  * The JWT Handbook by Sebastián E. Peyrott, Auth0 Inc.
-#### [OpenID](https://ru.wikipedia.org/wiki/OpenID)
-#### [SAML](https://habr.com/ru/company/gemaltorussia/blog/322316/)
+### Аутентификация
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
+
+#### Основанная на cookies
+
+Полезные ссылки:
+
+* [How does cookie-based authentication work?](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
+
+#### OAuth
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/OAuth)
+
+#### Базовая аутентификация
+
+Полезные ссылки:
+
+* [Википедия](https://en.wikipedia.org/wiki/Basic_access_authentication)
+
+#### Аутентификация, используя токены
+
+Полезные ссылки:
+
+* [Understanding Token-Based Authentication: A Detailed Review](https://frontegg.com/blog/token-based-authentication)
+
+##### JWT
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/JSON_Web_Token)
+* [Про токены, JSON Web Tokens (JWT), аутентификацию и авторизацию](https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc)
+* [LocalStorage vs Cookies: All You Need To Know About Storing JWT Tokens Securely in The Front-End](https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id)
+* [The JWT Handbook by Sebastián E. Peyrott, Auth0 Inc.](https://auth0.com/resources/ebooks/jwt-handbook)
+
+#### OpenID
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/OpenID)
+
+#### SAML
+
+Полезные ссылки:
+
+* [Что такое SAML аутентификация и кому она нужна?](https://habr.com/ru/company/gemaltorussia/blog/322316/)
 
 ## Кэширование
 ### [CDN](https://ru.wikipedia.org/wiki/Content_Delivery_Network)
@@ -945,6 +1006,8 @@ CAP — это акроним, расшифровывающийся как Consi
 ## Виды архитектур приложений
 ### [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
 ### [Микросервисная архитектура](https://martinfowler.com/microservices/)
+
+-------------------------------------------------------------------------------------------------------------------------
 
 1. Bellemare A. Building Event-Driven Microservices: Leveraging Organizational Data at Scale, O’Reilly Media, 2020. — 324 p.
 2. Betts N. Microservices vs. Monoliths - The Reality Beyond the Hype, NY: InfoQ, 2017. — 65 p.
