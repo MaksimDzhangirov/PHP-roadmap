@@ -865,9 +865,28 @@ HATEOAS — это акроним от **H**ypermedia **A**s **T**he **E**ngine 
 
 ### Аутентификация
 
+Процесс аутентификации API проверяет подлинность клиента, пытающегося установить соединение, используя протокол аутентификации. Протокол отправляет учетные данные от удаленного клиента, запрашивающего подключение к серверу удаленного доступа, в текстовом или зашифрованном виде. Затем сервер определяет, может ли он предоставить доступ к этому удаленному клиенту или нет.
+
+Ниже представлен список распространенных способов аутентификации:
+
+* JWT-аутентификация
+* Аутентификация, используя токенов
+* Аутентификация, используя сессии
+* Базовая аутентификация
+* OAuth — Open Authorization — открытый протокол (схема) авторизации
+* SSO — Single Sign On — Технология единого входа
+
 Полезные ссылки:
 
 * [Википедия](https://ru.wikipedia.org/wiki/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
+* [User Authentication: Understanding the Basics & Top Tips](https://swoopnow.com/user-authentication/)
+* [An overview about authentication methods](https://betterprogramming.pub/how-do-you-authenticate-mate-f2b70904cc3a)
+* [SSO - Single Sign On](https://roadmap.sh/guides/sso)
+* [OAuth - Open Authorization](https://roadmap.sh/guides/oauth)
+* [JWT Authentication](https://roadmap.sh/guides/jwt-authentication)
+* [Token Based Authentication](https://roadmap.sh/guides/token-authentication)
+* [Session Based Authentication](https://roadmap.sh/guides/session-authentication)
+* [Basic Authentication](https://roadmap.sh/guides/basic-authentication)
 
 #### Основанная на cookies
 
