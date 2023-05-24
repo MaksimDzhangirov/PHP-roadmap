@@ -890,21 +890,40 @@ HATEOAS — это акроним от **H**ypermedia **A**s **T**he **E**ngine 
 
 #### Основанная на cookies
 
+Cookies — это фрагменты данных, используемый для идентификации пользователя и его предпочтений. Браузер передаёт cookie на сервер каждый раз, когда запрашивается страница. Определенные cookies, такие как HTTP cookies, используются для выполнения аутентификации на основе cookie для сохранения [сеанса](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B0%D0%BD%D1%81_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)) для каждого пользователя.
+
 Полезные ссылки:
 
+* [Википедия](https://ru.wikipedia.org/wiki/Cookie)
 * [How does cookie-based authentication work?](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
 
 #### OAuth
 
+OAuth расшифровывается как **O**pen **Auth**orization и является открытым стандартом авторизации. Он применяется для авторизации устройств, API, серверов и приложений с использованием токенов доступа, а не учетных данных пользователя, что также называют «безопасным делегированным доступом».
+
+В самом простом своём варианте OAuth делегирует аутентификацию таким сервисам, как Facebook, Amazon, Twitter, и разрешает сторонним приложениям получать доступ к учетной записи пользователя **без необходимости** ввода логина и пароля.
+
+Он в основном используется для REST/APIs и предоставляет доступ только к ограниченному объему пользовательских данных.
+
 Полезные ссылки:
 
 * [Википедия](https://ru.wikipedia.org/wiki/OAuth)
+* [Okta - What the Heck is OAuth](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
+* [DigitalOcean - An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+* [What is OAuth really all about](https://www.youtube.com/watch?v=t4-416mg6iU)
+* [OAuth 2.0: An Overview](https://www.youtube.com/watch?v=CPbvxxslDTU)
 
 #### Базовая аутентификация
+
+Исходя из названия «Базовая аутентификация», не следует путать базовую аутентификацию со стандартной аутентификацией по имени пользователя и паролю. Базовая аутентификация является частью спецификации HTTP, и более подробную информацию о ней можно [найти в стандарте RFC7617](https://www.rfc-editor.org/rfc/rfc7617.html).
+
+Поскольку это часть спецификаций HTTP, все браузеры имеют встроенную поддержку «HTTP базовой аутентификации».
 
 Полезные ссылки:
 
 * [Википедия](https://en.wikipedia.org/wiki/Basic_access_authentication)
+* [HTTP Basic Authentication](https://roadmap.sh/guides/http-basic-authentication)
+* [Illustrated HTTP Basic Authentication](https://www.youtube.com/watch?v=mwccHwUn7Gc)
 
 #### Аутентификация, используя токены
 
@@ -979,11 +998,37 @@ HATEOAS — это акроним от **H**ypermedia **A**s **T**he **E**ngine 
 * [Кэш на уровне приложения](https://tproger.ru/translations/cache-levels-on-the-web/)
 
 ## Безопасность в сети
-### [Алгоритмы хеширования](https://blog.jscrambler.com/hashing-algorithms)
-#### [MD5](https://ru.wikipedia.org/wiki/MD5) и [почему его не нужно использовать](https://tproger.ru/articles/md5-hacking/)
-#### [Семейство криптографических алгоритмов SHA](https://ru.wikipedia.org/wiki/SHA)
-#### [scrypt](https://ru.wikipedia.org/wiki/Scrypt)
-#### [bcrypt](https://ru.wikipedia.org/wiki/Bcrypt)
+### Алгоритмы хеширования
+
+Полезные ссылки:
+
+* [Hashing Algorithms](https://blog.jscrambler.com/hashing-algorithms)
+
+#### MD5 и почему его не нужно использовать
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/MD5)
+* [Шифрование в MD5 больше не безопасно: интерактивный тест на реальный взлом вашего пароля](https://tproger.ru/articles/md5-hacking/)
+
+#### Семейство криптографических алгоритмов SHA
+
+Полезные ссылки:
+
+* [SHA](https://ru.wikipedia.org/wiki/SHA)
+
+#### scrypt
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/Scrypt)
+
+#### bcrypt
+
+Полезные ссылки:
+
+* [Википедия](https://ru.wikipedia.org/wiki/Bcrypt)
+
 ### [Рекомендации по защите API](https://roadmap.sh/best-practices/api-security)
 #### [HTTPS](https://web.dev/why-https-matters/)
 #### [Content Security Policy](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
