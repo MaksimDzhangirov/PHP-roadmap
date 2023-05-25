@@ -927,11 +927,22 @@ OAuth расшифровывается как **O**pen **Auth**orization и яв
 
 #### Аутентификация, используя токены
 
+Аутентификация, используя токены — это протокол, который позволяет пользователям подтверждать свою личность и взамен получать уникальный токен доступа. В течение срока действия токена пользователи затем получают доступ к веб-сайту или приложению, для которого был выпущен токен, вместо того, чтобы повторно вводить учетные данные каждый раз, когда они переходят на веб-страницу, приложение или любой ресурс, защищенный тем же токеном.
+
+Токены аутентификации работают так же как прокомпостированный билет в общественном транспорте. Пользователь сохраняет доступ до тех пор, пока токен остается валидным, действительным, действующим (пассажир может пользователься услугами общественного транспорта, не опасаясь встречи с контролёром, пока у него на руках прокомпостированный билет). Как только пользователь выходит из системы или закрывает приложение, токен становится недействительным (пассажир выходит из общественного транспорта, прокомпостированный билет нельзя использовать повторно, нужно покупать новый).
+
+Аутентификация, используя токены, отличается от традиционных методов аутентификации на основе пароля или сервера. Токены предлагают дополнительный уровень безопасности, а администраторы имеют большую полноту контроля над каждым действием и транзакцией.
+
+Но использование токенов требует некоторого ноу-хау при написании кода. Большинство разработчиков быстро осваивают методологии, но существует кривая обучения.
+
 Полезные ссылки:
 
 * [Understanding Token-Based Authentication: A Detailed Review](https://frontegg.com/blog/token-based-authentication)
+* [What Is Token-Based Authentication?](https://www.okta.com/identity-101/what-is-token-based-authentication/)
 
 ##### JWT
+
+JWT сокращение от **J**SON **W**eb **T**oken — это открытый стандарт/методология шифрования с использованием токенов, который используется для безопасной передачи информации в виде JSON объекта. Клиенты и серверы используют JWT для безопасного обмена информацией, при этом JWT содержит закодированные JSON объекты и claims. JWT токены создавались таким образом, чтобы быть компактными, безопасными для использования в URL-адресах и идеально подходить в тех случаях, где используется SSO (Single Sign On — Технология единого входа).
 
 Полезные ссылки:
 
@@ -939,12 +950,23 @@ OAuth расшифровывается как **O**pen **Auth**orization и яв
 * [Про токены, JSON Web Tokens (JWT), аутентификацию и авторизацию](https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc)
 * [LocalStorage vs Cookies: All You Need To Know About Storing JWT Tokens Securely in The Front-End](https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id)
 * [The JWT Handbook by Sebastián E. Peyrott, Auth0 Inc.](https://auth0.com/resources/ebooks/jwt-handbook)
+* [jwt.io Website](https://jwt.io/)
+* [Introduction to JSON Web Tokens](https://jwt.io/introduction)
+* [What is JWT?](https://www.akana.com/blog/what-is-jwt)
+* [What Is JWT and Why Should You Use JWT](https://www.youtube.com/watch?v=7Q17ubqLfaM)
+* [What is JWT? JSON Web Token Explained](https://www.youtube.com/watch?v=926mknSW9Lo)
 
 #### OpenID
+
+OpenID — это протокол, который использует механизмы авторизации и аутентификации OAuth 2.0 и в настоящее время широко применяется многими провайдерами идентификационных данных в Интернете. Он решает проблему необходимости обмена личной информацией пользователя между множеством различных веб-сервисов (например, интернет-магазинами, форумами и т. д.).
 
 Полезные ссылки:
 
 * [Википедия](https://ru.wikipedia.org/wiki/OpenID)
+* [Official Website](https://openid.net/)
+* [What is OpenID](https://openid.net/connect/)
+* [OAuth vs OpenID](https://securew2.com/blog/oauth-vs-openid-which-is-better)
+* [An Illustrated Guide to OAuth and OpenID Connect](https://www.youtube.com/watch?v=t18YB3xDfXI)
 
 #### SAML
 
@@ -1029,9 +1051,24 @@ OAuth расшифровывается как **O**pen **Auth**orization и яв
 
 * [Википедия](https://ru.wikipedia.org/wiki/Bcrypt)
 
-### [Рекомендации по защите API](https://roadmap.sh/best-practices/api-security)
+### Рекомендации по защите API
+
+Полезные ссылки:
+
+* [Рекомендации по защите API](https://roadmap.sh/best-practices/api-security)
+
 #### [HTTPS](https://web.dev/why-https-matters/)
+
+Полезные ссылки:
+
+* [Почему протокол HTTPS так важен](https://web.dev/why-https-matters/)
+
 #### [Content Security Policy](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
+
+Полезные ссылки:
+
+* [Content Security Policy (CSP)](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
+
 #### [Cross-Origin Resource Sharing](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
 #### [SSL/TLS](https://github.com/MaksimDzhangirov/complete-gRPC/blob/main/SSL_TLS_lecture_rus.md)
 #### [10 главных угроз безопасности веб-приложений](https://owasp.org/www-project-top-ten/) от [OWASP](https://ru.wikipedia.org/wiki/OWASP)
