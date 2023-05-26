@@ -975,6 +975,9 @@ OpenID — это протокол, который использует меха
 * [Что такое SAML аутентификация и кому она нужна?](https://habr.com/ru/company/gemaltorussia/blog/322316/)
 
 ## Кэширование
+
+Кэширование — это метод хранения часто используемых данных или информации в локальной памяти в течение определенного периода времени. Таким образом, в следующий раз, когда клиент запрашивает ту же информацию, вместо извлечения информации из базы данных она выдаётся из локальной памяти. Основное преимущество кэширования заключается в том, что оно повышает производительность за счет снижения нагрузки, связанной с логикой обработки запроса.
+
 ### CDN
 
 Полезные ссылки:
@@ -1007,9 +1010,12 @@ OpenID — это протокол, который использует меха
 
 ### Кэш на клиентском уровне
 
+Кэширование на стороне клиента — это хранение сетевых данных в локальном кеше для повторного использования в будущем. После того, как приложение получает сетевые данные, оно сохраняет этот ресурс в локальном кэше. После кэширования ресурса браузер использует кэш при будущих запросах этого ресурса для повышения производительности.
+
 Полезные ссылки:
 
 * [Кэш на клиентском уровне](https://tproger.ru/translations/cache-levels-on-the-web/)
+* [Everything you need to know about HTTP Caching](https://www.youtube.com/watch?v=HiBDZgTNpXY)
 
 ### Кэш на уровне приложения
 
@@ -1020,6 +1026,18 @@ OpenID — это протокол, который использует меха
 * [Кэш на уровне приложения](https://tproger.ru/translations/cache-levels-on-the-web/)
 
 ## Безопасность в сети
+
+Безопасность в сети относится к защитным мерам, принимаемым разработчиками для защиты веб-приложений от угроз, которые могут повлиять на его работу.
+
+Полезные ссылки:
+
+* [Why HTTPS Matters](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
+* [Википедия - OWASP](https://ru.wikipedia.org/wiki/OWASP)
+* [OWASP Web Application Security Testing Checklist](https://github.com/0xRadi/OWASP-Web-Checklist)
+* [OWASP Top 10 Security Risks](https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/)
+* [OWASP Cheatsheets](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
+* [Content Security Policy (CSP)](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
+
 ### Алгоритмы хеширования
 
 Полезные ссылки:
@@ -1055,23 +1073,42 @@ OpenID — это протокол, который использует меха
 
 Полезные ссылки:
 
-* [Рекомендации по защите API](https://roadmap.sh/best-practices/api-security)
+* [API Security Best Practices](https://roadmap.sh/best-practices/api-security)
+* [Рекомендации по защите API](https://github.com/MaksimDzhangirov/PHP-roadmap/blob/master/api-security.md)
 
-#### [HTTPS](https://web.dev/why-https-matters/)
+#### HTTPS
 
 Полезные ссылки:
 
 * [Почему протокол HTTPS так важен](https://web.dev/why-https-matters/)
 
-#### [Content Security Policy](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
+#### Content Security Policy
 
 Полезные ссылки:
 
 * [Content Security Policy (CSP)](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
 
-#### [Cross-Origin Resource Sharing](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
-#### [SSL/TLS](https://github.com/MaksimDzhangirov/complete-gRPC/blob/main/SSL_TLS_lecture_rus.md)
-#### [10 главных угроз безопасности веб-приложений](https://owasp.org/www-project-top-ten/) от [OWASP](https://ru.wikipedia.org/wiki/OWASP)
+#### Cross-Origin Resource Sharing
+
+Полезные ссылки:
+
+* [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
+
+#### SSL/TLS
+
+Полезные ссылки:
+
+* [Подробное описание SSL/TLS и его криптографической системы](https://github.com/MaksimDzhangirov/complete-gRPC/blob/main/SSL_TLS_lecture_rus.md)
+
+#### 10 главных угроз безопасности веб-приложений от OWASP
+
+Периодически OWASP составляет список TOP-10 самых распространенных векторов атак на современные веб-приложения.
+
+Полезные ссылки:
+
+* [10 главных угроз безопасности веб-приложений от OWASP](https://owasp.org/www-project-top-ten/)
+* [OWASP Топ 10 2021 на русском](https://2sharp.pro/infosec/92-owasp-top-10-2021.html)
+
 #### Виды атак:
 * [CSRF](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%B0)
 * [XSS](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%BD%D0%B3)
