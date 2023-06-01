@@ -134,7 +134,7 @@
 * Предметно-ориентированное проектирование (DDD)
 * Модель-представление-контроллер (MVC)
 * Сервис-ориентированная архитектура (SOA)
-* Принцип разделения команд и запросов (CQRS)
+* Принцип разделения ответственности команд и запросов (CQRS)
 * Генерация событий
 * Микросервисы
 * Событийно-ориентированная архитектура (EDA)
@@ -148,7 +148,16 @@
 
 ### Объекты переноса данных (DTOs)
 
+Полезные ссылки:
+
+* [Data Transfer Object pattern and Mappers](https://medium.com/@abdalrhmanalkraien/data-transfer-object-pattern-and-mapper-116508bc9df0)
+
 ### Коллекции объектов (Identity Maps)
+
+Полезные ссылки:
+
+* [Overview of Identity map pattern](https://en.wikipedia.org/wiki/Identity_map_pattern)
+* [Tutorial - Identity Map Design Pattern](https://youtube.com/watch?v=erDxkIyNudY)
 
 ### Частные случаи (Use Cases)
 
