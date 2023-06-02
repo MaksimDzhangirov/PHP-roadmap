@@ -1,5 +1,9 @@
 [Оригинал](https://roadmap.sh/software-design-architecture)
 
+Полезные ссылки:
+
+* [How to Learn Software Design and Architecture | The Full-stack Software Design & Architecture Map](https://khalilstemmler.com/articles/software-design-architecture/full-stack-software-design/)
+
 # Основные принципы проектирования программного обеспечения и виды архитектур приложений
 
 ## Принципы проектирования, базирующиеся на понятии «чистого кода»
@@ -148,24 +152,66 @@
 
 ### Объекты переноса данных (DTOs)
 
+Шаблон проектирования Объект переноса данных — это один из архитектурных шаблонов корпоративных приложений, который требует использовать объекты, объединяющие и инкапсулирующие данные для передачи. Объект переноса данных, по сути, подобен структуре данных. Он не должен содержать никакой бизнес-логики, но должен содержать механизмы сериализации и десериализации.
+
 Полезные ссылки:
 
+* [Data Transfer Object](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
 * [Data Transfer Object pattern and Mappers](https://medium.com/@abdalrhmanalkraien/data-transfer-object-pattern-and-mapper-116508bc9df0)
 
 ### Коллекции объектов (Identity Maps)
 
+Коллекции объектов — это шаблон, используемый при разработке корпоративных приложений для поддержки карты объектов, которые были загружены из базы данных, где ключом является их уникальный идентификатор. Они используются для предотвращения создания в памяти нескольких копий одного и того же объекта при многократном доступе к одним и тем же данным.
+
+Шаблон Коллекция объектов обычно используется в сочетании с таким инструментом как ORM (объектно-реляционным отображением). Перед тем как объект извлекается из базы данных, сначала происходит сверка с коллекцией объектов, чтобы убедиться, что он уже не был загружен ранее. Если
+он уже находится в коллекции, то возвращается существующий объект, а не создается новая копия.
+
 Полезные ссылки:
 
+* [Identity Map](https://martinfowler.com/eaaCatalog/identityMap.html)
 * [Overview of Identity map pattern](https://en.wikipedia.org/wiki/Identity_map_pattern)
 * [Tutorial - Identity Map Design Pattern](https://youtube.com/watch?v=erDxkIyNudY)
 
-### Частные случаи (Use Cases)
+### Особые случаи использования (Use Cases)
+
+Особые случаи использования — это шаблон, применяемый при разработке корпоративных приложений для представления функциональных требований системы. Они описывают взаимодействие между системой и ее пользователями, а также шаги, необходимые для достижения конкретной цели. Особые случаи использования — это способ зафиксировать требования к системе таким образом, чтобы их было легко понять как команде разработчиков, так и заинтересованным сторонам.
+
+Особый случай использования — это описание последовательности действий, которые система выполняет в ответ на запрос пользователя для достижения определенной цели. Особый случай использования обычно включает в себя:
+
+* Áктор (пользователь), который инициирует действие
+* Цель, которую хочет достичь а́ктор
+* Шаги, необходимые для достижения цели, включая любые альтернативные пути или условия приводящие к ошибке
+* Ожидаемый результат взаимодействия
+
+Особые случаи использования часто являются основопологающими при проектировании и разработке системы, поскольку они обеспечивают чёткое и более глубокое понимание требований к ней.
+
+Полезные ссылки:
+
+* [Use Case Patterns](https://caminao.blog/how-to-implement-symbolic-representations/patterns/functional-patterns/use-case-patterns/)
 
 ### Репозитории (Repositories)
 
+Полезные ссылки:
+
+* [Repository](https://martinfowler.com/eaaCatalog/repository.html)
+* [Tutorial - Repository Design Pattern](https://www.youtube.com/watch?v=mb6bwnEaZ3U)
+* [Introduction to Repository Design Patterns](https://cubettech.com/resources/blog/introduction-to-repository-design-pattern/)
+
 ### Преобразователи (Mappers)
 
+Полезные ссылки:
+
+* [Mapper](https://martinfowler.com/eaaCatalog/mapper.html)
+* [Overview of Data Mapper Pattern](https://en.wikipedia.org/wiki/Data_mapper_pattern)
+* [Tutorial - Mappers](https://www.youtube.com/watch?v=7noMLStHcTE)
+
 ### Сценарий транзакции (Transaction Script)
+
+Полезные ссылки:
+
+* [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html)
+* [Transaction Script Pattern](https://gunnarpeipman.com/transaction-script-pattern/)
+* [Tutorial - Transaction Script Design Pattern](https://www.youtube.com/watch?v=fnsU9cqcY3I)
 
 ### Команды / Запросы (Commands / Queries)
 
