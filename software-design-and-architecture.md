@@ -14,9 +14,22 @@
 
 ### Будьте последовательны при написании кода
 
+Полезные ссылки:
+
+* [10 Tips for Writing Clean Code](https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code)
+
 ### Содержательные, понятные названия переменных, не требующие дополнительных комментариев
 
+Полезные ссылки:
+
+* [A Guide for Naming Things in Programming](https://levelup.gitconnected.com/a-guide-for-naming-things-in-programming-2dc2d74879f8)
+* [How to Write Meaningful Variable Names?](https://workat.tech/machine-coding/tutorial/writing-meaningful-variable-names-clean-code-za4m83tiesy0)
+
 ### Стиль программирования: отступы
+
+Полезные ссылки:
+
+* [Clean Code – Formatting](https://www.baeldung.com/cs/clean-code-formatting)
 
 ### Старайтесь, чтобы создаваемые методы, классы, файлы, были как можно меньше
 
@@ -24,21 +37,50 @@
 
 ### Минимизируйте цикломатическую сложность программы
 
+Полезные ссылки:
+
+* [How to reduce cyclomatic complexity?](https://kasp9023.medium.com/how-to-make-your-code-more-readable-focus-on-the-happy-path-and-reduce-cyclomatic-complexity-66802b8897b5)
+
 ### Старайтесь не передавать значения типа null и булевого типа
 
 ### Следите за тем, что код фреймворка был дистанцирован
+
+Полезные ссылки:
+
+* [Clean architecture](https://pusher.com/tutorials/clean-architecture-introduction/)
 
 ### Используйте составляющие части вашей программы с умом
 
 ### Тесты должны выполняться быстро и быть независимыми
 
+Полезные ссылки:
+
+* [Keeping Tests Valuable](https://www.checklyhq.com/learn/headless/valuable-tests/)
+
 ### Группируйте код вокруг а́ктора, к которому он относится
+
+Полезные ссылки:
+
+* [Actor Model Architecture](https://awesome-architecture.com/actor-model-architecture/actor-model-architecture/)
 
 ### Разделяйте команды и запросы
 
+Полезные ссылки:
+
+* [CQRS Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+
 ### Избегайте ненужной сложности и осуществляйте рефакторинг как можно чаще
 
+Полезные ссылки:
+
+* [AHA Programming](https://kentcdodds.com/blog/aha-programming)
+
 ## Парадигмы программирования
+
+Полезные ссылки:
+
+* [Overview of Programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
+* [Introduction of Programming Paradigms](https://www.geeksforgeeks.org/introduction-of-programming-paradigms/)
 
 ### Структурное программирование
 ### Процедурное программирование
@@ -191,6 +233,10 @@
 
 ### Репозитории (Repositories)
 
+Репозитории — это шаблон, используемый при разработке корпоративных приложений для обеспечения согласованного и абстрактного способа доступа к хранилищу данных. Репозитории по сути являются уровнем абстракции между приложением и хранилищем данных, предоставляя согласованный и простой API для доступа к данным и манипулирования ими.
+
+Репозиторий — это шаблон, который можно использовать для организации кода доступа к данным и инкапсуляции логики извлечения и хранения объектов. Репозитории обеспечивают отделение проблемы доступа к данным от остальной части приложения, позволяя писать код приложения для интерфейса, а не для конкретной технологии хранения данных.
+
 Полезные ссылки:
 
 * [Repository](https://martinfowler.com/eaaCatalog/repository.html)
@@ -198,6 +244,10 @@
 * [Introduction to Repository Design Patterns](https://cubettech.com/resources/blog/introduction-to-repository-design-pattern/)
 
 ### Преобразователи (Mappers)
+
+Преобразователи — это шаблон, используемый при разработке корпоративных приложений для обеспечения согласованного и абстрактного способа сопоставления между различными моделями данных. Они по сути представляют собой уровень абстракции между приложением и хранилищем данных, предоставляя согласованный и простой API для преобразования данных.
+
+Преобразователь — это компонент, который можно использовать для перевода данных из одного формата или модели в другой. Например, его можно использовать для преобразования данных из модели базы данных в модель предметной области или из модели предметной области в объект переноса данных (DTO).
 
 Полезные ссылки:
 
@@ -207,6 +257,8 @@
 
 ### Сценарий транзакции (Transaction Script)
 
+Сценарий транзакции — это шаблон, используемый в разработке корпоративных приложений, который организует бизнес-логику в единый процедурный сценарий. Он часто используется для простых операций CRUD (создание, чтение, обновление, удаление), где вся логика для конкретной транзакции содержится в одном скрипте или функции. Этот шаблон прост в реализации и понятен, но может стать громоздким по мере увеличения сложности приложения. Альтернативные шаблоны, такие как предметно-ориентированное проектирование (DDD) и шаблон Active Record, могут лучше подходить для более сложных приложений.
+
 Полезные ссылки:
 
 * [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html)
@@ -215,12 +267,38 @@
 
 ### Команды / Запросы (Commands / Queries)
 
+Полезные ссылки:
+
+* [Get Started with CQRS Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+
 ### Объекты-значения (Value Objects)
+
+Полезные ссылки:
+
+* [Value Object](https://martinfowler.com/eaaCatalog/valueObject.html)
+* [Overview - Implement Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects)
+* [Intro to Value object](https://en.wikipedia.org/wiki/Value_object)
 
 ### Модели предметной области (Domain Models)
 
+Полезные ссылки:
+
+* [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html)
+* [Overview - Domain Models](https://sparxsystems.com/enterprise_architect_user_guide/14.0/model_domains/specialized_models.html)
+* [Tutorial - Domain Model Pattern](https://www.youtube.com/watch?v=75EGANiqADw)
+
 ### Сущности (Entities)
 
+Полезные ссылки:
+
+* [What is entity in a programming language?](https://www.quora.com/What-is-entity-in-a-programming-language)
+
 ### Объектно-реляционные отображения (ORMs)
+
+Полезные ссылки:
+
+* [Why do you need an ORM?](https://enterprisecraftsmanship.com/posts/do-you-need-an-orm/)
+
+---------------------------------------------------------------------------------------------------------------------------
 
 **Замечание.** Список, приведённый в данной дорожней карте, не является исчерпывающим. Здесь приведены лишь некоторые из наиболее важных тем, касающиеся каждого раздела.
