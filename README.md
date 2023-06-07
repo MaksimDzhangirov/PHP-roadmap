@@ -1064,7 +1064,7 @@ Memcached не имеет внутреннего механизма для от�
 Полезные ссылки:
 
 * [Memcached](https://memcached.org/)
-* [Википедия]https://ru.wikipedia.org/wiki/Memcached
+* [Википедия](https://ru.wikipedia.org/wiki/Memcached)
 * [Memcached, From Official Github](https://github.com/memcached/memcached#readme)
 * [Memcached Tutorial](https://www.tutorialspoint.com/memcached/index.htm)
 
@@ -1181,21 +1181,33 @@ HTTPS — это безопасный способ передачи данных
 
 #### Content Security Policy
 
+Content Security Policy (CSP, политика защиты контента) — это стандарт компьютерной безопасности, введенный для предотвращения межсайтового скриптинга, кликджекинга и других атак путем внедрения кода, возникающих в результате выполнения вредоносного содержимого на веб-странице, которой доверяет пользователь.
+
 Полезные ссылки:
 
 * [Content Security Policy (CSP)](https://developer.mozilla.org/ru/docs/Web/HTTP/CSP)
+* [Google Devs — Content Security Policy (CSP)](https://developers.google.com/web/fundamentals/security/csp)
 
 #### Cross-Origin Resource Sharing
+
+Cross-Origin Resource Sharing (CORS, «совместное использование ресурсов между разными источниками») — это механизм, основанный на HTTP-заголовке, который позволяет серверу указывать любые источники (домен, схему или порт), кроме своего собственного, из которых браузер должен разрешать загрузку ресурсов.
 
 Полезные ссылки:
 
 * [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
+* [Cross-Origin Resource Sharing](https://ru.wikipedia.org/wiki/Cross-origin_resource_sharing)
+* [CORS in 100 Seconds](https://www.youtube.com/watch?v=4KHiSt0oLJ0)
+* [CORS in 6 minutes](https://www.youtube.com/watch?v=PNtFSVU-YTI)
 
 #### SSL/TLS
+
+Secure Sockets Layer (SSL, «слой защищённых сокетов») и Transport Layer Security (TLS, «протокол защиты транспортного уровня») — это криптографические протоколы, используемые для обеспечения безопасности интернет-коммуникаций. Эти протоколы шифруют данные, которые передаются через Интернет, поэтому любой, кто попытается перехватить пакеты, не сможет их интерпретировать. Одно из отличий, которое важно знать, заключается в том, что SSL в настоящее время признан устаревшим из-за проблем с безопасностью, и большинство современных веб-браузеров больше не поддерживают его. Но TLS по-прежнему безопасен и широко поддерживается, поэтому желательно использовать TLS.
 
 Полезные ссылки:
 
 * [Подробное описание SSL/TLS и его криптографической системы](https://github.com/MaksimDzhangirov/complete-gRPC/blob/main/SSL_TLS_lecture_rus.md)
+* [Википедия - SSL/TLS](https://ru.wikipedia.org/wiki/TLS)
+* [Cloudflare - What is SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 
 #### 10 главных угроз безопасности веб-приложений от OWASP
 
@@ -1211,6 +1223,10 @@ HTTPS — это безопасный способ передачи данных
 * [XSS](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%BD%D0%B3)
 * [семантика URL](https://thomasvilhena.com/2021/04/protecting-against-semantic-attacks)
 * [SQL инъекции](https://ru.wikipedia.org/wiki/%D0%92%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_SQL-%D0%BA%D0%BE%D0%B4%D0%B0)
+
+#### Как обезопасить сервер
+
+
 
 ## Тестирование
 ### Unit-тестирование
@@ -1232,9 +1248,17 @@ HTTPS — это безопасный способ передачи данных
 * [Функциональное тестирование](https://en.wikipedia.org/wiki/Functional_testing)
 
 ## CI/CD
-### [Определение](https://ru.wikipedia.org/wiki/CI/CD)
+### Определение
 
+Полезные ссылки:
 
+* [CI/CD](https://ru.wikipedia.org/wiki/CI/CD)
+* [DevOps CI/CD Explained in 100 Seconds by Fireship](https://www.youtube.com/watch?v=scEDHsr3APg)
+* [Automate your Workflows with GitHub Actions](https://www.youtube.com/watch?v=nyKZTKQS_EQ)
+* [What is CI/CD?](https://about.gitlab.com/topics/ci-cd/)
+* [A Primer: Continuous Integration and Continuous Delivery (CI/CD)](https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/)
+* [3 Ways to Use Automation in CI/CD Pipelines](https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/)
+* [Articles about CI/CD](https://thenewstack.io/category/ci-cd/)
 
 ### CI - Непрерывная интеграция
 
@@ -1318,14 +1342,34 @@ HTTPS — это безопасный способ передачи данных
 16. Миллетт Скотт, Тьюн Ник. Предметно-ориентированное проектирование: Паттерны, принципы и методы, СПб.: Питер, 2017. — 832 с.: ил.
 17. [Пример приложения с использованием DDD, Event Sourcing и CQRS на Symfony](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate)
 
-### [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-#### [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
+### Разработка через тестирование
+
+Полезные ссылки:
+
+* [Разработка через тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%B7_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+
+#### SOLID
+
+Полезные ссылки:
+
+* [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
 * [SOLID принципы в PHP](https://dev.to/evrtrabajo/solid-in-php-d8e)
+
 #### [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
 #### [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
 #### [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
-### [CQRS](https://martinfowler.com/bliki/CQRS.html)
-### [Генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
+### CQRS
+
+Полезные ссылки:
+
+* [CQRS](https://martinfowler.com/bliki/CQRS.html)
+* [CQRS Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+
+### Генерация событий
+
+Полезные ссылки:
+
+* [Генерация событий](https://martinfowler.com/eaaDev/EventSourcing.html)
 
 ## Виды архитектур приложений
 ### [Монолитная архитектура](https://codernet.ru/articles/drugoe/monolitnaya_arxitektura_tradiczionnyij_metod_razrabotki_prilozhenij/)
