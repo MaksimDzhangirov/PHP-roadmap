@@ -118,10 +118,41 @@
 * [Model Driven Design – theory to practice](https://www.todaysoftmag.com/article/1529/model-driven-design-theory-to-practice)
 
 ##### Модель предметной области
+
+Полезные ссылки:
+
+* [Overview of Domain model](https://en.wikipedia.org/wiki/Domain_model)
+* [Domain Driven Design](https://khalilstemmler.com/articles/categories/domain-driven-design/)
+
 ##### Анемичная модель
+
+Полезные ссылки:
+
+* [Overview of Anemic Domain Model](https://en.wikipedia.org/wiki/Anemic_domain_model)
+* [What is an Anaemic Domain Model?](https://www.ensonodigital.com/blog/anaemic-domain-model-vs-rich-domain-model)
+
 ##### Многоуровневые архитектуры
+
+Полезные ссылки:
+
+* [Software Architecture Patterns — Layered Architecture](https://priyalwalpita.medium.com/software-architecture-patterns-layered-architecture-a3b89b71a057)
+* [5 Primary Layers in Software Architecture?](https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture)
+
 ##### Единый язык
+
+Полезные ссылки:
+
+* [Overview of Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)
+* [What are Domain Languages (DSLs)?](https://www.jetbrains.com/mps/concepts/domain-specific-languages/)
+
 ##### Инварианты класса
+
+Полезные ссылки:
+
+* [Overview of Class invariant](https://en.wikipedia.org/wiki/Class_invariant)
+* [Википедия - Инвариант класса](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0)
+* [The concept of class invariant in object-oriented programming](https://arxiv.org/abs/2109.06557)
+
 #### Особенности парадигмы
 
 Полезные ссылки:
@@ -264,7 +295,7 @@
 
 * Áктор (пользователь), который инициирует действие
 * Цель, которую хочет достичь а́ктор
-* Шаги, необходимые для достижения цели, включая любые альтернативные пути или условия приводящие к ошибке
+* Шаги, необходимые для достижения цели, включая любые альтернативные пути или условия, приводящие к ошибке
 * Ожидаемый результат взаимодействия
 
 Особые случаи использования часто являются основопологающими при проектировании и разработке системы, поскольку они обеспечивают чёткое и более глубокое понимание требований к ней.
