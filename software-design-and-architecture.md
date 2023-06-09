@@ -92,11 +92,17 @@
 
 ### Структурное программирование
 
+Структурированное программирование — это парадигма программирования, которая делает упор на использование структурированных управляющих конструкций, изменющих ход выполнения программы, таких как циклы и условные операторы, для организации кода в логические, простые для понимания блоки. Это способ написания компьютерных программ, в котором особое внимание уделяется использованию процедур и функций, а также структур данных для организации кода и упрощения его понимания, отладки и поддержки. Основная идея структурного программирования состоит в том, чтобы разбить программу на более мелкие части, которые просто контролировать, можно легко понять, протестировать и изменить. Этот подход выступает против использования операторов «goto», которые считаются неструктурированными и могут привести к сложному для чтения и сопровождения коду.
+
 Полезные ссылки:
 
 * [Overview of Structured programming](https://www.techtarget.com/searchsoftwarequality/definition/structured-programming-modular-programming)
 
 ### Функциональное программирование
+
+Функциональное программирование — это парадигма программирования, которая делает упор на использование чистых функций и неизменяемых данных. Это способ написания компьютерных программ, который  акцентирует внимание на использовании функций и математических понятий, таких как рекурсия, а не на использование объектов и классов, как в объектно-ориентированном программировании. В функциональном программировании функции являются «объектами первого класса» (функции высших порядков), что означает, что они могут быть переданы в качестве аргументов другим функциям и возвращены в качестве результата.
+
+Функциональное программирование поощряет неизменяемость, что означает, что после того, как переменной присвоено значение, его нельзя изменить. Это может упростить код, так как устраняет необходимость управления состоянием и ошибок, которые могут возникнуть при этом.
 
 Полезные ссылки:
 
@@ -105,11 +111,19 @@
 
 ### Объектно-ориентированное программирование
 
+Объектно-ориентированное программирование (ООП) — это парадигма программирования, основанная на понятии «объектов», которые являются экземплярами классов. ООП — это способ организации и структурирования кода, основанный на принципах инкапсуляции, наследования и полиморфизма.
+
+Инкапсуляция — это идея, заключающаяся в том, что внутреннее состояние объекта должно быть скрыто и доступно только через его методы. Это позволяет объекту контролировать, как используются его данные, и не позволяет внешнему коду вносить недопустимые изменения в состояние объекта.
+
+В ООП класс — это шаблон для создания объектов, которые имеют как данные (атрибуты), так и поведение (методы). Основная идея ООП заключается в моделировании объектов реального мира и их взаимодействий, что делает его подходящим для создания сложных и крупномасштабных программных систем.
+
 Полезные ссылки:
 
 * [What is Object Oriented Programming?](https://www.youtube.com/watch?v=pTB0EiLXUC8)
 * [Overview of Object-Oriented Programming (OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * [Википедия - Объектно-ориентированное программирование](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+* [Discover Object Oriented Programming](https://blog.hubspot.com/website/object-oriented-programming)
+* [Software Development Tutorial - What is object-oriented language?](https://www.youtube.com/watch?v=SS-9y0H3Si8)
 
 #### Модельно-ориентированный подход к проектированию
 
@@ -160,9 +174,24 @@
 * [Overview of Object-Oriented Paradigm](https://www.tutorialspoint.com/software_architecture_design/object_oriented_paradigm.htm)
 
 ##### Абстрактные классы
+
+Полезные ссылки:
+
+* [What is an Abstract Class in Object Oriented Programming](https://computinglearner.com/abstract-class-in-object-oriented-programming/)
+
 ##### Реальные классы
+
+Полезные ссылки:
+
+* [Concrete class in Java](https://www.geeksforgeeks.org/concrete-class-in-java/)
+
 ##### Область видимости
 ##### Интерфейсы
+
+Полезные ссылки:
+
+* [Fundamental concepts: What’s an Interface?](https://www.youtube.com/watch?v=o1jBgdhQsGo)
+
 #### Основные понятия
 
 Полезные ссылки:
@@ -171,11 +200,39 @@
 * [What are four basic principles of OOP?](https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727)
 
 ##### Наследование
+
+Полезные ссылки:
+
+* [What is inheritance in programming?](https://www.youtube.com/watch?v=ajOYOxCanhE)
+* [Overview of Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+
 ##### Полиморфизм
+
+Полезные ссылки:
+
+* [Overview of Polymorphism in programming](https://www.bmc.com/blogs/polymorphism-programming/)
+* [What is polymorphism in programming?](https://www.youtube.com/watch?v=tIWm3I_Zu7I)
+
 ##### Абстрагирование
+
+Полезные ссылки:
+
+* [Tutorial - Abstraction](https://www.youtube.com/watch?v=OF55HZPE7lQ)
+
 ##### Инкапсуляция
 
+Полезные ссылки:
+
+* [Overview of Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
+* [Википедия - Инкапсуляция (программирование)](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D1%8F_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
+* [Tutorial - What is encapsulation in programming?](https://www.youtube.com/watch?v=sNKKxc4QHqA)
+
 ## Принципы проектирования программного обеспечения
+
+Полезные ссылки:
+
+* [Principles of Software Design](https://www.geeksforgeeks.org/principles-of-software-design/)
+* [Software Design Principles For Beginners](https://www.youtube.com/watch?v=60EqoRcanpo)
 
 ### Используйте композицию, а не наследование
 
