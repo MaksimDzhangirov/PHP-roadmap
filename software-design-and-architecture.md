@@ -320,8 +320,30 @@
 
 ## Шаблоны проектирования
 
+Полезные ссылки:
+
+* [What Are Design Patterns?](https://www.youtube.com/watch?v=BWprw8UHIzA)
+* [Overview - Software Design Pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Шаблон проектирования](https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+
 ### GoF шаблоны проектирования
+
+Полезные ссылки:
+
+* [Gangs of Four (GoF) Design Patterns](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns)
+* [Tutorial - Builder Pattern (Gang of Four Design Patterns Series)](https://www.youtube.com/watch?v=_sa2WlAFWQos)
+* Гамма Э., Хелм Р., Джонсон Р., Влиссидес Дж. Паттерны объектно-ориентированного проектирования. — СПб.: Питер, 2020. — 448 с.: ил.
+
 ### PoSA шаблоны
+
+Полезные ссылки:
+
+* [POSA Pattern Examples](https://www.youtube.com/watch?v=iYNa_KcWxCU)
+* [Overview of Pattern-Oriented Software Architecture](https://en.wikipedia.org/wiki/Pattern-Oriented_Software_Architecture)
+* F. Buschmann, R. Meunier, H. Rohnert, P. Sommerlad, M. Stal: Pattern-Oriented Software Architecture — A System of Patterns, John Wiley
+and Sons, 2013.
+* Brendan Burns, Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Services, O'Reilly Media, 2018.
+* [Pattern-Oriented Software Architecture](http://www.dre.vanderbilt.edu/~schmidt/POSA-tutorial.pdf)
 
 ## Архитектурные принципы
 
