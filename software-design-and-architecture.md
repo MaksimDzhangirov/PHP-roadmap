@@ -218,14 +218,16 @@
 Область видимости относится к доступности или видимости переменных, функций и других элементов в программе в зависимости от контекста, в котором они определены. В объектно-ориентированном программировании (ООП) область видимости контролируется с помощью модификаторов доступа, таких как "public" («публичный», «открытый», «общедоступный»), "private" («приватный», «закрытый», «частный») и "protected" («защищённый»).
 
 Общедоступный: к общедоступному элементу можно получить доступ из любой точки программы, как внутри класса, так и за его пределами.
+
 Закрытый: доступ к закрытому элементу возможен только внутри класса, в котором он определен. Он недоступен для других классов, даже если они наследуются от класса.
+
 Защищенный: доступ к защищенному элементу возможен только внутри класса и его подклассов.
 
 Существуют и другие разновидности области видимости в зависимости от языка программирования, но эти являются наиболее распространенными.
 
 Полезные ссылки:
 
-[Википедия — Область видимости](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_%D0%B2%D0%B8%D0%B4%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8)
+* [Википедия — Область видимости](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_%D0%B2%D0%B8%D0%B4%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8)
 
 ##### Интерфейсы
 
@@ -417,6 +419,12 @@ and Sons, 2013.
 * [Boundaries in Software Architecture](https://www.open.edu/openlearn/science-maths-technology/approaches-software-development/content-section-1.1.4)
 
 ## Архитектурные стили
+
+Полезные ссылки:
+
+* [What is Software Architecture & Styles?](https://study.com/academy/lesson/software-architecture-styles-patterns-components.html)
+* [Types of Architectural Styles in Software Engineering](https://www.youtube.com/watch?v=2Pp0BcXN9YY)
+* [10 Architecture Patterns Used In Enterprise Software Development Today](https://www.youtube.com/watch?v=brt3ao8bvqy)
 
 ### по типу обмена сообщениями
 
