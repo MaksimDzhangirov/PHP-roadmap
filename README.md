@@ -1768,13 +1768,75 @@ Apache Kafka — это распределенная платформа пото
 * [Apache Kafka Fundamentals](https://www.youtube.com/watch?v=B5j3uNBH8X4)
 
 ## Контейнеризация или виртуализация
+
+Контейнеры и виртуальные машины — два самых популярных подхода к настройке программной инфраструктуры для вашей организации.
+
+Полезные ссылки:
+
+* [Containerization vs. Virtualization: Everything you need to know](https://middleware.io/blog/containerization-vs-virtualization/)
+* [Containerization or Virtualization - The Differences](https://www.youtube.com/watch?v=1WnDHitznGY)
+
 ### Kubernetes
-### [Docker](https://ru.wikipedia.org/wiki/Docker)
+
+Kubernetes — это платформа управления контейнерами [с открытым исходным кодом](https://github.com/kubernetes/kubernetes) и доминирующий продукт в этой сфере. Используя Kubernetes, команды могут развертывать образы на нескольких базовых хостах, определяя их желаемую доступность, логику развертывания и масштабирования с помощью YAML. Kubernetes был создан на основе Borg, внутренней платформы Google, используемой для предоставления и распределения вычислительных ресурсов (аналогично системам Autopilot и Aquaman Microsoft Azure).
+
+Популярность Kubernetes сделала его одним из наиболее важных навыков для DevOps инженера и послужила толчком к созданию команд разработчиков для платформы во всей отрасли. Эти команды разработчиков для платформ часто существуют с единственной целью сделать Kubernetes доступным и удобным для использования их коллегами, занимающихся разработкой продуктов.
+
+Полезные ссылки:
+
+* [Kubernetes Website](https://kubernetes.io/)
+* [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+* [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+* [Primer: How Kubernetes Came to Be, What It Is, and Why You Should Care](https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and-why-you-should-care/)
+* [Kubernetes: An Overview](https://thenewstack.io/kubernetes-an-overview/)
+
+### Docker
+
+Docker — это платформа для работы с контейнерными приложениями. Среди его функций — фоновый системный процесс и клиент для управления контейнерами и взаимодействия с ними, реестры для хранения образов и приложение для настольного ПК, объединяющее все эти функции.
+
+Полезные ссылки:
+
+* [Docker — Википедия](https://ru.wikipedia.org/wiki/Docker)
+* [Docker Documentation](https://docs.docker.com/)
+* [What is Docker | AWS](https://aws.amazon.com/docker/)
+* [Complete Docker Course - From BEGINNER to PRO!](https://www.youtube.com/watch?v=RqTEHSBrYFw)
+* [Docker Tutorial](https://youtu.be/3c-iBn73dDE)
+* [Docker simplified in 55 seconds](https://youtu.be/vP_4DlOH1G4)
+
 ### [rkt](https://ru.bmstu.wiki/Rocket_(rkt))
+
+Rocket (rkt) — является альтернативой Docker, разработанной компанией CoreOS с прицелом на соответствие строгим требованиям к безопасности и производительности.
+
+Полезные ссылки:
+
+* [rkt — Википедия](https://ru.bmstu.wiki/Rocket_(rkt))
+* [What is Rkt (Rocket) container technology? Should you use it?](https://bobcares.com/blog/rkt-rocket-container-technology-use/)
+* [Docker vs Rkt (Rocket) – Which one to choose?](https://bobcares.com/blog/docker-vs-rkt-rocket/)
+
 ### [LXC](https://ru.wikipedia.org/wiki/LXC)
 
+LXC — это аббревиатура, используемая для Linux контейнеров, которые представляют собой операционную систему, используемую для запуска нескольких систем Linux виртуально на контролируемом хосте через одно ядро ​​Linux. LXC — это интерфейс пользовательского пространства для функций ограничений ядра Linux. Благодаря мощному API и простым инструментам пользователи Linux могут легко создавать системные контейнеры или контейнеры приложений и управлять ими.
+
+Полезные ссылки:
+
+* [LXC — Википедия](https://ru.wikipedia.org/wiki/LXC)
+* [LXC Documentation](https://linuxcontainers.org/lxc/documentation/)
+* [What is LXC?](https://linuxcontainers.org/lxc/introduction/)
+* [Linux Container (LXC) Introduction](https://youtu.be/_KnmRdK69qM)
+* [Getting started with LXC containers](https://youtu.be/CWmkSj_B-wo)
+
 ## GraphQL
-### [Определение](https://en.wikipedia.org/wiki/GraphQL)
+
+GraphQL — это язык запросов для API-интерфейсов и среда, в которой они выполняются. GraphQL позволяет детально и понятно описать данные в вашем API, даёт клиентам возможность запрашивать именно то, что им нужно, упрощает развитие API с течением времени и предоставляет мощные инструменты разработчика.
+
+Полезные ссылки:
+
+* [GraphQL](https://en.wikipedia.org/wiki/GraphQL)
+* [Introduction to GraphQL](https://graphql.org/learn/)
+* [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
+* [GraphQL Tutorials](https://odyssey.apollographql.com/)
+* [GraphQL Course for Beginners](https://www.youtube.com/watch?v=ed8SzALpx1Q)
+
 ### [Apollo](https://www.apollographql.com/)
 ### [Relay Modern](https://relay.dev/)
 
