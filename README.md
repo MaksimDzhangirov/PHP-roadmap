@@ -1908,13 +1908,39 @@ NGINX — это мощный веб-сервер, использующий со
 
 Полезные ссылки:
 
-* [Nginx](https://ru.wikipedia.org/wiki/Nginx)
+* [Nginx — Википедия](https://ru.wikipedia.org/wiki/Nginx)
 * [Official Website](https://nginx.org/)
 * [NGINX Explained in 100 Seconds](https://www.youtube.com/watch?v=JKxlsvZXG7c)
 
-### [Apache](https://ru.wikipedia.org/wiki/Apache_HTTP_Server)
-### [Caddy](https://en.wikipedia.org/wiki/Caddy_(web_server))
-### [MS IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services)
+### Apache
+
+Apache — это бесплатный HTTP-сервер с открытым исходным кодом, доступный во многих операционных системах, но в основном используемый в дистрибутивах Linux. Это один из самых популярных вариантов для веб-разработчиков, поскольку, по оценке W3Techs, на его долю приходится более 30% всех веб-сайтов.
+
+Полезные ссылки:
+
+* [Apache — Википедия](https://ru.wikipedia.org/wiki/Apache_HTTP_Server)
+* [Apache Server Website](https://httpd.apache.org/)
+* [What is Apache Web Server?](https://www.youtube.com/watch?v=kaaenHXO4t4)
+
+### Caddy
+
+Веб-сервер Caddy — это расширяемый кроссплатформенный веб-сервер с открытым исходным кодом, написанный на Go. Он обладает несколькими действительно привлекательными функциональными возможностями, такими как автоматическая поддержка SSL/HTTPs и очень простой файл конфигурации.
+
+Полезные ссылки:
+
+* [Caddy — Wikipedia](https://en.wikipedia.org/wiki/Caddy_(web_server))
+* [Official Website](https://caddyserver.com/)
+* [Getting started with Caddy the HTTPS Web Server from scratch](https://www.youtube.com/watch?v=t4naLFSlBpQ)
+
+### MS IIS
+
+Internet Information Services (IIS) для Windows® Server — это гибкий, безопасный и лёгкий в обращении веб-сервер для размещения чего-либо в Интернете.
+
+Полезные ссылки:
+
+* [MS IIS — Википедия](https://ru.wikipedia.org/wiki/Internet_Information_Services)
+* [Official Website](https://www.iis.net/)
+* [Learn Windows Web Server IIS](https://www.youtube.com/watch?v=1VdxPWwtISA)
 
 ## [Создание приложений с учётом масштабирования (общие темы, которые вы должны изучить и которые нужно иметь ввиду для обеспечения надежной работы приложения)](https://medium.com/@alb.botashev/how-to-design-a-highload-app-2248b9022d3e)
 
@@ -1963,6 +1989,8 @@ Graceful degradation часто используется в качестве а�
 ### [Load Shedding, Load Shifting](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4)
 ### [Circuit Breaker](https://medium.com/@kirill.sereda/%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA-circuit-breaker-pattern-650232944e37)
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 1. М. Нейгард Release it! Проектирование и дизайн ПО для тех, кому не всё равно. — СПб.: Питер, 2016. — 320 с.: ил. — (Серия «Библиотека программиста»).
 2. [Reliability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns)
 3. [Designing a Microservices Architecture for Failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure/)
@@ -1974,6 +2002,14 @@ Graceful degradation часто используется в качестве а�
 В области разработки программного обеспечения наблюдаемость — это мера понимания того насколько хорошо работает система и как сделать её лучше.
 
 Что же делает систему «наблюдаемой»? Её способность создавать и собирать метрики, логи и трассировки, чтобы мы могли понять, что происходит под капотом, и быстрее выявлять проблемы и узкие места. Вы можете реализовать все эти функции самостоятельно, но существуют программы, которые могут помочь вам в этом, например [Datadog](https://docs.datadoghq.com/), [Sentry](https://docs.sentry.io/) и [CloudWatch](https://aws.amazon.com/cloudwatch/getting-started/).
+
+Полезные ссылки:
+
+* [DataDog Docs](https://docs.datadoghq.com/)
+* [AWS CloudWatch Docs](https://aws.amazon.com/cloudwatch/getting-started/)
+* [Sentry Docs](https://docs.sentry.io/)
+* [AWS re:Invent 2017: Improving Microservice and Serverless Observability with Monitor](https://www.youtube.com/watch?v=Wx0SHRb2xcI)
+* [Observability and Instrumentation: What They Are and Why They Matter](https://newrelic.com/blog/best-practices/observability-instrumentation)
 
 ## Инструментирование, мониторинг, телеметрия
 
