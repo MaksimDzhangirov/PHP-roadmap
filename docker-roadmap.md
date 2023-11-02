@@ -286,14 +286,14 @@ Docker – это платформа, которая упрощает проце
 
 Ниже приведены некоторые основные Docker команды, которые вы будете часто использовать:
 
-* `docker pull <image>`: загрузить образ (<image>) из реестра, например Docker Hub.
-* `docker build -t <image_name> <path>`: создать образ с названием (<image_name>) из Dockerfile файла, где `<path>` – это каталог, содержащий Dockerfile файл.
+* `docker pull <image>`: загрузить образ (`<image>`) из реестра, например Docker Hub.
+* `docker build -t <image_name> <path>`: создать образ с названием (`<image_name>`) из Dockerfile файла, где `<path>` – это каталог, содержащий Dockerfile файл.
 * `docker image ls`: вывести список всех образов, доступных на вашем локальном компьютере.
-* `docker run -d -p <host_port>:<container_port> --name <container_name> <image>`: запустить контейнер, задав ему название (<container_name>), из образа (<image>), сопоставив порты хоста (<host_port>) с портами контейнера (<container_port>).
+* `docker run -d -p <host_port>:<container_port> --name <container_name> <image>`: запустить контейнер, задав ему название (`<container_name>`), из образа (`<image>`), сопоставив порты хоста (`<host_port>`) с портами контейнера (`<container_port>`).
 * `docker container ls`: вывести список всех запущенных контейнеров.
-* `docker container stop <container>`: остановить работающий контейнер (<container>).
-* `docker container rm <container>`: удалить остановленный контейнер (<container>).
-* `docker image rm <image>`: удалить образ (<image>) с вашего локального компьютера.
+* `docker container stop <container>`: остановить работающий контейнер (`<container>`).
+* `docker container rm <container>`: удалить остановленный контейнер (`<container>`).
+* `docker image rm <image>`: удалить образ (`<image>`) с вашего локального компьютера.
 
 ## Сохранение данных
 
