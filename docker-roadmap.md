@@ -1249,7 +1249,7 @@ docker run --hostname=my-container --dns=8.8.8.8 your-image
 
 Для сканирования и проверки на наличие обновлений образов можно использовать следующие инструменты:
 
-* Docker Hub:: [https://hub.docker.com/](https://hub.docker.com/)
+* Docker Hub: [https://hub.docker.com/](https://hub.docker.com/)
 * Anchore: [https://anchore.com/](https://anchore.com/)
 * Clair: [https://github.com/quay/clair](https://github.com/quay/clair)
 
