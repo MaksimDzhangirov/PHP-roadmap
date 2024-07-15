@@ -2287,6 +2287,7 @@ CI/CD (непрерывная интеграция/непрерывное дос
 
 * [DesignPatternsPHP](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
 * [Паттерны проектирования](https://refactoring.guru/ru/design-patterns)
+* [Основные принципы проектирования программного обеспечения и виды архитектур приложений](https://github.com/MaksimDzhangirov/PHP-roadmap/blob/master/software-design-and-architecture.md)
 
 ### Шаблоны проектирования
 
@@ -2741,6 +2742,7 @@ Docker — это платформа для работы с контейнерн
 * [Complete Docker Course – From BEGINNER to PRO!](https://www.youtube.com/watch?v=RqTEHSBrYFw)
 * [Docker Tutorial](https://youtu.be/3c-iBn73dDE)
 * [Docker simplified in 55 seconds](https://youtu.be/vP_4DlOH1G4)
+* [Дорожная карта для изучения Docker](https://github.com/MaksimDzhangirov/PHP-roadmap/blob/master/docker-roadmap.md)
 
 ### [rkt](https://ru.bmstu.wiki/Rocket_(rkt))
 
