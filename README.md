@@ -277,7 +277,6 @@ POSIX также внедряет стандарт для кодов завер�
 
 Полезные ссылки:
 
-* [Что такое POSIX?](https://losst.ru/chto-takoe-posix)
 * [Стандартные потоки](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8)
 * [Pipes](https://sodocumentation.net/posix/topic/8082/pipes)
 * [POSIX standard by IEEE](https://pubs.opengroup.org/onlinepubs/9699919799/)
