@@ -1,6 +1,10 @@
 # PHP. Дорожная карта
 
+Если у Вас есть такая возможность и Вы хотите отблагодарить автора за работу - воспользуйтесь следующей ссылкой:
+
 https://www.buymeacoffee.com/maxdzhan
+
+[<img src="https://api.gitsponsors.com/api/badge/img?id=125739699" height="30">](https://api.gitsponsors.com/api/badge/link?p=FFudnWgzQgWJSKdq11TPNPSL/6Nj99929eF9E0GNKJ2B0Rq2OIRIlB6KNpgTQbwThmNUm/Y7QjqiHvitI+KrKg==)
 
 ---------------------------------------------------------------------------
 
