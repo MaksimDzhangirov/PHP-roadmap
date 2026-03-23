@@ -1160,7 +1160,7 @@ PHP CodeSniffer состоит из двух скриптов; главный `p
 
 Полезные ссылки:
 
-* [CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+* [CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer)
 
 ### Psalm
 
